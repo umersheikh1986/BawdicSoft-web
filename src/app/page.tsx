@@ -1,15 +1,19 @@
-import HeroSection from '@/components/heoSection'
-import Navbar from '@/components/navbar'
-import OfferSection from '@/components/offer'
-import Image from 'next/image'
-
+import Footer from "@/components/footer";
+import Expertise from "@/components/home/expertise";
+import FalconCompany from "@/components/home/falcon";
+import HeroSection from "@/components/home/heoSection";
+import OfferSection from "@/components/home/offer";
+import SevicesOffer from "@/components/home/servicesOffer";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <HeroSection />
-    <OfferSection  />
+  <HeroSection />
+  <OfferSection />
+  <Expertise />
+  <SevicesOffer />
+  <FalconCompany />
     </>
   )
 }
