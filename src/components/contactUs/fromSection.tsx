@@ -1,4 +1,5 @@
 import { FC } from "react"
+import { FaWhatsapp } from "react-icons/fa6";
 interface formSectionProps {}
 
 const FormSection :FC<formSectionProps> = () => {
@@ -34,6 +35,7 @@ return (<div className=" flex flex-wrap justify-evenly pt-20 pb-20  ">
         <div className="flex flex-col gap-4">
             <p className="font-black text-[20px] leading-5 text-sky-900">Phone:</p>
             <p className="text-gray-700 text-lg ">‪+1 (315) 888-2117‬</p>
+            <a href="/" className="bg-sky-900 py-2 hover:bg-sky-700  rounded-[8px] flex justify-center gap-2 md:gap-4 w-[180px] md:w-[220px] items-center"><FaWhatsapp className="text-white font-bold  text-[20px] md:text-[30px] "/><span className="text-white font-bold text-16px md:text-[18px]">For Whatsapp</span></a>
         </div>
         <div className="flex flex-col gap-4">
             <p className="font-black text-[20px] leading-5 text-sky-900">Address:</p>
