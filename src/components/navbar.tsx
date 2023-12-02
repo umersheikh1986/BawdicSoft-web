@@ -81,13 +81,13 @@ const Navbar: FC<NavbarProps> = () => {
             Home
           </a>
           <DropDown />
-          <a href="#" className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
+          <a href="/portfolio" className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
             Portfolio
           </a>
           <a href="/about-us" className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
             About Us
           </a>
-          <a href="#" className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
+          <a href="/careers" className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
             Careers
           </a>
           <a href="/contact-us" className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
@@ -212,7 +212,7 @@ const Navbar: FC<NavbarProps> = () => {
                 </Disclosure>
                 
                 <a
-                  href="#"
+                  href="/portfolio"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                  Portfolio
@@ -224,7 +224,7 @@ const Navbar: FC<NavbarProps> = () => {
                   About Us
                 </a>
                 <a
-                  href="#"
+                  href="/careers"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Careers
