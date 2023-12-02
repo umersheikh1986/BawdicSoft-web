@@ -90,7 +90,7 @@ const Navbar: FC<NavbarProps> = () => {
           <a href="#" className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
             Careers
           </a>
-          <a href="#" className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
+          <a href="/contact-us" className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
             Contact Us
           </a>
         </Popover.Group>
@@ -119,6 +119,12 @@ const Navbar: FC<NavbarProps> = () => {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
+              <a
+                  href="/"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Home
+                </a>
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
@@ -204,23 +210,30 @@ const Navbar: FC<NavbarProps> = () => {
                     </>
                   )}
                 </Disclosure>
+                
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                 Portfolio
+                </a>
+                <a
+                  href="/about-us"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  About Us
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  Careers
                 </a>
                 <a
-                  href="#"
+                  href="/contact-us"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Company
+                  Contact Us
                 </a>
               </div>
             </div>
