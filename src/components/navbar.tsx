@@ -79,7 +79,7 @@ const Navbar: FC<NavbarProps> = () => {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <Link href="/" className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
+          <Link href="/"  className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]">
             Home
           </Link>
           <DropDown />
@@ -124,7 +124,7 @@ const Navbar: FC<NavbarProps> = () => {
               <Link
                   href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
+                  onClick={() => setMobileMenuOpen(false)}>
                   Home
                 </Link>
                 <Disclosure as="div" className="-mx-3">
@@ -197,7 +197,7 @@ const Navbar: FC<NavbarProps> = () => {
                         {[...servicesList].map((item) => (
                           
                           <Disclosure.Button
-
+                          
                             key={item.name}
                             as="a"
                             href={item.href}
@@ -216,25 +216,25 @@ const Navbar: FC<NavbarProps> = () => {
                 <Link
                   href="/portfolio"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
+                  onClick={() => setMobileMenuOpen(false)}>
                  Portfolio
                 </Link>
                 <Link
                   href="/about-us"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
+                  onClick={() => setMobileMenuOpen(false)}>
                   About Us
                 </Link>
                 <Link
                   href="/careers"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
+                  onClick={() => setMobileMenuOpen(false)}>
                   Careers
                 </Link>
                 <Link
                   href="/contact-us"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
+                  onClick={() => setMobileMenuOpen(false)}>
                   Contact Us
                 </Link>
               </div>
