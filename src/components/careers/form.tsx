@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 interface formSectionProps {}
 
 const FormSection :FC<formSectionProps> = () => {
-return (<div className="pt-20 pb-20  ">
+return (<div className="pt-20 pb-20 md:px-0 px-10 ">
     <div>
         <p className="text-3xl lg:text-4xl font-extrabold text-center text-sky-900 leading-7 pb-12">Personal Information</p>
 
@@ -29,22 +29,7 @@ return (<div className="pt-20 pb-20  ">
     <option className="hover:bg-sky-900 p-5">Developer</option>
     <option className="hover:bg-sky-900 p-5">Sales</option>
   </select>
- {/* <div id="dropdownBottom" className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-    <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownBottomButton">
-      <li>
-        <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-      </li>
-      <li>
-        <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-      </li>
-      <li>
-        <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-      </li>
-      <li>
-        <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-      </li>
-    </ul>
-</div> */}
+
 
 
 
