@@ -31,6 +31,7 @@ interface NFTList {
 const servicesList: ServicesList[] = [
   { name: 'Web Application', description: 'Speak directly to your customers', href: '/web-application', icon: CursorArrowRaysIcon },
   { name: 'E-Commerce', description: 'Your customers’ data will be safe and secure', href: '/e-commerce-solution', icon: FingerPrintIcon },
+  { name: 'Artificial Intelligence', description: 'Your customers’ data will be safe and secure', href: '/artificial-intelligence', icon: FingerPrintIcon },
 ];
 const nftList: NFTList[] = [
   { name: 'NFT Development', description: 'Speak directly to your customers', href: '/nft-development', icon: CursorArrowRaysIcon },

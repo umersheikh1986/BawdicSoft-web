@@ -7,7 +7,7 @@ const WhyUsSection: FC<WhyUsSectionProps> = () => {
 
                 <p className="text-4xl font-bold text-center">Why Us</p>
                 <div className="flex justify-center items-center">
-                <p className="text-md text-gray-600 max-w-6xl font-semibold text-center leading-7 pb-5 pt-5">We custom-build your NFT marketplace by analysing your needs with market trends and advising you on the right structuring and techniques to be used.</p>
+                <p className="text-md text-gray-600 max-w-6xl font-semibold text-center   leading-7 pb-5 pt-5">We custom-build your NFT marketplace by analysing your needs with market trends and advising you on the right structuring and techniques to be used.</p>
 
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 md:px-24 lg:px-48 gap-4 ">
