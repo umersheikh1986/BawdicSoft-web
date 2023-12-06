@@ -16,13 +16,13 @@ const Expertise:FC<expserTisePropse> = () => {
    
 </div>
 <div>
-    <Image src={lapImg} alt="" className="w-full h-80 md:w-full md:h-80 "/>
+    <Image src={lapImg} alt="" className="w-full h-80 max-w-3xl md:h-80 "/>
 </div>
   </div>
   {/*  */}
   <div className="grid grid-cols-1 md:grid-cols-2 pt-10  md:gap-20">
 <div>
-    <Image src={lockImg} alt="" className="w-full h-80 md:w-full md:h-80 order-1"/>
+    <Image src={lockImg} alt="" className="w-full h-80 max-w-3xl md:h-80 order-1"/>
 </div>
 <div className="flex flex-col  content-beteen order-first md:order-none ">
     <p className="mb-4  text-4xl text-start font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-5xl">Blockchain / Web3 Development</p>
