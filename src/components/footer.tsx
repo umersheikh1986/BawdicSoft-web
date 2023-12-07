@@ -10,7 +10,7 @@ import Image from "next/image"
 interface footerProps {}
 const Footer: FC<footerProps> = () => {
     return (<div>
-<footer className="bg-black dark:bg-gray-900">
+<footer className="bg-black ">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-evenly md:gap-30">
           <div className="mb-6 md:mb-0">
@@ -23,21 +23,21 @@ const Footer: FC<footerProps> = () => {
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
                   <h2 className="mb-6 text-lg font-extrabold  uppercase text-sky-600">Company</h2>
-                  <ul className="text-gray-100 dark:text-gray-400 font-medium">
+                  <ul className="text-gray-100 font-medium">
                       <li className="mb-4">
-                          <a href="https://flowbite.com/" className="">Home</a>
+                          <a href="/" className="">Home</a>
                       </li>
                       <li className="mb-4">
-                          <a href="https://tailwindcss.com/" className="">Portfolio</a>
+                          <a href="/portfolio" className="">Portfolio</a>
                       </li>
                       <li className="mb-4">
-                          <a href="https://tailwindcss.com/" className="">About Us</a>
+                          <a href="/about-us" className="">About Us</a>
                       </li>
                       <li className="mb-4">
-                          <a href="https://tailwindcss.com/" className="">Careers</a>
+                          <a href="/careers" className="">Careers</a>
                       </li>
                       <li className="mb-4">
-                          <a href="https://tailwindcss.com/" className="">Contact Us</a>
+                          <a href="/contact-us" className="">Contact Us</a>
                       </li>
                   </ul>
               </div>
@@ -45,10 +45,13 @@ const Footer: FC<footerProps> = () => {
                   <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-sky-600">Services</h2>
                   <ul className="text-gray-100  font-medium">
                       <li className="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" className=" ">Web Application</a>
+                          <a href="/web-application" className=" ">Web Application</a>
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" className="">Blockchain</a>
+                          <a href="/" className="">Blockchain</a>
+                      </li>
+                      <li>
+                          <a href="/artificial-intelligence" className="">Artifitial Intiligiance</a>
                       </li>
                   </ul>
               </div>
@@ -65,8 +68,8 @@ const Footer: FC<footerProps> = () => {
                   {/* Media Links */}
                   <div className="flex justify-between gap-2 pt-10 "> 
                     <a href="https://wa.me/+923178866631" target="_blank" className="flex rounded-full bg-green-500 justify-center items-center p-2 cursor-pointer "><FaWhatsapp className="text-white text-2xl"/></a>
-                    <a href="/linkdInLink" target="_blank" className="flex rounded-full bg-sky-700 justify-center items-center p-2 cursor-pointer "><FaLinkedin className="text-white text-2xl"/></a>
-                    <a href="/twitterLink" target="_blank" className="flex rounded-full bg-sky-600 justify-center items-center p-2 cursor-pointer "><GrTwitter  className="text-white text-2xl"/></a>
+                    <a href="/https://www.linkedin.com/company/77098544/admin/feed/posts/" target="_blank" className="flex rounded-full bg-sky-700 justify-center items-center p-2 cursor-pointer "><FaLinkedin className="text-white text-2xl"/></a>
+                    <a href="/https://twitter.com/BawdicSoft" target="_blank" className="flex rounded-full bg-sky-600 justify-center items-center p-2 cursor-pointer "><GrTwitter  className="text-white text-2xl"/></a>
                     <a href="/facebookLink" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><MdFacebook   className="text-white text-2xl"/></a>
                  
                     <div>
@@ -76,9 +79,9 @@ const Footer: FC<footerProps> = () => {
               </div>
           </div>
       </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between md:px-14">
-          <span className="text-md  text-gray-300 sm:text-center dark:text-gray-400">© 2018 <a href="https://flowbite.com/" className="hover:underline">BawdicSoft LLC</a>. All rights reserved.
+          <span className="text-md  text-gray-300 sm:text-center ">© 2018 <a href="https://flowbite.com/" className="hover:underline">BawdicSoft LLC</a>. All rights reserved.
           </span>
          
           <div>

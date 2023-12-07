@@ -11,8 +11,9 @@ const imageData: imageList = { image: heroImage }
 const HeroSection: FC<HeroSectionProps> = () => {
     console.log(imageData);
     return (
-        <section className="h-[550px] pt-32 md:pt-30 lg:pt-0 bg-center bg-cover bg-no-repeat  bg-gray-500 bg-blend-multiply" style={{
-            backgroundImage: `url(${imageData.image.src})`
+        <section className=" pt-32 md:pt-30 lg:pt-0 bg-center bg-cover bg-no-repeat  bg-gray-500 bg-blend-multiply" style={{
+            backgroundImage: `url(${imageData.image.src})`,
+            height: 'calc(100vh - 48px)', 
         }}>
             <div className="px-4 mx-auto flex flex-col items-center justify-center text-center py-24 lg:pt-44">
                 <h1 className="mb-4 text-4xl max-w-4xl font-bold tracking-tight leading-none text-white md:text-6xl lg:text-7xl -ml-30">

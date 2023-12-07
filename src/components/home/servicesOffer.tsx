@@ -15,7 +15,7 @@ QUALITY AS A SERVICE, INNOVATION AS OUR CORE</p>
      <div className="bg-white pb-10 mt-12 ">
      <div className="grid grid-cols-1 md:grid-cols-3  md:px:16 lg:px-48 gap-10">
 
-<div className=" relative   p-6 bg-gray-200   rounded-lg shadow dark: ">
+<div className=" relative   p-6 bg-gray-200   rounded-lg shadow  ">
 <span className="absolute rounded-full -top-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2  w-14 h-14 text-white bg-sky-900  flex justify-center items-center  text-[30px]">1</span>
 
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900  text-center pt-5">Strategy & Research</h5>
@@ -37,7 +37,7 @@ QUALITY AS A SERVICE, INNOVATION AS OUR CORE</p>
 
     <p className="mb-3 font-normal    text-center">When the design is agreed upon, we build your website to the highest standards and the programming language is selected according to your platform requirement with your complete knowledge. We create responsive and agile web applications for you.</p>
 </div>
-<div className=" relative   p-6 bg-gray-200   rounded-lg shadow dark: ">
+<div className=" relative   p-6 bg-gray-200   rounded-lg shadow  ">
 <span className="absolute rounded-full -top-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2  w-14 h-14 text-white bg-sky-900  flex justify-center items-center  text-[30px]">4</span>
   
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900  text-center pt-5 ">Revision</h5>
