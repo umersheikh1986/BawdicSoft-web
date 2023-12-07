@@ -72,7 +72,7 @@ const DropDown: React.FC = () => {
   ];
   return (
     <Dropdown menu={{ items }} className='text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]'>
-      <Link href='/'>
+      <Link href=''>
         <Space className='text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]'>
           Services
           <TiArrowSortedDown className='font-extrabold text-sky-600  text-[20px]' />

@@ -42,8 +42,8 @@ const Footer: FC<footerProps> = () => {
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 text-lg  font-extrabold  uppercase dark:text-white text-sky-600">Services</h2>
-                  <ul className="text-gray-100 dark:text-gray-400 font-medium">
+                  <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-sky-600">Services</h2>
+                  <ul className="text-gray-100  font-medium">
                       <li className="mb-4">
                           <a href="https://github.com/themesberg/flowbite" className=" ">Web Application</a>
                       </li>
@@ -54,7 +54,7 @@ const Footer: FC<footerProps> = () => {
               </div>
               <div>
                   <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-sky-600">Contact Us</h2>
-                  <ul className="text-gray-100 dark:text-gray-400 font-medium">
+                  <ul className="text-gray-100  font-medium">
                       <li className="mb-4 flex gap-3">
                       <MdOutlineMailOutline className= "text-white text-2xl"/><a href="#" className="">info@bawdicsoft.com</a>
                       </li>

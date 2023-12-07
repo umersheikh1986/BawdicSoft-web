@@ -165,14 +165,14 @@ const Navbar: FC<NavbarProps> = () => {
                               </Disclosure.Button>
                               <Disclosure.Panel className="ml-5">
                                 {[...nftList].map((item) => (
-                                  <Disclosure.Button
+                                  <Link
                                     key={item.name}
-                                    as="a"
                                     href={item.href}
+                                    onClick={() => setMobileMenuOpen(false)}
                                     className="block rounded-lg py-2 pl-2 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                   >
                                     {item.name}
-                                  </Disclosure.Button>
+                                  </Link>
                                 ))}
 
                               </Disclosure.Panel>
@@ -180,14 +180,15 @@ const Navbar: FC<NavbarProps> = () => {
                           )}
                         </Disclosure>
                                 {[...blockChaninList].map((item) => (
-                                  <Disclosure.Button
+                                  <Link
                                     key={item.name}
-                                    as="a"
+                                   
                                     href={item.href}
+                                    onClick={() => setMobileMenuOpen(false)}
                                     className="block rounded-lg py-2 pl-2 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                   >
                                     {item.name}
-                                  </Disclosure.Button>
+                                  </Link>
                                 ))}
 
                               </Disclosure.Panel>
@@ -197,16 +198,16 @@ const Navbar: FC<NavbarProps> = () => {
 
                         {[...servicesList].map((item) => (
                           
-                          <Disclosure.Button
+                          <Link
                           
                             key={item.name}
-                            as="a"
                             href={item.href}
+                            onClick={() => setMobileMenuOpen(false)}
                             className="block rounded-lg py-2 p-1 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                           >
                             
                             {item.name}
-                          </Disclosure.Button>
+                          </Link>
                         ))}
 
                       </Disclosure.Panel>
