@@ -22,35 +22,35 @@ const ProductServices: FC<productSevicesProps> = () => {
 
                 <div className='flex pt-5 justify-center sm:px-16 md:px-32 flex-wrap gap-32'>
                     <div className='flex flex-col justify-center items-center gap-5'>
-                        <Image src={Web_DevelopmentImg} alt='' width={20} height={20} className='w-24 h-24  ' />
+                        <Image src={Web_DevelopmentImg} alt='' width={200} height={200} className='w-24 h-24  ' />
                         <p className=' font-bold text-lg  md:text-2xl text-center'>Web Application</p>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5'>
-                        <Image src={NFT_DevelopmentImg} alt='' width={20} height={20} className='w-24 h-24  ' />
+                        <Image src={NFT_DevelopmentImg} alt='' width={200} height={200} className='w-24 h-24  ' />
                         <p className=' font-bold text-lg md:text-2xl  text-center'>Blockchain</p>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5'>
-                        <Image src={DeFi_DevelopmentImg} alt='' width={20} height={20} className='w-24 h-24  ' />
+                        <Image src={DeFi_DevelopmentImg} alt='' width={200} height={200} className='w-24 h-24  ' />
                         <p className=' font-bold text-lg md:text-2xl text-center '>Token development</p>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5'>
-                        <Image src={Token_DevelopmenImg} alt='' width={20} height={20} className='w-24 h-24  ' />
+                        <Image src={Token_DevelopmenImg} alt='' width={200} height={200} className='w-24 h-24  ' />
                         <p className=' font-bold text-lg md:text-2xl text-center'>DeFi</p>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5'>
-                        <Image src={webDevelopmentImg} alt='' width={20} height={20} className='w-24 h-24  ' />
+                        <Image src={webDevelopmentImg} alt='' width={200} height={200} className='w-24 h-24  ' />
                         <p className=' font-bold text-lg md:text-2xl text-center'>NFT Marketplace</p>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5'>
-                        <Image src={NFT_Marketplace_DevelopmentImg} width={20} height={20} alt='' className='w-24 h-24  ' />
+                        <Image src={NFT_Marketplace_DevelopmentImg} width={200} height={200} alt='' className='w-24 h-24  ' />
                         <p className='font-bold text-lg  md:text-2xl text-center'>Currency Exchange</p>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5'>
-                        <Image src={Block_ChainImg} width={20} height={20} alt='' className='w-24 h-24  ' />
+                        <Image src={Block_ChainImg} width={200} height={200} alt='' className='w-24 h-24  ' />
                         <p className=' font-bold text-lg md:text-2xl text-center'>Currency Exchange</p>
                     </div>
                     <div className='flex flex-col justify-center items-center gap-5'>
-                        <Image src={Cryptocurrency_ExchangeImg} width={20} height={20} alt='' className='w-24 h-24  ' />
+                        <Image src={Cryptocurrency_ExchangeImg} width={200} height={200} alt='' className='w-24 h-24  ' />
                         <p className=' font-bold text-lg md:text-2xl text-center'>Currency Exchange</p>
                     </div>
 

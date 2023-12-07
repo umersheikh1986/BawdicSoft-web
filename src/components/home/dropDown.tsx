@@ -63,10 +63,16 @@ const DropDown: React.FC = () => {
       onClick: () => clickHandlerFunc("e-commerce-solution")
 
     },
+    {
+      key: '4',
+      label: 'Artificial Intelligence',
+      onClick: () => clickHandlerFunc("artificial-intelligence")
+
+    },
   ];
   return (
     <Dropdown menu={{ items }} className='text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]'>
-      <Link href='/'>
+      <Link href=''>
         <Space className='text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]'>
           Services
           <TiArrowSortedDown className='font-extrabold text-sky-600  text-[20px]' />

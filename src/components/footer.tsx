@@ -42,8 +42,8 @@ const Footer: FC<footerProps> = () => {
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 text-lg  font-extrabold  uppercase dark:text-white text-sky-600">Services</h2>
-                  <ul className="text-gray-100 dark:text-gray-400 font-medium">
+                  <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-sky-600">Services</h2>
+                  <ul className="text-gray-100  font-medium">
                       <li className="mb-4">
                           <a href="https://github.com/themesberg/flowbite" className=" ">Web Application</a>
                       </li>
@@ -54,23 +54,23 @@ const Footer: FC<footerProps> = () => {
               </div>
               <div>
                   <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-sky-600">Contact Us</h2>
-                  <ul className="text-gray-100 dark:text-gray-400 font-medium">
+                  <ul className="text-gray-100  font-medium">
                       <li className="mb-4 flex gap-3">
-                      <MdOutlineMailOutline className= "text-white text-2xl"/><a href="#" className="">ali@gmail.com</a>
+                      <MdOutlineMailOutline className= "text-white text-2xl"/><a href="#" className="">info@bawdicsoft.com</a>
                       </li>
                       <li className="flex gap-3">
-                      <FaPhone   className= "text-white text-2xl" /> <a href="#" className="">+9233533344</a>
+                      <FaPhone   className= "text-white text-2xl" /> <a href="#" className="">+1(203)-902-1401</a>
                       </li>
                   </ul>
                   {/* Media Links */}
-                  <div className="flex justify-between gap-2 pt-10"> 
-                    <div className="flex rounded-full bg-green-500 justify-center items-center p-2 cursor-pointer"><FaWhatsapp className="text-white text-2xl"/></div>
-                    <div className="flex rounded-full bg-sky-700 justify-center items-center p-2 cursor-pointer"><FaLinkedin className="text-white text-2xl"/></div>
-                    <div className="flex rounded-full bg-sky-600 justify-center items-center p-2 cursor-pointer"><GrTwitter  className="text-white text-2xl"/></div>
-                    <div className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer"><MdFacebook   className="text-white text-2xl"/></div>
+                  <div className="flex justify-between gap-2 pt-10 "> 
+                    <a href="https://wa.me/+923178866631" target="_blank" className="flex rounded-full bg-green-500 justify-center items-center p-2 cursor-pointer "><FaWhatsapp className="text-white text-2xl"/></a>
+                    <a href="/linkdInLink" target="_blank" className="flex rounded-full bg-sky-700 justify-center items-center p-2 cursor-pointer "><FaLinkedin className="text-white text-2xl"/></a>
+                    <a href="/twitterLink" target="_blank" className="flex rounded-full bg-sky-600 justify-center items-center p-2 cursor-pointer "><GrTwitter  className="text-white text-2xl"/></a>
+                    <a href="/facebookLink" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><MdFacebook   className="text-white text-2xl"/></a>
                  
                     <div>
-                        {/* <Image src="" alt="" width={60} height={60}/> */}
+                
                     </div>
                   </div>
               </div>
@@ -78,7 +78,7 @@ const Footer: FC<footerProps> = () => {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between md:px-14">
-          <span className="text-md  text-gray-300 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.
+          <span className="text-md  text-gray-300 sm:text-center dark:text-gray-400">© 2018 <a href="https://flowbite.com/" className="hover:underline">BawdicSoft LLC</a>. All rights reserved.
           </span>
          
           <div>
