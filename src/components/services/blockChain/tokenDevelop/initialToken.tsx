@@ -9,25 +9,25 @@ const InitialTokenOfferSection: FC<InitialTokenOfferSectionProps> = () => {
                 <p className="text-md text-gray-200  text-center leading-7 pb-5 pt-5">Initial Coin Offering (ICO), Initial Exchange Offering (IEO), Security Token Offering (STO) or Initial DEX Offering (IDO), we have it all for you. Trust our services to build your initial offering tokens and we take care of the whole end-to-end development for you.</p>
                 <div className="grid grid-cols-1 md:grid-cols-2  md:px-16 gap-10">
 
-                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow dark: dark:border-gray-700">
+                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow ">
                         <a href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white text-center ">ICO</h5>
                         </a>
                         <p className="mb-3 font-normal text-gray-700 text-white text-center">Wanna go public? Offer coins in an ICO and build your brand in the crypto market with capital raised from your Initial Coin Offering..</p>
                     </div>
-                    <div className=" border-2 hover:border-sky-500  p-6  border border-gray-200 rounded-lg shadow  dark:border-gray-700">
+                    <div className=" border-2 hover:border-sky-500  p-6  border border-gray-200 rounded-lg shadow  ">
                         <a href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-center">IEO</h5>
                         </a>
                         <p className="mb-3 font-normal text-gray-700 text-white text-center">Raise funds from across the existing crypto market or exchange equity in return for crypto funds.</p>
                     </div>
-                    <div className=" border-2 hover:border-sky-500  p-6  border border-gray-200 rounded-lg shadow  dark:border-gray-700">
+                    <div className=" border-2 hover:border-sky-500  p-6  border border-gray-200 rounded-lg shadow  ">
                         <a href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-center">STO</h5>
                         </a>
                         <p className="mb-3 font-normal text-gray-700 text-white text-center">Decentralize your tangible assets by creating Security Tokens against them. Get loans and enrich your business with an STO drive.</p>
                     </div>
-                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow  dark:border-gray-700">
+                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow  ">
                         <a href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-center">IDO
 </h5>

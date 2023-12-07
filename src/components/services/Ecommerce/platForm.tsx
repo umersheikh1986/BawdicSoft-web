@@ -8,7 +8,7 @@ const PlatFormSection: FC<WeOfferSectionProps> = () => {
                 <p className="text-4xl font-bold text-center text-white">PLATFORM</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 pt-8  md:px-16 gap-10">
 
-                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow dark: dark:border-gray-700">
+                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow ">
                         <a href="#">
                             <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-white  ">Shopify</h5>
                         </a>
@@ -21,7 +21,7 @@ const PlatFormSection: FC<WeOfferSectionProps> = () => {
                             <li>Round the clock support</li>
                         </ul>
                     </div>
-                    <div className=" border-2 hover:border-sky-500  p-6  border border-gray-200 rounded-lg shadow  dark:border-gray-700">
+                    <div className=" border-2 hover:border-sky-500  p-6  border border-gray-200 rounded-lg shadow  ">
                         <a href="#">
                             <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-white  ">Wix</h5>
                         </a>
@@ -34,7 +34,7 @@ const PlatFormSection: FC<WeOfferSectionProps> = () => {
                          
                         </ul>
                     </div>
-                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow  dark:border-gray-700">
+                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow  ">
                         <a href="#">
                             <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-white  ">WebFlow
 </h5>
@@ -48,7 +48,7 @@ const PlatFormSection: FC<WeOfferSectionProps> = () => {
                          
                         </ul>
                     </div>
-                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow  dark:border-gray-700">
+                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow  ">
                         <a href="#">
                             <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-white  ">WordPress
 </h5>
