@@ -45,7 +45,7 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
     return (
         <div className='bg-sky-900 pt-24'>
             <p className='text-center'> <a className='text-3xl hover:bg-sky-600 font-bold py-3 md:py-5 px-10 md:px-40 border-4 border-white rounded-[35px] bg-sky-700 text-white'>Portfolio </a></p>
-            <div className=' py-20 grid grid-cols-1 gap-5  md:grid-cols-3 lg:grid-cols-4   md:px-72'>
+            <div className=' py-20 grid grid-cols-1 gap-5  md:grid-cols-3 lg:grid-cols-4 md:px-12  lg:px-72'>
                 <button className='text-lg border-blue-400 md:text-xl font-bold text-gray-800 cursor-pointer rounded-[35px] border-4 hover:border-blue-600 active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none  py-3 min-w-min text-white' onClick={() => filterHandler("all")}>All</button>
                 <button className='text-lg border-blue-400 md:text-xl font-bold text-gray-800 cursor-pointer rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none' onClick={() => filterHandler("wordpress")}>Wordpress</button>
                 <button className='text-lg border-blue-400 md:text-xl font-bold text-gray-800 cursor-pointer rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none' onClick={() => filterHandler("ai")}>AI</button>
@@ -54,7 +54,7 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
 
 
             {num && <div className='flex justify-center items-center'>
-                <div className='pb-20 grid grid-cols-1 gap-5  md:grid-cols-3 lg:grid-cols-4   md:px-72'>
+                <div className='pb-20 grid grid-cols-1 gap-5  md:grid-cols-3    md:px-72'>
                 <button className='text-md border-blue-400 md:text-md font-bold text-gray-800 cursor-pointer  rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600 px-2 focus:border-none' onClick={() => filterHandler("wordpress-ecommerce")}>E-commerce</button>
                 <button className='text-md border-blue-400 md:text-md font-bold text-gray-800 cursor-pointer  rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600 px-2 focus:border-none' onClick={() => filterHandler("wordpress-blog")}>Blog</button>
                 <button className='text-md border-blue-400 md:text-md font-bold text-gray-800 cursor-pointer  rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600 px-2 focus:border-none' onClick={() => filterHandler("wordpress-others")}>Others</button>

@@ -9,7 +9,7 @@ const OfferSection :FC<OfferSectionProps> = () => {
     </div>
     <div className=''>
   <span className='text-semibold text-lg  text-gray-600'> BawdicSoft is a  web application development and Web3 solutions provider founded in 2018.</span> 
-<span className='text-semibold text-lg   text-gray-600'>We present all the latest technologies such as Web3.0, Web development, Software Development, <a href='/web application' className='text-bold text-md text-blue-800'> Web application</a>, E-Commerce & Web store development, Decentralised exchanges, <a href='/web application' className='text-bold text-md text-blue-800'> NFT Market development</a> Artificial Intelligence, and AR/VR all under one umbrella. We aim to provide full-stack digital solutions to our customers integrating state-of-the-art technologies and emerging ideas into their business.</span>
+<span className='text-semibold text-lg   text-gray-600'>We present all the latest technologies such as Web3.0, Web development, Software Development, <a href='/web-application' className='text-bold text-md text-blue-800'> Web application</a>, E-Commerce & Web store development, Decentralised exchanges, <a href='/nft-marketplace-development' className='text-bold text-md text-blue-800'> NFT Market development</a> Artificial Intelligence, and AR/VR all under one umbrella. We aim to provide full-stack digital solutions to our customers integrating state-of-the-art technologies and emerging ideas into their business.</span>
     </div>
 
 
