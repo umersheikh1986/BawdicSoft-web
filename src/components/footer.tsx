@@ -7,6 +7,7 @@ import { GrTwitter } from "react-icons/gr";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa6";
 import Image from "next/image"
+import Link from "next/link";
 interface footerProps {}
 const Footer: FC<footerProps> = () => {
     return (<div>
@@ -67,10 +68,10 @@ const Footer: FC<footerProps> = () => {
                   </ul>
                   {/* Media Links */}
                   <div className="flex justify-between gap-2 pt-10 "> 
-                    <a href="https://wa.me/+923178866631" target="_blank" className="flex rounded-full bg-green-500 justify-center items-center p-2 cursor-pointer "><FaWhatsapp className="text-white text-2xl"/></a>
-                    <a href="https://www.linkedin.com/company/77098544/admin/feed/posts/" target="_blank" className="flex rounded-full bg-sky-700 justify-center items-center p-2 cursor-pointer "><FaLinkedin className="text-white text-2xl"/></a>
-                    <a href="https://twitter.com/BawdicSoft" target="_blank" className="flex rounded-full bg-sky-600 justify-center items-center p-2 cursor-pointer "><GrTwitter  className="text-white text-2xl"/></a>
-                    <a href="https://www.facebook.com/BawdicSoftPvtLtd" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><MdFacebook   className="text-white text-2xl"/></a>
+                    <Link href="https://wa.me/+923178866631" target="_blank" className="flex rounded-full bg-green-500 justify-center items-center p-2 cursor-pointer "><FaWhatsapp className="text-white text-2xl"/></Link>
+                    <Link href="https://www.linkedin.com/company/77098544/admin/feed/posts/" target="_blank" className="flex rounded-full bg-sky-700 justify-center items-center p-2 cursor-pointer "><FaLinkedin className="text-white text-2xl"/></Link>
+                    <Link href="https://twitter.com/BawdicSoft" target="_blank" className="flex rounded-full bg-sky-600 justify-center items-center p-2 cursor-pointer "><GrTwitter  className="text-white text-2xl"/></Link>
+                    <Link href="https://www.facebook.com/BawdicSoftPvtLtd" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><MdFacebook   className="text-white text-2xl"/></Link>
                  
                     <div>
                 
