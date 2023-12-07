@@ -1,37 +1,133 @@
-import { NextRequest, NextResponse } from "next/server";
-import { transporter } from "../nodemailer/route";
-type Data = {
-    name: string,
-    email: string,
-    phoneNo: string,
-    message: string,
-    file: string,
-}
+// import { NextRequest, NextResponse } from "next/server";
+// import nodemailer from "nodemailer"
 
-const data: Data[] = []
+// const transporter = nodemailer.createTransport({
+//     service: "Gmail", // Use your email service, like Gmail
+//     secure: true,
+//     port: 465,
+//       auth: {
+//         user: "ali4282271@gmail.com",
+//         pass: "ztwd zzbv qeqr skvn",
+//       },
+//     });
 
-// the following function is running on next 13
 
-// GET
-export const GET = (req: NextRequest, res: NextRequest) => {
-    return NextResponse.json({ users: data });
-}
-// POST
-export const POST = async (req: NextRequest, res: NextRequest) => {
-    const {name, email, phoneNo, message, file} = await req.json();
-    console.log(name, email, phoneNo, message,file)
-    data.push({ name, email, phoneNo, message, file })
-    try{
-        await transporter.sendMail({
-        from:email,
-        to:"ashrafalikakozai9876@gmail.com",
-        subject:name,
-        text: "this is some text",
-        html:`<h1>Hello ashraf</h1><p>my name is ${name} from karachi so i will meet with you tomorrow</p><p>~${message}</p><p>~${phoneNo}</p>`
-        })
-        return NextResponse.json({ users: data });
-    
-    }catch(err){
-         return NextResponse.json(err)
+
+// export const POST = async (req: NextRequest) => {
+//     const { name, email, phoneNo, message, file } = await req.json();
+//     console.log(name, email, phoneNo, message, file)
+
+//     try {
+//         await new Promise((resolve, reject) => {
+//             // verify connection configuration
+//             transporter.verify(function (error, success) {
+//                 if (error) {
+//                     console.log(error);
+//                     reject(error);
+//                 } else {
+//                     console.log("Server is ready to take our messages");
+//                     resolve(success);
+//                 }
+//             });
+//         });
+//         const mailOptions = {
+//             from: email,
+//             to: "ashrafalikakozai9876@gmail.com",
+//             subject: name,
+//             text: "this is some text",
+//             html: `<h1>Hello ashraf</h1><p>my name is ${name} from karachi so i will meet with you tomorrow</p><p>~${message}</p><p>~${phoneNo}</p>`
+//             ,
+//         };
+//         await new Promise((resolve, reject) => {
+//             // send mail
+//             transporter.sendMail(mailOptions, (err, info) => {
+//                 if (err) {
+//                     console.error(err);
+//                     reject(err);
+//                 } else {
+//                     console.log(info);
+//                     resolve(info);
+//                 }
+//             });
+//         });
+//     } catch (err) {
+//         return NextResponse.json(err)
+//     }
+
+// }
+// // await transporter.sendMail({
+// // from:email,
+// // to:"ashrafalikakozai9876@gmail.com",
+// // subject:name,
+// // text: "this is some text",
+// // html:`<h1>Hello ashraf</h1><p>my name is ${name} from karachi so i will meet with you tomorrow</p><p>~${message}</p><p>~${phoneNo}</p>`
+// // })
+// // return NextResponse.json({ message: "hello" });
+
+
+
+import { NextResponse } from "next/server";
+
+import nodemailer from "nodemailer";
+
+const transporter = nodemailer.createTransport({
+    service: "Gmail", // Use your email service, like Gmail
+    secure: true,
+    port: 465,
+    auth: {
+        user: "ali4282271@gmail.com",
+        pass: "ztwd zzbv qeqr skvn",
     }
-}
+});
+export const POST = async (req: Request, res: Response) => {
+    const {
+        name, email, phoneNo, message, role } = await req.json();
+
+    try {
+
+
+        await new Promise((resolve, reject) => {
+            // verify connection configuration
+            transporter.verify(function (error, success) {
+                if (error) {
+                    console.log(error);
+                    reject(error);
+                } else {
+                    console.log("Server is ready to take our messages");
+                    resolve(success);
+                }
+            });
+        });
+        const mailOptions = {
+            from: email,
+            to: "ashrafalikakozai9876@gmail.com",
+            subject: name,
+            text: "this is some text",
+            html: `<h1>Hello ashraf</h1><p>my name is ${name} from karachi so i will meet with you tomorrow</p><p>~${message}</p><p>~${phoneNo}</p>`,
+        };
+        await new Promise((resolve, reject) => {
+            // send mail
+            transporter.sendMail(mailOptions, (err, info) => {
+                if (err) {
+                    console.error(err);
+                    reject(err);
+                } else {
+                    console.log(info);
+                    resolve(info);
+                }
+            });
+        });
+
+
+
+        return NextResponse.json(
+            { message: "Employee addded successfully" },
+            { status: 201 }
+        );
+    } catch (error) {
+        return NextResponse.json(
+            { message: "Failed create Employee" },
+            { status: 500 }
+        );
+    }
+};
