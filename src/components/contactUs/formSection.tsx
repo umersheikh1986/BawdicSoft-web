@@ -67,13 +67,10 @@ const FormSection: FC<formSectionProps> = () => {
                     </div>
                     <div className="flex flex-col gap-4">
                         <p className="font-black text-[20px] leading-5 text-sky-900">Phone:</p>
-                        <p className="text-gray-700 text-lg ">+92312842117</p>
-                        <a href="/" className="bg-sky-900 py-2 hover:bg-sky-700  rounded-[8px] flex justify-center gap-2 md:gap-4 w-[180px] md:w-[220px] items-center"><FaWhatsapp className="text-white font-bold  text-[20px] md:text-[30px] " /><span className="text-white font-bold text-16px md:text-[18px]">For Whatsapp</span></a>
+                        <p className="text-gray-700 text-lg ">+1(203)-902-1401</p>
+                        <a href="https://wa.me/+923178866631" target="_blank" className="bg-sky-900 py-2 hover:bg-sky-700  rounded-[8px] flex justify-center gap-2 md:gap-4 w-[180px] md:w-[220px] items-center"><FaWhatsapp className="text-white font-bold  text-[20px] md:text-[30px] " /><span className="text-white font-bold text-16px md:text-[18px]">For Whatsapp</span></a>
                     </div>
-                    <div className="flex flex-col gap-4">
-                        <p className="font-black text-[20px] leading-5 text-sky-900">Address:</p>
-                        <p className="text-gray-700 max-w-xl  text-lg ">Office No.01, Ground Floor, Farzana Building Shaheed-E-Millat Road, Shahrah-E-Faisal, Karachi.</p>
-                    </div>
+                   
                 </div>
 
             </div>
