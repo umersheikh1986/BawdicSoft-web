@@ -41,14 +41,13 @@ return (<div className="pt-20 pb-20 md:px-0 px-10 ">
   </div>
 
 
-  <label className="block mb-2 text-sm  text-gray-900  pt-5" htmlFor="user_avatar">Upload file</label>
   {/* <input className="block  w-full text-sm text-gray-900 border:none  rounded-lg cursor-pointer " aria-describedby="user_avatar_help" id="user_avatar" type="file" /> */}
   <input
     type="file"
     className="block w-full text-sm 
         file:mr-4 file:py-2 file:px-4 file:rounded-md
         file:border-0 file:text-sm file:font-semibold
-        file:bg-sky-950 file:text-white
+        file:bg-sky-950 file:text-white pt-5
         hover:file:bg-sky-700"
   />
   

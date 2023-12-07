@@ -52,14 +52,13 @@ const FormSection: FC<formSectionProps> = () => {
 
                         <textarea id="message" ref={messageRef} name="message" rows={4} className="block  hover:border-blue-500  border-2 peer p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500    " placeholder="Enter Your Message..."></textarea>
 
-                        <label className="block mb-2 text-sm  text-gray-900  pt-5" htmlFor="user_avatar">Upload file</label>
                         {/* <input ref={filRef} className="block text-sm text-gray-900 border:none  rounded-lg cursor-pointer " aria-describedby="user_avatar_help" id="user_avatar" type="file" /> */}
                         <input
     type="file"
     className="block w-full text-sm 
         file:mr-4 file:py-2 file:px-4 file:rounded-md
         file:border-0 file:text-sm file:font-semibold
-        file:bg-sky-950 file:text-white
+        file:bg-sky-950 file:text-white pt-5
         hover:file:bg-sky-700"
   />
                         <button type="submit" className="block py-2.5 px-16 text-sm bg-sky-950  text-white   font-semibold rounded-[12px] mt-8  hover:bg-sky-700">Send Message</button>
