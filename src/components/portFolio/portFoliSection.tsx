@@ -64,7 +64,7 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
             <div>
                 <div className=' gap-8 grid grid-cols-1 md:grid-cols-3 px-5  md:px-40 py-10'>
                     {data.map(product =>
-                        <Link className=' relative  group' href={product.href}>
+                        <Link key={product.id} className=' relative  group' href= {product.category.includes("ai") ? `/productDetailes/${product.id} `: product.href}>
                             <Image src={product.projectImage} alt='' width={400} height={400} className='w-full h-60 w-80 rounded-[20px] hover:opacity-25 duration-500 transition-opacity' />
                             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
                                 <div className='flex justify-center items-center gap-4'>
