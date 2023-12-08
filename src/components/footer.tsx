@@ -56,26 +56,24 @@ const Footer: FC<footerProps> = () => {
                       </li>
                   </ul>
               </div>
-              <div>
+              <div className="md:flex-none flex justify-center md:mt-0 sm:-mt-16 md:justify-start md:items-start items-start flex-col">
                   <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-sky-600">Contact Us</h2>
                   <ul className="text-gray-100  font-medium">
-                      <li className="mb-4 flex gap-3">
+                      <li className="mb-4 flex gap-2">
                       <MdOutlineMailOutline className= "text-white text-2xl"/><a href="#" className="">info@bawdicsoft.com</a>
                       </li>
-                      <li className="flex gap-3">
+                      <li className="flex gap-2">
                       <FaPhone   className= "text-white text-2xl" /> <a href="#" className="">+1(203)-902-1401</a>
                       </li>
                   </ul>
                   {/* Media Links */}
-                  <div className="flex justify-between gap-2 pt-10 "> 
+                  <div className="flex justify-evenly  flex-wrap gap-2 pt-10 "> 
                     <Link href="https://wa.me/+923178866631" target="_blank" className="flex rounded-full bg-green-500 justify-center items-center p-2 cursor-pointer "><FaWhatsapp className="text-white text-2xl"/></Link>
                     <Link href="https://www.linkedin.com/company/77098544/admin/feed/posts/" target="_blank" className="flex rounded-full bg-sky-700 justify-center items-center p-2 cursor-pointer "><FaLinkedin className="text-white text-2xl"/></Link>
                     <Link href="https://twitter.com/BawdicSoft" target="_blank" className="flex rounded-full bg-sky-600 justify-center items-center p-2 cursor-pointer "><GrTwitter  className="text-white text-2xl"/></Link>
                     <Link href="https://www.facebook.com/BawdicSoftPvtLtd" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><MdFacebook   className="text-white text-2xl"/></Link>
                  
-                    <div>
-                
-                    </div>
+                   
                   </div>
               </div>
           </div>
