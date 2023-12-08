@@ -676,27 +676,27 @@ export const allData = [
         and classify different types of food and dishes. Whether you${"'"}re
         working in the food industry or working on health and wellness
         apps, our solution helps you detect food items in your image/video
-        foods.
-        Food Recognition and Classification:
-        Once an image is captured and analyzed, the system can recognize
+        foods.`,
+      foodRecognization:`Food Recognition and Classification:`,
+      foodRecognizationDec:`Once an image is captured and analyzed, the system can recognize
         and classify the food item. This may include identifying the type
         of food (e.g., pizza, salad, burger) or detecting specific ingredients
-        (e.g., tomatoes, lettuce, chicken).
-        Quality Assessment:
-        Food detection solutions can also be used to assess the quality and
+        (e.g., tomatoes, lettuce, chicken).`,
+        qualityAssessment: `Quality Assessment:`,
+        qualityAssessmentDec: ` Food detection solutions can also be used to assess the quality and
         freshness of food items. This is crucial in industries like
-        agriculture and retail, where the shelf life of products is critical.
-        Real-Time Monitoring:
-        Our applications is responsible for real-time food detection, such
+        agriculture and retail, where the shelf life of products is critical.`,
+       realTimeMonitoring: `Real-Time Monitoring:`, 
+       realTimeMonitoringDec: `Our applications is responsible for real-time food detection, such
         as in restaurants or production lines. Our applications are capable
         of quickly and accurately identifying food items as they pass
-        through a conveyor belt or during food preparation.
-        Applications:
-        Our Food detection solutions have numerous applications,
+        through a conveyor belt or during food preparation.`,
+        Applications: `Applications`,
+        applicationsDec: `Our Food detection solutions have numerous applications,
         including food safety and quality control, dietary analysis, calorie
         counting, meal planning, and restaurant menu management.
         They are also used in the healthcare industry for dietary
-        monitoring, food allergy detection, and diabetes management.`,
+        monitoring, food allergy detection, and diabetes management.`
     },
     {
       id: 60,
@@ -706,13 +706,12 @@ export const allData = [
       Video: "/assets/ChatGPTVideo3.mp4",
       alternate: "BawdicSoft ChatGPTIntegration Web site",
       href: "NoLink",
-      techStack:
-        "Open AI framework, Prompt engineering, Chatgpt API 3.5/4, Python",
+      techStack:"Open AI framework, Prompt engineering, Chatgpt API 3.5/4, Python",
       mainTitle: "Chat GPT Integration",
       projectDesc: `Enhance customer engagement, automate repetitive tasks, and
         streamline your business operations with the power of Chat GPT
-        API integration.
-        Our AI-powered Chatbot solution, Chat GPT API integration,
+        API integration.`,
+        ourAIpowered: `Our AI-powered Chatbot solution, Chat GPT API integration,
         offers seamless integration with various applications and platforms,
         helping businesses provide personalized customer support and
         improve overall efficiency. With Chat GPT integration, you can
@@ -723,7 +722,7 @@ export const allData = [
         asked questions, troubleshoot issues, and escalate complex
         problems to human agents and to generate written content, such as
         articles, product descriptions, marketing copy, and more much. It
-        can assist content creatorsin producing high-quality text efficiently.`,
+        can assist content creatorsin producing high-quality text efficiently.`
     },
     {
       id: 61,
@@ -739,19 +738,19 @@ export const allData = [
       projectDesc: `I'm so excited to tell you about this new project I'm working on to
        unlock kids' creativity and imagination. The goal is to give children
        a tool to bring their wildest ideas and stories to life through
-       magical, vivid images.
-       Think about it - your kid could craft an imaginative tale, and then
+       magical, vivid images.`,
+       thinkAboutIt:`Think about it - your kid could craft an imaginative tale, and then
        our special technology wand would transform their words into
        cool, realistic pictures that capture all the action and adventure. It's
-       like turning them into superhero storytellers!
-       This isn't just about generating random images. It's about
+       like turning them into superhero storytellers!`,
+       thisIsnt:`This isn't just about generating random images. It's about
        empowering children to visualize their thoughts in a way that
        boosts their language abilities, cognitive skills, and creative
-       thinking.
-       With our easy-to-use platform, kids can effortlessly turn their
+       thinking.`,
+       WithOurEas: `With our easy-to-use platform, kids can effortlessly turn their
        fantasiesinto visual masterpieces. It opens up a world of possibility
-       and allows their imagination to run totally wild.
-       I really believe in the power of imagination, especially for young
+       and allows their imagination to run totally wild.`,
+       iReally :`I really believe in the power of imagination, especially for young
        minds. When kids can see their ideas come to life, it nurtures their
        intelligence and innovation in an incredibly fun way.`,
     },
@@ -769,23 +768,23 @@ export const allData = [
       projectDesc: `Dealing with skin issues can be super frustrating and uncertain. I
       want to tell you about an exciting new project I'm working on that
       aims to help people finally get some clarity and control when it
-      comes to their skin health.
-      The goal is to create a tool that combines advanced technology
+      comes to their skin health.`,
+      theGoal :`The goal is to create a tool that combines advanced technology
       with a human touch to accurately detect various skin conditions.
       But it goes beyond just diagnosis - it will also provide
       personalized tips for treatments and medication based on each
-      person's unique situation.
-      I'm really passionate about making this as easy-to-use as possible.
+      person's unique situation.`,
+      imReally : `I'm really passionate about making this as easy-to-use as possible.
       I don't want this to just be for tech experts, it's meant for
       everyone! My priority is to make the platform super simple and
       user-friendly so that getting insights about your skin is quick and
-      painless.
-      This would allow people to get the expertise of dermatologists
+      painless.`,
+      thisWould: `This would allow people to get the expertise of dermatologists
       right on their phones or devices, which could be a total game
       changer. No more uncertainty or guessing when you have a weird
       rash or acne flare up. Just quick, customized answers and advice
-      from a digital system designed to provide thoughtful care.
-      I'm excited to revolutionize how we deal with skin health and
+      from a digital system designed to provide thoughtful care.`,
+      imExcited: `I'm excited to revolutionize how we deal with skin health and
       empower people to feel more knowledgeable and confident. Let
       me know if you want to learn more about this project - I'd love to
       share additional details and get your thoughts!`,
