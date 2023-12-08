@@ -7,17 +7,17 @@ const ProductDetails = ({ params }: { params: { productId: string } }) => {
     return (<div>
         {productOneDetail?.Video && <div>
             {/* video section */}
-            <div className="">
+            <div className="grid grid-cols-1 md:grid-cols-2">
                 <video
-                    className="w-full h-auto" autoPlay controls >
+                    className="w-full " autoPlay controls >
                     <source src={productOneDetail.Video} type="video/mp4" />
                 </video>
+            <div className="flex justify-center my-auto pt-10 pb-5 md:pb-2 bg-gray-100 flex-col items-center  px-5">
+                <p className="text-3xl font-bold  px-10 rounded-[30px] ">{productOneDetail?.mainTitle}</p>
+                <p className="text-md font-md    px-10 rounded-[30px] pt-5">{productOneDetail?.projectDesc}</p>
+            </div>
             </div>
             {/* text section */}
-            <div className="flex justify-center bg-gray-100 flex-col items-center md:px-16 lg:px-40 pb-8">
-                <p className="text-3xl font-bold  py-5 mt-3 px-10 rounded-[30px] ">{productOneDetail?.mainTitle}</p>
-                <p className="text-md font-md   mt-3 px-10 rounded-[30px] ">{productOneDetail?.projectDesc}</p>
-            </div>
         </div>}
     </div>)
 }
