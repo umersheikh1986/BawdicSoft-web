@@ -1,5 +1,4 @@
 import React, { FC, ReactNode, MouseEvent } from 'react';
-import heroImage1 from "../../../../public/images/e-commerce/group-people-working-out-business-plan-office-1.jpg"
 import heroImage from "../../../../public/images/e-commerce/laptop-shopping-bags-online-shopping-concept.jpg"
 import { StaticImageData } from 'next/image';
 interface deFiSectionProps { }

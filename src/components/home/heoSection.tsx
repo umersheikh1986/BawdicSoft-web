@@ -1,12 +1,17 @@
 import React, { FC, ReactNode, MouseEvent } from 'react';
-// import heroSecImg from "../../public/images/final-head.webp"
+import heroSecImg from "../../../public/images/final-head.webp"
+import { StaticImageData } from 'next/image';
 
 interface HeroSectionProps {}
-
+type heroImg = {
+  img : StaticImageData
+}
+const data: heroImg = {img:heroSecImg}
 const HeroSection: FC<HeroSectionProps> = () => {
   return (
-    <section className="  bg-center bg-cover bg-no-repeat bg-[url('https://bawdicsoft.com/wp-content/uploads/2022/08/final-head.webp')] bg-gray-400 bg-blend-multiply" style={{
-        height: 'calc(100vh - 48px)', 
+    <section className="  bg-center bg-cover bg-no-repeat  bg-gray-400 bg-blend-multiply" style={{
+      backgroundImage:`url(${data.img.src})`, 
+    height: 'calc(100vh - 48px)', 
     }}>
     <div className="px-4 mx-auto   text-center  pt-60 md:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl -ml-30">Developing the Future Today</h1>
