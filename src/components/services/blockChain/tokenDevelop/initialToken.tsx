@@ -10,28 +10,28 @@ const InitialTokenOfferSection: FC<InitialTokenOfferSectionProps> = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2  md:px-16 gap-10">
 
                     <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow ">
-                        <a href="#">
+                        <span >
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white text-center ">ICO</h5>
-                        </a>
+                        </span>
                         <p className="mb-3 font-normal text-gray-700 text-white text-center">Wanna go public? Offer coins in an ICO and build your brand in the crypto market with capital raised from your Initial Coin Offering..</p>
                     </div>
                     <div className=" border-2 hover:border-sky-500  p-6  border border-gray-200 rounded-lg shadow  ">
-                        <a href="#">
+                        <span >
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-center">IEO</h5>
-                        </a>
+                        </span>
                         <p className="mb-3 font-normal text-gray-700 text-white text-center">Raise funds from across the existing crypto market or exchange equity in return for crypto funds.</p>
                     </div>
                     <div className=" border-2 hover:border-sky-500  p-6  border border-gray-200 rounded-lg shadow  ">
-                        <a href="#">
+                        <span >
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-center">STO</h5>
-                        </a>
+                        </span>
                         <p className="mb-3 font-normal text-gray-700 text-white text-center">Decentralize your tangible assets by creating Security Tokens against them. Get loans and enrich your business with an STO drive.</p>
                     </div>
                     <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow  ">
-                        <a href="#">
+                        <span >
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-center">IDO
 </h5>
-                        </a>
+                        </span>
                         <p className="mb-3 font-normal   text-white text-center">You can gain funds for your crypto projects by having your IDO exchange.</p>
                     </div>
                     
@@ -42,7 +42,7 @@ const InitialTokenOfferSection: FC<InitialTokenOfferSectionProps> = () => {
        
             <div className="bg-sky-900 text-center my-16  rounded-[20px]   md:mx-20  py-8 px-6 flex flex-col justify-center items-center">
                 <p className="text-white font-bold text-2xl  md:text-3xl lg:text-4xl">Need tokens? Talk to one of our experts and get a quote on your project.</p>
-                <a href="#" className="text-gray-700 max-w-sm font-semibold mt-4 text-md px-5 hover:bg-sky-400 hover:text-white py-3 bg-gray-100 mt-5">Talk To Us</a>
+                <a  className="text-gray-700 max-w-sm font-semibold mt-4 text-md px-5 hover:bg-sky-400 hover:text-white py-3 bg-gray-100 mt-5">Talk To Us</a>
             </div>
         </div>)
 }

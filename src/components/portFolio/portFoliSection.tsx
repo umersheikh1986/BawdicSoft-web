@@ -62,14 +62,17 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
             </div> }
             {/* All Data Render */}
             <div>
-                <div className=' gap-8 grid grid-cols-1 md:grid-cols-3 px-5  md:px-40 py-10'>
+                <div className=' gap-8 grid grid-cols-1 md:grid-cols-3 px-5  md:px-24 lg:px-40 py-10'>
                     {data.map(product =>
                         <Link key={product.id} className=' relative  group' href= {product.category.includes("ai") ? `/productDetailes/${product.id} `: product.href}>
                             <Image src={product.projectImage} alt='' width={400} height={400} className='w-full h-60 w-80 rounded-[20px] hover:opacity-25 duration-500 transition-opacity' />
                             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-                                <div className='flex justify-center items-center gap-4'>
-                                    <span className=' text-2xl break-words lg:text-3xl font-bold hidden group-hover:block text-white  '>{product.projectName}</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 font-bold  hidden group-hover:block text-white  ">
+                                <div className='flex justify-center items-center md:gap-1 '>
+                                  <div>
+                                    <span className=' text-2xl mx-auto md:text-md break-words lg:text-3xl font-bold hidden group-hover:block text-white  '>{product.projectName.length>10 ? product.projectName.slice(0, 10) : product.projectName }</span>
+                                  </div>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 md:w-5 m:h-5  lg:w-10 lg:h-10 font-bold  hidden group-hover:block text-white  ">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                                     </svg>
                                 </div>

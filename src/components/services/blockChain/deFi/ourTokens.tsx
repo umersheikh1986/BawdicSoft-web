@@ -9,27 +9,27 @@ const TokenSection:FC<toeknProps> = () => {
             <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 mx-8 md:mx-32 lg:mx-48">
 
                 <div className="pb-4  border-2 border-gray-200 hover:border-blue-400  p-3   rounded-lg  ">
-                    <a href="#">
+                    <span >
                         <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-white">Customized</h5>
-                    </a>
+                    </span>
                     <p className="mb-3 font-normal text-gray-700  text-lg text-white">Our tokens are fully customized to your business needs fulfilling all the requirements specific to your enterprise.</p>
                 </div>
                 <div className=" pb-4 border-2 border-gray-200 hover:border-blue-400   p-3   rounded-lg  ">
-                    <a href="#">
+                    <span >
                         <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-white">Automated</h5>
-                    </a>
+                    </span>
                     <p className="mb-3 font-normal text-gray-700  text-lg text-white">We use vigorously tested token standards to generate your specific tokens making the creation process automated..</p>
                 </div>
                 <div className=" pb-4 border-2 border-gray-200 hover:border-blue-400   p-3   rounded-lg  ">
-                    <a href="#">
+                    <span >
                         <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-white">Easy to use</h5>
-                    </a> 
+                    </span> 
                     <p className="mb-3 font-normal text-gray-700   text-lg text-white">Our DeFi tokens provide global access to your business as anyone from any part of the world can engage in business transactions using these tokens.</p>
                 </div>
                 <div className=" pb-4 border-2 border-gray-200 hover:border-blue-400   p-3   rounded-lg  ">
-                    <a href="#">
+                    <span >
                         <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-white">Reliable</h5>
-                    </a>
+                    </span>
                     <p className="mb-3 font-normal text-gray-700  text-lg text-white">Your tokens are highly reliable backed by smart contracts generated using ERC20 standards providing security and reliability while using them.</p>
                 </div>
 
