@@ -19,7 +19,7 @@ const Footer: FC<footerProps> = () => {
                   <Image src={logo} className="h-12 w-12  " alt="BowdicSoft Logo" />
                   <span className="self-center text-3xl font-semibold  text-sky-600 pl-2">BawdicSoft</span>
               </a>
-              <p className="text-gray-200 leading-5 text-lg w-[300px] md:[400px] lg:w-[500px] pt-4">BawdicSoft is a web application, blockchain, DeFi, NFT, and NFT Marketplace Development Company delivering quick and innovative web and web3 solutions with improved security and optimized performance.</p>
+              <p className="text-gray-200 leading-5 text-lg sm:w-[220px]  md:w-[300px]  lg:w-[500px] pt-4">BawdicSoft is a web application, blockchain, DeFi, NFT, and NFT Marketplace Development Company delivering quick and innovative web and web3 solutions with improved security and optimized performance.</p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
