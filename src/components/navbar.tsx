@@ -56,8 +56,8 @@ const Navbar: FC<NavbarProps> = () => {
   return (
     <header className="bg-white sticky top-0 z-50">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8" aria-label="Global">
-        <div className="flex lg:flex-1 gap-3 items-center ">
-          <Link href="/" className="-m-1.5 p-1.5">
+        <div  className="flex lg:flex-1 gap-3 items-center ">
+          <div  className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <Image
               className=" w-auto hidden md:block"
@@ -66,8 +66,8 @@ const Navbar: FC<NavbarProps> = () => {
               width={40}
               height={40}
             />
-          </Link>
-          <p className='text-sky-600 text-[23px] -ml-2 md:m-0 md:text-[30px] font-semibold md:font-bold'>BawdicSoft</p>
+          </div>
+          <Link href="/" className='text-sky-600 text-[23px] -ml-2 md:m-0 md:text-[30px] font-semibold md:font-bold'>BawdicSoft</Link>
         </div>
         <div className="flex lg:hidden">
           <button

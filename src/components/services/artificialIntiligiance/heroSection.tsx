@@ -15,7 +15,7 @@ const HeroSection: FC<deFiSectionProps> = () => {
             backgroundImage: `url(${imageData.image.src})`,
             height: 'calc(100vh - 48px)', 
         }}>
-            <div className="px-4 mx-auto  text-center py-24 lg:py-56">
+            <div className="px-4 mx-auto  text-center py-24 md:pt-56 lg:py-56">
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white  lg:text-6xl -ml-30">  
               
                 Artificial Intelligence​</h1>

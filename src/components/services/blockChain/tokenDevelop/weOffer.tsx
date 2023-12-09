@@ -10,22 +10,22 @@ const WeOfferSection: FC<WeOfferSectionProps> = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3  md:px-16 gap-10">
 
                     <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow ">
-                        <a href="#">
+                        <span >
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white text-center ">Cryptocurrency Tokens</h5>
-                        </a>
+                        </span>
                         <p className="mb-3 font-normal text-gray-700 text-white text-center">Get your cryptocurrency tokens to establish your brand with the ability to exchange with other cryptocurrencies. Empower your Blockchain business with unique Cryptocurrency tokens delivered swiftly to you.</p>
                     </div>
                     <div className=" border-2 hover:border-sky-500  p-6  border border-gray-200 rounded-lg shadow  ">
-                        <a href="#">
+                        <span >
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-center">Utility Tokens</h5>
-                        </a>
+                        </span>
                         <p className="mb-3 font-normal text-gray-700 text-white text-center">We can demonstrate Utility tokens for your specific needs using our extended experience in the crypto market. Our tokens are error-free and tested in the open environment to enhance your business on the Blockchain.</p>
                     </div>
                     <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow  ">
-                        <a href="#">
+                        <span >
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white  text-center">Equity Tokens
 </h5>
-                        </a>
+                        </span>
                         <p className="mb-3 font-normal   text-white text-center">Businesses are decentralizing at a booming pace and equity tokens are the current talk of the town. Equip your business with Equity Tokens and modernize your business with the help of our expert team.</p>
                     </div>
                    

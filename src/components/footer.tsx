@@ -15,11 +15,11 @@ const Footer: FC<footerProps> = () => {
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-evenly md:gap-30">
           <div className="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" className="flex items-center">
+              <a href="/" className="flex items-center">
                   <Image src={logo} className="h-12 w-12  " alt="BowdicSoft Logo" />
                   <span className="self-center text-3xl font-semibold  text-sky-600 pl-2">BawdicSoft</span>
               </a>
-              <p className="text-gray-200 leading-5 text-lg w-[300px] md:[400px] lg:w-[500px] pt-4">BawdicSoft is a web application, blockchain, DeFi, NFT, and NFT Marketplace Development Company delivering quick and innovative web and web3 solutions with improved security and optimized performance.</p>
+              <p className="text-gray-200 leading-5 text-lg sm:w-[220px]  md:w-[300px]  lg:w-[500px] pt-4">BawdicSoft is a web application, blockchain, DeFi, NFT, and NFT Marketplace Development Company delivering quick and innovative web and web3 solutions with improved security and optimized performance.</p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
@@ -60,10 +60,10 @@ const Footer: FC<footerProps> = () => {
                   <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-sky-600">Contact Us</h2>
                   <ul className="text-gray-100  font-medium">
                       <li className="mb-4 flex gap-2">
-                      <MdOutlineMailOutline className= "text-white text-2xl"/><a href="#" className="">info@bawdicsoft.com</a>
+                      <MdOutlineMailOutline className= "text-white text-2xl"/><span  className="">info@bawdicsoft.com</span>
                       </li>
                       <li className="flex gap-2">
-                      <FaPhone   className= "text-white text-2xl" /> <a href="#" className="">+1(203)-902-1401</a>
+                      <FaPhone   className= "text-white text-2xl" /> <span  className="">+1(203)-902-1401</span>
                       </li>
                   </ul>
                   {/* Media Links */}
@@ -80,7 +80,7 @@ const Footer: FC<footerProps> = () => {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between md:px-14">
-          <span className="text-md  text-gray-300 sm:text-center ">© 2018 <a href="https://flowbite.com/" className="hover:underline">BawdicSoft LLC</a>. All rights reserved.
+          <span className="text-md  text-gray-300 sm:text-center ">© 2018 <a href="/" className="hover:underline">BawdicSoft LLC</a>. All rights reserved.
           </span>
          
           <div>

@@ -1,4 +1,10 @@
 import Image from 'next/image';
+import img1 from "../../../public/images/aboutImages/2637112_370799-PBNAS5-71.webp"
+import img2 from "../../../public/images/aboutImages/435247898.webp"
+import img3 from "../../../public/images/aboutImages/56jhryur6.webp"
+import img4 from "../../../public/images/aboutImages/coins-paper-money-globe-white-statistic-form-background.webp"
+import img5 from "../../../public/images/aboutImages/gdf345345.webp"
+import img6 from "../../../public/images/aboutImages/website-development-links-seo-webinar-cyberspace-concept.webp"
 import React, { FC, ReactNode, MouseEvent } from 'react';
 
 
@@ -15,27 +21,27 @@ const OurSevices: FC<ourSevicesProps> = () => {
       
       <div className='flex pt-5 justify-center sm:px-16 md:px-32 flex-wrap gap-32'>
           <div className='flex flex-col justify-center items-center gap-5'>
-              <Image src="https://bawdicsoft.com/wp-content/uploads/2022/08/website-development-links-seo-webinar-cyberspace-concept.webp" alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
+              <Image src={img6} alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
               <p  className='text-white font-bold text-lg text-center'>Web Application</p>
           </div>
           <div className='flex flex-col justify-center items-center gap-5'>
-              <Image src="https://bawdicsoft.com/wp-content/uploads/2022/08/2637112_370799-PBNAS5-71.webp" alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
+              <Image src={img1} alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
               <p  className='text-white font-bold text-lg  text-center'>Blockchain</p>
           </div>
           <div className='flex flex-col justify-center items-center gap-5'>
-              <Image src="https://bawdicsoft.com/wp-content/uploads/2022/08/56jhryur6.webp" alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
+              <Image src={img3} alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
               <p  className='text-white font-bold text-lg text-center '>Token development</p>
           </div>
           <div className='flex flex-col justify-center items-center gap-5'>
-              <Image src="https://bawdicsoft.com/wp-content/uploads/2022/08/gdf345345-1024x1024.webp" alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
+              <Image src={img5} alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
               <p  className='text-white font-bold text-lg text-center'>DeFi</p>
           </div>
           <div className='flex flex-col justify-center items-center gap-5'>
-              <Image src="https://bawdicsoft.com/wp-content/uploads/2022/08/435247898-1024x1024.webp" alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
+              <Image src={img2} alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
               <p  className='text-white font-bold text-lg text-center'>NFT Marketplace</p>
           </div>
           <div className='flex flex-col justify-center items-center gap-5'>
-              <Image src="https://bawdicsoft.com/wp-content/uploads/2022/08/coins-paper-money-globe-white-statistic-form-background.webp" width={200} height={200} alt='' className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
+              <Image src={img4} width={200} height={200} alt='' className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
               <p  className='text-white font-bold text-lg text-center'>Currency Exchange</p>
           </div>
         

@@ -8,7 +8,7 @@ const ProductDetails = ({ params }: { params: { productId: string } }) => {
         {productOneDetail?.Video && <div className="flex  bg-gray-100">
             {/* video section */}
             <div className="grid grid-cols-1 md:grid-cols-1 content-center lg:grid-cols-2">
-                <div className=" p-5  mx-auto pt-16 px-16  ">
+                <div className=" p-5  mx-auto pt-8 px-8 md:pt-16 md:px-16  ">
                 <video
                     className="w-full h-auto border-gray-500 border rounded-md shadow-xl shadow-gray-700 " autoPlay controls >
                     <source src={productOneDetail.Video} type="video/mp4" />

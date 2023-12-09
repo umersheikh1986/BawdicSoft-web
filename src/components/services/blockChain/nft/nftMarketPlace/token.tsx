@@ -9,15 +9,15 @@ const TokenSection:FC<toeknProps> = () => {
             <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 mx-8 md:mx-32 lg:mx-48">
 
                 <div className="pb-4  border-2 border-gray-200 hover:border-blue-400  p-3   rounded-lg  ">
-                    <a href="#">
+                    <span >
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white">ERC721</h5>
-                    </a>
+                    </span>
                     <p className="mb-3 font-normal text-gray-700  text-white">ERC721 is an effective and highly functional token standard that is exclusively used to run non-fungible token functionalities in a perfect manner. We design and develop your NFT marketplace using our unique and business-specific ERC-721 token.</p>
                 </div>
                 <div className=" pb-4 border-2 border-gray-200 hover:border-blue-400   p-3   rounded-lg  ">
-                    <a href="#">
+                    <span >
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-white">ERC1155</h5>
-                    </a>
+                    </span>
                     <p className="mb-3 font-normal text-gray-700  text-white">Being developed significantly by the Enjin Network, it works well for all clone-based NFT marketplace software. It is used to create both fungible and non-fungible assets in the Ethereum blockchain.</p>
                 </div>
 
