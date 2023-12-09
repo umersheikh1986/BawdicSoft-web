@@ -5,8 +5,8 @@ const OfferSection: FC<offerSectionProps> = () => {
         <div>
             <div className="pt-10 md:pt-16 pb-20 md:pb-32">
 
-                <p className="text-4xl font-bold text-center">What we offer</p>
-                <p className="text-md text-gray-600 font-semibold text-center leading-7 pb-5 pt-5">Our NFT development services encompass a wide range of personal and business categories in terms of token development.</p>
+                <p className="text-2xl  md:text-4xl font-bold text-center">What we offer</p>
+                <p className="text-md text-gray-600 font-semibold text-center leading-7 pb-5 pt-5 px-10">Our NFT development services encompass a wide range of personal and business categories in terms of token development.</p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10  md:px-16 lg:px-44  ">
 
                     <div className=" border-2 hover:border-sky-800    p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
