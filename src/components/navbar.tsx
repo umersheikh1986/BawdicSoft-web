@@ -176,9 +176,9 @@ const Navbar: FC<NavbarProps> = () => {
           {checkClick && (
             <div
               id="mega-menu-dropdown"
-              className="absolute z-10 grid  w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md dark:border-gray-700 md:grid-cols-3 lg:grid-cols-4 dark:bg-gray-700 mt-10 pb-10 left-44 "
+              className="absolute z-10 grid  w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md  md:grid-cols-3 lg:grid-cols-4  mt-10 pb-10 left-1/2 transform -translate-x-1/2  "
             >
-              <div className="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+              <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                 <ul
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -248,7 +248,7 @@ const Navbar: FC<NavbarProps> = () => {
                   </li>
                 </ul>
               </div>
-              <div className="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+              <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                 <ul className="space-y-4">
                   <li>
                     <Link
@@ -517,7 +517,7 @@ const Navbar: FC<NavbarProps> = () => {
            onClick={servicesHandler}
             id="mega-menu-dropdown-button"
             data-dropdown-toggle="mega-menu-dropdown"
-            className="flex items-center -ml-3 justify-between w-full py-2 px-3 font-bold text-gray-900 border-b border-gray-100 md:w-auto   md:border-0  md:p-0   "
+            className="flex items-center -ml-3 justify-between w-full py-2 px-3 font-bold text-gray-900  md:w-auto   md:border-0  md:p-0   "
           >
             Company{" "}
             <svg
@@ -539,9 +539,9 @@ const Navbar: FC<NavbarProps> = () => {
           {checkClick && (
             <div
             id="mega-menu-dropdown"
-            className=" grid -ml-4 w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg  dark:border-gray-700 md:grid-cols-3  dark:bg-gray-700 mt-10   "
+            className=" grid -ml-4 w-auto grid-cols-2 text-sm bg-white  rounded-lg   md:grid-cols-3    "
           >
-            <div className="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+            <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
               <ul
                 className="space-y-4"
                 aria-labelledby="mega-menu-dropdown-button"
@@ -618,7 +618,7 @@ const Navbar: FC<NavbarProps> = () => {
                 </li>
               </ul>
             </div>
-            <div className="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+            <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
               <ul className="space-y-4">
                 <li>
                   <Link
