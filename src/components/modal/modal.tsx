@@ -3,7 +3,7 @@ import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 
 
-export default function Modal({ result }: { result: string }) {
+export default function Modal({ result1,result2 }: { result1: string, result2:string }) {
     const [open, setOpen] = useState(true)
 
     const cancelButtonRef = useRef(null)
@@ -44,7 +44,7 @@ export default function Modal({ result }: { result: string }) {
                                             </Dialog.Title>
                                             <div className="mt-2">
                                                 <p className="text-sm text-green-600">
-                                                   {result}
+                                                   {result1 ? result1 : result2}
                                                 </p>
                                             </div>
                                         </div>

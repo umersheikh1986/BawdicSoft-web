@@ -33,13 +33,13 @@ const FormSection: FC<formSectionProps> = () => {
             <div className="flex justify-center items-center">
                 {/*  */}
                 {responseData &&
-                <Modal result = {responseData}/>
+                <Modal result1 = {responseData} result2={badResponse}/>
             }
 
 
                 {/*Bad reponse  */}
                 {badResponse &&
-                <Modal result = {badResponse}/>
+                <Modal result2 = {badResponse} result1={responseData}/>
             }
 
                 <div className=" grid grid-cols-1 md:gap-32 md:grid-cols-2 pt-20 pb-20  px-10 ">
@@ -56,7 +56,7 @@ const FormSection: FC<formSectionProps> = () => {
                                 <input type="number" ref={phoneRef} name="phoneNumber" id="floating_email" className="block hover:border-blue-500 py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none    focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Phone" required />
                             </div>
 
-                            <textarea id="message" ref={messageRef} name="message" rows={4} className="block  hover:border-blue-500  border-2 peer p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500    " placeholder="Enter Your Message..."></textarea>
+                            <textarea id="message" ref={messageRef} name="message" rows={4} className="block  hover:border-blue-500  border-2 peer p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500    " placeholder="Enter Your Message..."></textarea>
 
                             {/* <input ref={filRef} className="block text-sm text-gray-900 border:none  rounded-lg cursor-pointer " aria-describedby="user_avatar_help" id="user_avatar" type="file" /> */}
                             <input
