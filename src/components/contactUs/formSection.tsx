@@ -10,9 +10,7 @@ const FormSection: FC<formSectionProps> = () => {
     const [responseData, setResponseData] = useState("");
     const [badResponse, setbadResponse] = useState("");
 
-    const modalHandler = () => {
-        // setResponseData("");
-    }
+  
     const nameRef = useRef<HTMLInputElement>(null)
     const emailRef = useRef<HTMLInputElement>(null)
     const phoneRef = useRef<HTMLInputElement>(null)
