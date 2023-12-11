@@ -42,7 +42,7 @@ const FormSection: FC<formSectionProps> = () => {
                 <Modal result2 = {badResponse} result1={responseData}/>
             }
 
-                <div className=" grid grid-cols-1 md:gap-32 md:grid-cols-2 pt-20 pb-20  px-10 ">
+                <div className=" grid grid-cols-1 md:gap-32 md:grid-cols-2 pt-20 pb-20  px-5 ">
                     <div>
                         <p className="text-3xl text-center font-extrabold text-sky-900 leading-7 pb-4">Message Us</p>
                         <form className="" onSubmit={submitHandler}>

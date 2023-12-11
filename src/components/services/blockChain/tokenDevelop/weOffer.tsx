@@ -2,12 +2,12 @@ import { FC } from "react"
 interface WeOfferSectionProps { }
 const WeOfferSection: FC<WeOfferSectionProps> = () => {
     return (
-        <div>
-            <div className="pt-10  md:px-24 md:pt-16 pb-20 md:pb-20 bg-sky-950">
+        <div className="flex justify-center bg-sky-950">
+            <div className="pt-10  md:pt-16 pb-20 md:pb-20  max-w-7xl">
 
-                <p className="text-4xl font-bold text-center text-white">What we offer</p>
-                <p className="text-md text-gray-200  text-center leading-7 pb-5 pt-5">Our team of expert crypto token developers specialise in developing custom logic-based crypto tokens for any Blockchain as per your needs. We integrate standardized token scripts into your custom requirements and test them to perform flawlessly in the open market.</p>
-                <div className="grid grid-cols-1 md:grid-cols-3  md:px-16 gap-10">
+                <p className="text-3xl md:text-4xl font-bold text-center text-white">What we offer</p>
+                <p className="text-md text-gray-200  text-center leading-7 px-5 pb-5 pt-5">Our team of expert crypto token developers specialise in developing custom logic-based crypto tokens for any Blockchain as per your needs. We integrate standardized token scripts into your custom requirements and test them to perform flawlessly in the open market.</p>
+                <div className="grid grid-cols-1 md:grid-cols-3 px-5  lg:px-14 gap-10">
 
                     <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow ">
                         <span >

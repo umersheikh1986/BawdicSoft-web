@@ -4,7 +4,9 @@ import lockImg from "../../../public/images/Blockchainweb3.jpg"
 import Image from "next/image";
 interface expserTisePropse {}
 const Expertise:FC<expserTisePropse> = () => {
-    return(<div className="bg-sky-950 pt-20 pb-16 px-5 md:px-10 lg:px-48">
+    return(
+      <div className="bg-sky-950 flex justify-center">
+        <div className="max-w-7xl  pt-20 pb-16 px-5 md:px-10 lg:px-12">
         <p className="mb-4 text-3xl text-center font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Our Expertise</p>
     {/*  */}
   <div className="grid grid-cols-1 md:grid-cols-2 pt-10  md:gap-20 ">
@@ -33,7 +35,7 @@ We are an NFT development company dealing in NFTs, NFT marketplace, Defi, Smart 
 </div>
   </div>
 
- 
+  </div>
     </div>)
 }
 export default Expertise;

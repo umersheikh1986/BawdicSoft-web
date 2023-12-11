@@ -9,7 +9,9 @@ type heroImg = {
 }
 const data: heroImg[] = [{img:mission}, {img:vision}]
 const OurVisionMission:FC<OurVisionMissionProps> = () => {
-    return(<div className="bg-white pt-20 md:px-24 lg:px-40 px-10 pb-16">
+    return(
+    <div className="flex justify-center">
+      <div className="bg-white pt-20 md:px-20 px-5 pb-16 max-w-7xl">
     {/*  */}
   <div className="grid grid-clos-1 md:grid-cols-2  gap-16 pt-10 ">
 <div className="flex flex-col  ">
@@ -33,6 +35,7 @@ const OurVisionMission:FC<OurVisionMissionProps> = () => {
 </div>
   </div>
 
+    </div>
     </div>)
 }
 export default OurVisionMission;

@@ -15,11 +15,11 @@ const LanguageModelSection: FC<LanguageModelSectionProps> = () => {
 
        <div className='grid grid-cols-1 gap-5  md:grid-cols-2    py-16'>
         <div>
-            <Image src={imageData.image.src} alt='' width={430} height={400} className=' w-full h-96 md:w-[500px] md:h-96  '/>
+            <Image src={imageData.image.src} alt='' width={430} height={400} className=' w-full h-60 md:w-[500px] md:h-96  '/>
         </div>
-        <div className='max-w-lg lg:max-w-lg  pt-10 px-5  md:pt-5 '>
-    <p className='mb-4 text-3xl text-white  font-semibold tracking-tight leading-7 md:text-3xl lg:text-4xl '>Language Model (LLM) Skills</p>
-    <p className='text-md text-gray-800 text-white leading-6'>Communicate clearly and intelligently through our Language Model (LLM) services. Leverage natural language processing, sentiment analysis, and more to redefine how you connect with your audience.</p>
+        <div className='max-w-lg self-center lg:max-w-lg  pt-10 px-5   '>
+    <p className='mb-4 text-2xl text-white  font-semibold tracking-tight leading-7 md:text-3xl lg:text-4xl '>Language Model (LLM) Skills</p>
+    <p className='text-md  text-white leading-6'>Communicate clearly and intelligently through our Language Model (LLM) services. Leverage natural language processing, sentiment analysis, and more to redefine how you connect with your audience.</p>
         </div>
        </div>
         </div>

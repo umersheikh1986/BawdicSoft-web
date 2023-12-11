@@ -42,11 +42,15 @@ export default function Modal({ result1,result2 }: { result1: string, result2:st
                                             <Dialog.Title as="h3" className="text-base font-semibold leading-6 ">
                                               Hello User!
                                             </Dialog.Title>
-                                            <div className="mt-2">
+                                            {result1 ?<div className="mt-2">
                                                 <p className="text-sm text-green-600">
-                                                   {result1 ? result1 : result2}
+                                                   {result1}
                                                 </p>
-                                            </div>
+                                            </div>:<div className="mt-2">
+                                                <p className="text-sm text-red-600">
+                                                   {result2}
+                                                </p>
+                                            </div>}
                                         </div>
                                     </div>
                                 </div>

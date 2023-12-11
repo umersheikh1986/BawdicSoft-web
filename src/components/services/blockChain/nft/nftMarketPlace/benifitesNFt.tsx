@@ -2,13 +2,13 @@ import { FC } from "react"
 interface BenifiteNftSectionProps { }
 const BenifiteNftSection: FC<BenifiteNftSectionProps> = () => {
     return (
-        <div>
-            <div className="pt-10 md:pt-16 pb-20 md:pb-32 bg-sky-950">
+        <div className="bg-sky-950 flex justify-center">
+            <div className="max-w-7xl pt-10 md:pt-16 pb-20 md:pb-32 ">
 
                 <div className='flex justify-center'>
                     <p className=' md:text-3xl lg:text-4xl  text-2xl  text-white max-w-5xl font-bold text-center pt-5 pb-5 px-16'>Benefits of having your own NFT marketplace business</p>
                 </div>
-                <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 mx-8 md:mx-32 lg:mx-48">
+                <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 mx-8 md:mx-16">
 
                     <div className="pb-4  border-2 border-gray-200 hover:border-sky-950  p-3   rounded-lg  ">
                         <span >

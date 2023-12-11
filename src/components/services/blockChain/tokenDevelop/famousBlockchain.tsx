@@ -31,9 +31,9 @@ const dataList : imageList[] = [
 ]
 
 const FamousBlockChainSection:FC<FamousBlockChainSectionProps> = () => {
-    return (<div>
-        <div className=" pb-16 py-10 md:px-16 mx-8 md:mx-24  mb-14  mt-12 ">
-    <p className=" font-bold text-3xl md:text-4xl text-center pb-10">We work with all famous Blockchains</p>
+    return (<div className="flex justify-center">
+        <div className=" pb-16 py-10 md:px-16 mx-8   mb-14  mt-12 max-w-7xl ">
+    <p className=" font-bold text-2xl md:text-4xl text-center pb-10">We work with all famous Blockchains</p>
 <div className="grid gird-cols-1 md:grid-cols-3 gap-16 md:gap-8 ">
 {dataList.map(p => {
     return <div key={Math.random()} className="flex flex-col justify-center items-center gap-3">

@@ -1,12 +1,12 @@
 import { FC } from "react";
 interface toeknProps {}
 const TokenSection:FC<toeknProps> = () => {
-    return ( <div>
-        <div className="pt-10 md:pt-16 pb-20 md:pb-32 bg-sky-950">
+    return ( <div className="flex justify-center bg-sky-950 ">
+        <div className="pt-10 md:pt-16 pb-20 md:pb-32 max-w-7xl">
             <div className='flex justify-center'>
                 <p className=' md:text-3xl lg:text-4xl  text-2xl  text-white max-w-5xl font-bold text-center pt-5 pb-5 px-16'>We use ERC721 and ERC1155 token standards</p>
             </div>
-            <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 mx-8 md:mx-32 lg:mx-48">
+            <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 mx-5 md:mx-32 ">
 
                 <div className="pb-4  border-2 border-gray-200 hover:border-blue-400  p-3   rounded-lg  ">
                     <span >

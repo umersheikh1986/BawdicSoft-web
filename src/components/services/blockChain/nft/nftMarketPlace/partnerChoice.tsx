@@ -11,9 +11,9 @@ const imageData: imageList = { image: needImage }
 const PartnerChoiceSection: FC<partnerChoiceSectionProps> = () => {
     console.log(imageData);
     return (
-        <div className=''>
+        <div className='flex justify-center'>
 
-       <div className='grid grid-cols-1 md:grid-cols-2  md:px-16 lg:px-32 gap-0 md:gap-10  py-8'>
+       <div className='grid max-w-7xl grid-cols-1 md:grid-cols-2  md:px-16  gap-0 md:gap-10  py-8'>
         <div>
             <Image src={imageData.image.src} alt='' width={430} height={470} className='w-full  h-84 '/>
         </div>
