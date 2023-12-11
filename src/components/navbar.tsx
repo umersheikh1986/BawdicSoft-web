@@ -115,7 +115,7 @@ const Navbar: FC<NavbarProps> = () => {
       >
         <div className="flex lg:flex-1 gap-3 items-center ">
           <div className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Your Services</span>
             <Image
               className=" w-auto hidden md:block"
               src={logo}
@@ -144,7 +144,7 @@ const Navbar: FC<NavbarProps> = () => {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Link
             href="/"
-            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]"
+            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]  focus:text-black focus:border-none"
           >
             Home
           </Link>
@@ -154,9 +154,9 @@ const Navbar: FC<NavbarProps> = () => {
             onClick={servicesHandler}
             id="mega-menu-dropdown-button"
             data-dropdown-toggle="mega-menu-dropdown"
-            className="flex items-center justify-between w-full py-2 px-3 text-gray-900 border-b border-gray-100 md:w-auto text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]  md:border-0  md:p-0      "
+            className="flex items-center justify-between w-full py-2 px-3 text-gray-900 border-b border-gray-100 md:w-auto text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]  md:border-0  md:p-0  focus:text-black focus:border-none    "
           >
-            Company{" "}
+            Services{" "}
             <svg
               className="w-2.5 h-2.5 ms-3"
               aria-hidden="true"
@@ -186,7 +186,7 @@ const Navbar: FC<NavbarProps> = () => {
                   <li>
                     <Link
                       href="/defi"
-                      className="text-gray-500  underline hover:text-blue-600 
+                      className="text-gray-500  underline hover:text-blue-600  
                       "
                       onClick={servicesHandler}
                     >
@@ -366,25 +366,25 @@ const Navbar: FC<NavbarProps> = () => {
           {/*  */}
           <Link
             href="/portfolio"
-            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]"
+            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px] focus:text-black focus:border-none"
           >
             Portfolio
           </Link>
           <Link
             href="/about-us"
-            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]"
+            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px] focus:text-black focus:border-none"
           >
             About Us
           </Link>
           <Link
             href="/careers"
-            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]"
+            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px] focus:text-black focus:border-none"
           >
             Careers
           </Link>
           <Link
             href="/contact-us"
-            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]"
+            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px] focus:text-black focus:border-none"
           >
             Contact Us
           </Link>
@@ -400,7 +400,7 @@ const Navbar: FC<NavbarProps> = () => {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Your Services</span>
               <Image className="h-8 w-auto" src={logo} alt="" />
             </Link>
             <button
@@ -528,7 +528,7 @@ const Navbar: FC<NavbarProps> = () => {
             data-dropdown-toggle="mega-menu-dropdown"
             className="flex items-center -ml-3 justify-between w-full py-2 px-3 font-bold text-gray-900  md:w-auto   md:border-0  md:p-0   "
           >
-            Company{" "}
+            Services{" "}
             <svg
               className="w-2.5 h-2.5 ms-3 "
               aria-hidden="true"
