@@ -188,6 +188,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/defi"
                       className="text-gray-500  underline hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       Blockchain
                     </Link>
@@ -197,6 +198,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/nft-development"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       NFT
                     </Link>
@@ -206,6 +208,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/defi"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       DeFI
                     </Link>
@@ -215,6 +218,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/cryptocurrency-exchange"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       Cryptocurrency Exchange
                     </Link>
@@ -224,6 +228,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/nft-development"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       NFT Development
                     </Link>
@@ -233,6 +238,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/nft-marketplace-development"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       NFT Marketplace Development
                     </Link>
@@ -242,6 +248,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/token-development"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       Token Development
                     </Link>
@@ -255,6 +262,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/web-application"
                       className="text-gray-500  underline  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       Web Application
                     </Link>
@@ -295,6 +303,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/e-commerce-solution"
                       className="text-gray-500  underline hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       e-commerce
                     </Link>
@@ -326,7 +335,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/artificial-intelligence"
                       className="text-gray-500  underline  hover:text-blue-600 
                       "
-                      
+                      onClick={servicesHandler} 
                     >
                       Artificial Intelligence
                     </Link>
