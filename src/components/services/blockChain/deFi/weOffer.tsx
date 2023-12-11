@@ -12,11 +12,14 @@ const imageData2 : imageList = { image: vailate }
 
 const WeOfferSection:FC<WeOfferSectionProps> = () => {
     return ( <div>
-        <div className="pt-10 md:pt-16 pb-20 md:pb-32 ">
+        <div className="flex justify-center">
+
+       
+        <div className="pt-10 md:pt-16 pb-20 md:pb-32 max-w-7xl ">
             <div className='flex justify-center'>
                 <p className=' md:text-3xl lg:text-4xl  text-3xl   max-w-5xl font-extrabold text-center pt-5 pb-7 px-16'>What we offer</p>
             </div>
-            <div className=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4 mx-8 md:mx-32 lg:mx-48">
+            <div className=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4 mx-5 md:mx-16 ">
 
                 <div className="pb-4  border-2 border-gray-200 hover:border-sky-900  p-3   rounded-lg  ">
                     <Image src={imageData1.image.src} alt="" width={300} height={300} className=" w-48 h-40 md:w-16 md:h-16 "/>
@@ -87,11 +90,14 @@ const WeOfferSection:FC<WeOfferSectionProps> = () => {
 
             </div>
         </div>
+        </div>
          {/* Talk */}
-         <div className="bg-sky-900 text-center  rounded-[20px]   md:mx-40  py-8 px-8 md:16 lg:px-32 flex flex-col justify-center items-center">
-                <p className="text-white font-bold text-2xl  md:text-3xl lg:text-4xl">Talk to one of our experts and get a quote on your project.</p>
-                <a  className="text-gray-700 max-w-sm font-semibold mt-4 text-md px-5 hover:bg-sky-400 hover:text-white py-3 bg-gray-100">Talk To Us</a>
-            </div>
+         <div className="flex justify-center">
+<div className="bg-sky-900 mx-5 max-w-7xl text-center  rounded-[20px]    py-8 px-4 md:px-16 flex flex-col justify-center  items-center">
+    <p className="text-white font-bold text-2xl  md:text-3xl lg:text-4xl">Talk to one of our experts and get a quote on your project.</p>
+    <a  className="text-gray-700  font-semibold mt-4 text-md px-5 hover:bg-sky-400 hover:text-white py-3 bg-gray-100">Talk To Us</a>
+</div>
+</div>
     </div>)
 }
 export default WeOfferSection;

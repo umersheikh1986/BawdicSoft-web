@@ -15,7 +15,7 @@ const ChooseSection: FC<ChooseSectionProps> = () => {
 
        <div className=' grid grid-cols-1 gap-5  md:grid-cols-2    py-16'>
         <div>
-            <Image src={imageData.image.src} alt='' width={430} height={400} className=' w-full h-96 md:w-[500px] md:h-96  '/>
+            <Image src={imageData.image.src} alt='' width={430} height={400} className=' w-full h-60 md:w-[500px] md:h-96  '/>
         </div>
         <div className='max-w-lg lg:max-w-lg  pt-10 px-5  md:pt-5 '>
     <p className='mb-4 text-3xl font-semibold tracking-tight leading-7 md:text-3xl lg:text-4xl '>Why choose us</p>

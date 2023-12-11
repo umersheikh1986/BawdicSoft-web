@@ -112,7 +112,7 @@ export const POST = async (req: Request, res: Response) => {
                     console.error(err);
                     reject(err);
                 } else {
-                    console.log(info);
+                    // console.log(info);
                     resolve(info);
                 }
             });
@@ -121,12 +121,12 @@ export const POST = async (req: Request, res: Response) => {
 
 
         return NextResponse.json(
-            { message: "Employee addded successfully" },
+            { message: "Message send Sucessfully" },
             { status: 201 }
         );
     } catch (error) {
         return NextResponse.json(
-            { message: "Failed create Employee" },
+            { message: "Message send to Faild" },
             { status: 500 }
         );
     }

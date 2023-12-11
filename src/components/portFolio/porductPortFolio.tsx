@@ -14,7 +14,9 @@ interface productSevicesProps { }
 
 const ProductServices: FC<productSevicesProps> = () => {
     return (
-        <div className='bg-white py-20 px-16 sm:px-32 lg:px-20'>
+        <div className='bg-white flex justify-center'>
+     
+        <div className=' py-20 px-10 max-w-7xl'>
             <p className=' font-extrabold  text-2xl md:text-5xl text-center'>Product Portfolio</p>
 
 
@@ -56,6 +58,7 @@ const ProductServices: FC<productSevicesProps> = () => {
 
                 </div>
             </div>
+        </div>
         </div>
     );
 }

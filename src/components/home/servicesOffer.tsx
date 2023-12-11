@@ -2,7 +2,8 @@ import {FC} from "react"
 interface servicesOfferProps {}
 const SevicesOffer : FC<servicesOfferProps> = () => {
     return (<div>
-     <div className="bg-white grid grid-cols-1 md:grid-cols-2 gap-8 px-8 md:gap-16  pb-10   md:px:16 lg:px-48 pt-20 ">
+        <div className="flex justify-center"> 
+     <div className="bg-white grid grid-cols-1 max-w-7xl md:grid-cols-2 gap-8 px-8 md:gap-16  pb-10   md:px:12 lg:px-12 pt-20 ">
      <p className="text-2xl md:text-3xl font-bold  ">WHAT WE OFFER
 QUALITY AS A SERVICE, INNOVATION AS OUR CORE</p>
 <div className="flex flex-col flex-wrap gap-5 md:gap-8 ">
@@ -10,10 +11,13 @@ QUALITY AS A SERVICE, INNOVATION AS OUR CORE</p>
     <p className=" text-md leading-7 font-semibold text-gray-600" > Being a lean startup, we believe in optimization and automation of platforms. Our development process has a different approach to verify user satisfaction while developing web application and blockchain application for you.</p>
 </div>
      </div>
+     </div>
 
+     
      {/* Cards */}
      <div className="bg-white pb-10 mt-12 ">
-     <div className="grid grid-cols-1 md:grid-cols-3  md:px:16 lg:px-48 gap-10">
+        <div className="flex justify-center">
+     <div className="grid grid-cols-1 max-w-7xl md:grid-cols-3  md:px-10  gap-10">
 
 <div className=" relative   p-6 bg-gray-200   rounded-lg shadow  ">
 <span className="absolute rounded-full -top-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2  w-14 h-14 text-white bg-sky-900  flex justify-center items-center  text-[30px]">1</span>
@@ -62,11 +66,11 @@ QUALITY AS A SERVICE, INNOVATION AS OUR CORE</p>
 
 
 </div>
+ </div>
+<div className="flex justify-center">
+<div className="flex max-w-7xl justify-center items-center">
 
-
-<div className="flex justify-center items-center">
-
-     <div className="grid grid-col-1 mt-16  md:px:16 lg:px-48">
+     <div className="grid grid-col-1 mt-16  md:px-10 ">
         <div className="relative ">
 <span className="absolute rounded-full -top-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2  w-14 h-14 text-white bg-sky-900  flex justify-center items-center  text-[30px]">7</span>
 
@@ -77,7 +81,7 @@ QUALITY AS A SERVICE, INNOVATION AS OUR CORE</p>
 .</p>
 </div>
         </div>
-
+     </div>
      </div>
      </div>
 </div>

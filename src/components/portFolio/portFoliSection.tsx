@@ -43,26 +43,27 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
         }
     }
     return (
-        <div className='bg-sky-900 pt-24'>
+      <div className='bg-sky-900 flex justify-center'>
+        <div className='bg-sky-900 pt-24 max-w-7xl'>
             <p className='text-center'> <a className='text-3xl hover:bg-sky-600 font-bold py-3 md:py-5 px-10 md:px-40 border-4 border-white rounded-[35px] bg-sky-700 text-white'>Portfolio </a></p>
-            <div className=' py-20 grid grid-cols-1 gap-5  md:grid-cols-3 lg:grid-cols-4 md:px-12  lg:px-72'>
-                <button className='text-lg border-blue-400 md:text-xl font-bold text-gray-800 cursor-pointer rounded-[35px] border-4 hover:border-blue-600 active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none  py-3 min-w-min text-white' onClick={() => filterHandler("all")}>All</button>
-                <button className='text-lg border-blue-400 md:text-xl font-bold text-gray-800 cursor-pointer rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none' onClick={() => filterHandler("wordpress")}>Wordpress</button>
-                <button className='text-lg border-blue-400 md:text-xl font-bold text-gray-800 cursor-pointer rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none' onClick={() => filterHandler("ai")}>AI</button>
-                <button className='text-lg border-blue-400 md:text-xl font-bold text-gray-800 cursor-pointer rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none' onClick={() => filterHandler("threeDWeb")}>3D Model Website</button>
+            <div className=' py-20 grid grid-cols-1 gap-5  md:grid-cols-3 lg:grid-cols-4 md:px-12  '>
+                <button className='text-lg border-blue-400 md:text-xl font-bold  cursor-pointer rounded-[35px] border-4 hover:border-blue-600 active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none  py-3 min-w-min text-white' onClick={() => filterHandler("all")}>All</button>
+                <button className='text-lg border-blue-400 md:text-xl font-bold  cursor-pointer rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none' onClick={() => filterHandler("wordpress")}>Wordpress</button>
+                <button className='text-lg border-blue-400 md:text-xl font-bold  cursor-pointer rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none' onClick={() => filterHandler("ai")}>AI</button>
+                <button className='text-lg border-blue-400 md:text-xl font-bold  cursor-pointer rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none' onClick={() => filterHandler("threeDWeb")}>3D Model Website</button>
             </div>
 
 
             {num && <div className='flex justify-center items-center'>
-                <div className='pb-20 grid grid-cols-1 gap-5  md:grid-cols-3    md:px-72'>
-                <button className='text-md border-blue-400 md:text-md font-bold text-gray-800 cursor-pointer  rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600 px-2 focus:border-none' onClick={() => filterHandler("wordpress-ecommerce")}>E-commerce</button>
-                <button className='text-md border-blue-400 md:text-md font-bold text-gray-800 cursor-pointer  rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600 px-2 focus:border-none' onClick={() => filterHandler("wordpress-blog")}>Blog</button>
-                <button className='text-md border-blue-400 md:text-md font-bold text-gray-800 cursor-pointer  rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600 px-2 focus:border-none' onClick={() => filterHandler("wordpress-others")}>Others</button>
+                <div className='pb-20 grid grid-cols-1 gap-5  md:grid-cols-3   '>
+                <button className='text-md border-blue-400 md:text-md font-bold  cursor-pointer  rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600 px-2 focus:border-none' onClick={() => filterHandler("wordpress-ecommerce")}>E-commerce</button>
+                <button className='text-md border-blue-400 md:text-md font-bold  cursor-pointer  rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600 px-2 focus:border-none' onClick={() => filterHandler("wordpress-blog")}>Blog</button>
+                <button className='text-md border-blue-400 md:text-md font-bold  cursor-pointer  rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600 px-2 focus:border-none' onClick={() => filterHandler("wordpress-others")}>Others</button>
             </div>
             </div> }
             {/* All Data Render */}
             <div>
-                <div className=' gap-8 grid grid-cols-1 md:grid-cols-3 px-5  md:px-24 lg:px-40 py-10'>
+                <div className=' gap-8 grid grid-cols-1 md:grid-cols-3 px-5  md:px-12 py-10'>
                     {data.map(product =>
                         <Link key={product.id} className=' relative  group' href= {product.category.includes("ai") ? `/productDetailes/${product.id} `: product.href}>
                             <Image src={product.projectImage} alt='' width={400} height={400} className='w-full h-60 w-80 rounded-[20px] hover:opacity-25 duration-500 transition-opacity' />
@@ -83,6 +84,7 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
                 </div>
 
             </div>
+        </div>
         </div>
     );
 }

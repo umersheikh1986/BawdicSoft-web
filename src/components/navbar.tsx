@@ -115,7 +115,7 @@ const Navbar: FC<NavbarProps> = () => {
       >
         <div className="flex lg:flex-1 gap-3 items-center ">
           <div className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Your Services</span>
             <Image
               className=" w-auto hidden md:block"
               src={logo}
@@ -144,7 +144,7 @@ const Navbar: FC<NavbarProps> = () => {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Link
             href="/"
-            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]"
+            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]  focus:text-black focus:border-none"
           >
             Home
           </Link>
@@ -154,9 +154,9 @@ const Navbar: FC<NavbarProps> = () => {
             onClick={servicesHandler}
             id="mega-menu-dropdown-button"
             data-dropdown-toggle="mega-menu-dropdown"
-            className="flex items-center justify-between w-full py-2 px-3 text-gray-900 border-b border-gray-100 md:w-auto text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]  md:border-0  md:p-0      "
+            className="flex items-center justify-between w-full py-2 px-3 text-gray-900 border-b border-gray-100 md:w-auto text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]  md:border-0  md:p-0  focus:text-black focus:border-none    "
           >
-            Company{" "}
+            Services{" "}
             <svg
               className="w-2.5 h-2.5 ms-3"
               aria-hidden="true"
@@ -176,9 +176,9 @@ const Navbar: FC<NavbarProps> = () => {
           {checkClick && (
             <div
               id="mega-menu-dropdown"
-              className="absolute z-10 grid  w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md dark:border-gray-700 md:grid-cols-3 lg:grid-cols-4 dark:bg-gray-700 mt-10 pb-10 left-44 "
+              className="absolute z-10 grid  w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md  md:grid-cols-3 lg:grid-cols-4  mt-10 pb-10 left-1/2 transform -translate-x-1/2  "
             >
-              <div className="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+              <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                 <ul
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -186,8 +186,9 @@ const Navbar: FC<NavbarProps> = () => {
                   <li>
                     <Link
                       href="/defi"
-                      className="text-gray-500  underline hover:text-blue-600 
+                      className="text-gray-500  underline hover:text-blue-600  
                       "
+                      onClick={servicesHandler}
                     >
                       Blockchain
                     </Link>
@@ -197,6 +198,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/nft-development"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       NFT
                     </Link>
@@ -206,6 +208,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/defi"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       DeFI
                     </Link>
@@ -215,6 +218,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/cryptocurrency-exchange"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       Cryptocurrency Exchange
                     </Link>
@@ -224,6 +228,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/nft-development"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       NFT Development
                     </Link>
@@ -233,6 +238,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/nft-marketplace-development"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       NFT Marketplace Development
                     </Link>
@@ -242,19 +248,21 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/token-development"
                       className="text-gray-500  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       Token Development
                     </Link>
                   </li>
                 </ul>
               </div>
-              <div className="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+              <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
                 <ul className="space-y-4">
                   <li>
                     <Link
                       href="/web-application"
                       className="text-gray-500  underline  hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       Web Application
                     </Link>
@@ -295,6 +303,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/e-commerce-solution"
                       className="text-gray-500  underline hover:text-blue-600 
                       "
+                      onClick={servicesHandler}
                     >
                       e-commerce
                     </Link>
@@ -326,7 +335,7 @@ const Navbar: FC<NavbarProps> = () => {
                       href="/artificial-intelligence"
                       className="text-gray-500  underline  hover:text-blue-600 
                       "
-                      
+                      onClick={servicesHandler} 
                     >
                       Artificial Intelligence
                     </Link>
@@ -357,25 +366,25 @@ const Navbar: FC<NavbarProps> = () => {
           {/*  */}
           <Link
             href="/portfolio"
-            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]"
+            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px] focus:text-black focus:border-none"
           >
             Portfolio
           </Link>
           <Link
             href="/about-us"
-            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]"
+            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px] focus:text-black focus:border-none"
           >
             About Us
           </Link>
           <Link
             href="/careers"
-            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]"
+            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px] focus:text-black focus:border-none"
           >
             Careers
           </Link>
           <Link
             href="/contact-us"
-            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px]"
+            className="text-sm font-bold leading-6 text-sky-600 hover:text-black text-[17px] focus:text-black focus:border-none"
           >
             Contact Us
           </Link>
@@ -391,7 +400,7 @@ const Navbar: FC<NavbarProps> = () => {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Your Services</span>
               <Image className="h-8 w-auto" src={logo} alt="" />
             </Link>
             <button
@@ -517,9 +526,9 @@ const Navbar: FC<NavbarProps> = () => {
            onClick={servicesHandler}
             id="mega-menu-dropdown-button"
             data-dropdown-toggle="mega-menu-dropdown"
-            className="flex items-center -ml-3 justify-between w-full py-2 px-3 font-bold text-gray-900 border-b border-gray-100 md:w-auto   md:border-0  md:p-0   "
+            className="flex items-center -ml-3 justify-between w-full py-2 px-3 font-bold text-gray-900  md:w-auto   md:border-0  md:p-0   "
           >
-            Company{" "}
+            Services{" "}
             <svg
               className="w-2.5 h-2.5 ms-3 "
               aria-hidden="true"
@@ -539,9 +548,9 @@ const Navbar: FC<NavbarProps> = () => {
           {checkClick && (
             <div
             id="mega-menu-dropdown"
-            className=" grid -ml-4 w-auto grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg  dark:border-gray-700 md:grid-cols-3  dark:bg-gray-700 mt-10   "
+            className=" grid -ml-4 w-auto grid-cols-2 text-sm bg-white  rounded-lg   md:grid-cols-3    "
           >
-            <div className="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+            <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
               <ul
                 className="space-y-4"
                 aria-labelledby="mega-menu-dropdown-button"
@@ -618,7 +627,7 @@ const Navbar: FC<NavbarProps> = () => {
                 </li>
               </ul>
             </div>
-            <div className="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
+            <div className="p-4 pb-0 text-gray-900 md:pb-4 ">
               <ul className="space-y-4">
                 <li>
                   <Link

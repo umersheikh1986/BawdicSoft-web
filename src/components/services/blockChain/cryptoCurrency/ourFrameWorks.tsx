@@ -22,10 +22,10 @@ const dataList : imageList[] = [
 ]
 
 const OurFrameWork:FC<OurFrameWorkProps> = () => {
-    return (<div>
-        <div className="bg-sky-950 pb-16 py-10 md:px-16 mx-8 md:mx-24 lg:mx-64 mb-14 text-white mt-12 rounded-[25px]">
+    return (<div className="flex justify-center">
+        <div className="bg-sky-950 pb-16 max-w-7xl py-10 px-10 md:px-24 mx-8 md:mx-24 lg:mx-64 mb-14 text-white mt-12 rounded-[25px]">
     <p className="text-white font-bold text-3xl md:text-4xl text-center pb-10">Our Framework</p>
-<div className="grid gird-cols-1 md:grid-cols-5 gap-6 md:gap-4 ">
+<div className="grid gird-cols-1 md:grid-cols-3 lg:grid-cols-5 md:gap-4 lg:gap-6 md:gap-10 ">
 {dataList.map(p => {
     return <div key={Math.random()} className="flex flex-col justify-center items-center gap-3">
         <div>

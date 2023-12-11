@@ -10,8 +10,9 @@ const imageData: imageList = { image: centralizedCrypto }
 
 const CentralizedSection: FC<CentralizedSectionProps> = () => {
     console.log(imageData);
-    return (
-        <div className='pb-10'>
+    return (<div className='flex justify-center'>
+
+        <div className='pb-10 max-w-7xl'>
        <div className=' flex flex-wrap md:flex-nowrap gap-10 md:gap-10 justify-center py-16 items-center'>
         <div>
             <Image src={imageData.image.src} alt='' width={430} height={370} className='w-full md:w-[600px] h-84 '/>
@@ -23,6 +24,7 @@ const CentralizedSection: FC<CentralizedSectionProps> = () => {
        </div>
         </div>
 
+    </div>
     );
 };
 

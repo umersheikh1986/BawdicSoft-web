@@ -31,11 +31,13 @@ const allImageData: imageList[] = [{ title: "Art", image: artImage },
 ]
 interface ourServicesProprs { }
 const OurServicesSection: FC<ourServicesProprs> = () => {
-    return (<div>
+    return (
+    <div className="flex justify-center">
+        <div className="max-w-7xl">
         <p className="font-bold text-2xl md:text-4xl pt-8 md:pt-20 text-center">Our Services</p>
-        <p className="mb-8  md:text-md font-normal text-gray-900 lg:text-lg pt-5 sm:px-16 lg:px-48 text-center">We provide NFT marketplaces for general trading as well as for specific categories such as Collectables, Art, Music, Gaming, Infrastructure or any of your creative ideas that can be converted into NFTs. Having specialised forums attract targeted audiences who could benefit you greatly in terms of earning potential profit from your marketplace.</p>
+        <p className="mb-8  md:text-md font-normal text-gray-900 lg:text-lg pt-5 sm:px-16  text-center">We provide NFT marketplaces for general trading as well as for specific categories such as Collectables, Art, Music, Gaming, Infrastructure or any of your creative ideas that can be converted into NFTs. Having specialised forums attract targeted audiences who could benefit you greatly in terms of earning potential profit from your marketplace.</p>
 
-            <div className="grid  grid-cols-1 md:grid-cols-3 gap-6  max-auto  mx-8 md:mx-24 lg:mx-32 pb-20">
+            <div className="grid  grid-cols-1 md:grid-cols-3 gap-6  max-auto  mx-8 md:mx-24  pb-20">
                 {allImageData.map(img => {
                     return <div key={img.title} className="relative flex items-center justify-end">
                         <Image src={img.image.src} alt="" width={300} height={300} className="md:w-80 md:h-64 w-full h-74 rounded-[20px] " />
@@ -46,10 +48,14 @@ const OurServicesSection: FC<ourServicesProprs> = () => {
         </div>
 
             {/* Talk */}
-            <div className="bg-sky-900 text-center  rounded-[20px]   md:mx-40  py-8 px-8 md:16 lg:px-32 flex flex-col justify-center items-center">
-                <p className="text-white font-bold text-2xl  md:text-3xl lg:text-4xl">Talk to one of our experts and get a quote on your project.</p>
-                <a href="#" className="text-gray-700 max-w-sm font-semibold mt-4 text-md px-5 hover:bg-sky-400 hover:text-white py-3 bg-gray-100">Talk To Us</a>
-            </div>
+            <div className="flex justify-center">
+
+<div className="bg-sky-900 mx-5 max-w-7xl text-center  rounded-[20px]    py-8 px-4 flex flex-col justify-center  items-center">
+    <p className="text-white font-bold text-2xl  md:text-3xl lg:text-4xl">Talk to one of our experts and get a quote on your project.</p>
+    <a  className="text-gray-700  font-semibold mt-4 text-md px-5 hover:bg-sky-400 hover:text-white py-3 bg-gray-100">Talk To Us</a>
+</div>
+</div>
+    </div>
     </div>)
 }
 export default OurServicesSection;

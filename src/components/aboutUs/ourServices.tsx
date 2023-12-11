@@ -13,13 +13,14 @@ interface ourSevicesProps {}
 
 const OurSevices: FC<ourSevicesProps> = () => {
     return (
-      <div className='bg-sky-900 py-20 px-16 sm:px-32 lg:px-40'>
+        <div className='bg-sky-900 flex justify-center'>
+      <div className=' py-20 px-16 sm:px-16  max-w-7xl'>
           <p className='text-white font-extrabold  text-2xl md:text-4xl text-center'>Our Services</p>
       
           
       <div className='bg-sky-900 py-20 '>
       
-      <div className='flex pt-5 justify-center sm:px-16 md:px-32 flex-wrap gap-32'>
+      <div className='flex pt-5 justify-center sm:px-16  flex-wrap gap-32'>
           <div className='flex flex-col justify-center items-center gap-5'>
               <Image src={img6} alt='' width={200} height={200} className='md:w-24 md:h-24 h-32 w-32 rounded-full'/>
               <p  className='text-white font-bold text-lg text-center'>Web Application</p>
@@ -47,6 +48,8 @@ const OurSevices: FC<ourSevicesProps> = () => {
         
       </div>
       </div>
+      </div>
+                  
       </div>
     );
   }
