@@ -26,19 +26,19 @@ const Footer: FC<footerProps> = () => {
                   <h2 className="mb-6 text-lg font-extrabold  uppercase text-sky-600">Company</h2>
                   <ul className="text-gray-100 font-medium">
                       <li className="mb-4">
-                          <a href="/" className="">Home</a>
+                          <a href="/" className="hover:text-blue-400">Home</a>
                       </li>
                       <li className="mb-4">
-                          <a href="/portfolio" className="">Portfolio</a>
+                          <a href="/portfolio" className="hover:text-blue-400">Portfolio</a>
                       </li>
                       <li className="mb-4">
-                          <a href="/about-us" className="">About Us</a>
+                          <a href="/about-us" className="hover:text-blue-400">About Us</a>
                       </li>
                       <li className="mb-4">
-                          <a href="/careers" className="">Careers</a>
+                          <a href="/careers" className="hover:text-blue-400">Careers</a>
                       </li>
                       <li className="mb-4">
-                          <a href="/contact-us" className="">Contact Us</a>
+                          <a href="/contact-us" className="hover:text-blue-400">Contact Us</a>
                       </li>
                   </ul>
               </div>
@@ -46,13 +46,13 @@ const Footer: FC<footerProps> = () => {
                   <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-sky-600">Services</h2>
                   <ul className="text-gray-100  font-medium">
                       <li className="mb-4">
-                          <a href="/web-application" className=" ">Web Application</a>
+                          <a href="/web-application" className=" hover:text-blue-400">Web Application</a>
                       </li>
                       <li className="mb-4">
-                          <a href="/defi" className="">Blockchain</a>
+                          <a href="/defi" className="hover:text-blue-400">Blockchain</a>
                       </li>
                       <li>
-                          <a href="/artificial-intelligence" className="">Artifitial Intiligiance</a>
+                          <a href="/artificial-intelligence" className="hover:text-blue-400">Artifitial Intiligiance</a>
                       </li>
                   </ul>
               </div>
