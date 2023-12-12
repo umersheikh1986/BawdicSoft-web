@@ -35,7 +35,7 @@ const OurServicesSection: FC<ourServicesProprs> = () => {
     <div className="flex justify-center">
         <div className="max-w-7xl">
         <p className="font-bold text-2xl md:text-4xl pt-8 md:pt-20 text-center">Our Services</p>
-        <p className="mb-8  md:text-md font-normal text-gray-900 lg:text-lg pt-5 sm:px-16  text-center">We provide NFT marketplaces for general trading as well as for specific categories such as Collectables, Art, Music, Gaming, Infrastructure or any of your creative ideas that can be converted into NFTs. Having specialised forums attract targeted audiences who could benefit you greatly in terms of earning potential profit from your marketplace.</p>
+        <p className="mb-8  md:text-md font-normal text-gray-900 lg:text-lg px-5 pt-5 sm:px-16  text-center">We provide NFT marketplaces for general trading as well as for specific categories such as Collectables, Art, Music, Gaming, Infrastructure or any of your creative ideas that can be converted into NFTs. Having specialised forums attract targeted audiences who could benefit you greatly in terms of earning potential profit from your marketplace.</p>
 
             <div className="grid  grid-cols-1 md:grid-cols-3 gap-6  max-auto  mx-8 md:mx-24  pb-20">
                 {allImageData.map(img => {

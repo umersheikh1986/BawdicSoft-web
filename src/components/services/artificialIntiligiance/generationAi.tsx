@@ -1,6 +1,7 @@
 import React, { FC, ReactNode, MouseEvent } from 'react';
 import needImage from "../../../../public/images/AI/generatinAi.webp"
 import Image, { StaticImageData } from 'next/image';
+import AnimatedComponentRight from '@/components/home/animationRight';
 interface GenerationAISectionProps { }
 
 type imageList = {
@@ -19,9 +20,11 @@ const GenerationAISection: FC<GenerationAISectionProps> = () => {
                         Generation AI Brilliance​</p>
                     <p className='text-md text-gray-800 leading-6'>Inspire creativity and innovation with our productive AI solutions. From art to content creation, our AI algorithms generate new ideas and products that take your business into uncharted territory.</p>
                 </div>
+                <AnimatedComponentRight>
                 <div className="order-1 md:order-none">
                     <Image src={imageData.image.src} alt='' width={430} height={400} className=' w-full h-60 md:w-[500px] md:h-96  ' />
                 </div>
+                </AnimatedComponentRight>
             </div>
         </div>
 

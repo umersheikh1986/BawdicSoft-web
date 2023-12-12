@@ -17,7 +17,7 @@ QUALITY AS A SERVICE, INNOVATION AS OUR CORE</p>
      {/* Cards */}
      <div className="bg-white pb-10 mt-12 ">
         <div className="flex justify-center">
-     <div className="grid grid-cols-1 max-w-7xl md:grid-cols-3  md:px-10  gap-10">
+     <div className="grid grid-cols-1 max-w-7xl md:grid-cols-3 px-5 md:px-10  gap-10">
 
 <div className=" relative   p-6 bg-gray-200   rounded-lg shadow  ">
 <span className="absolute rounded-full -top-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2  w-14 h-14 text-white bg-sky-900  flex justify-center items-center  text-[30px]">1</span>
@@ -71,7 +71,7 @@ QUALITY AS A SERVICE, INNOVATION AS OUR CORE</p>
 <div className="flex max-w-7xl justify-center items-center">
 
      <div className="grid grid-col-1 mt-16  md:px-10 ">
-        <div className="relative ">
+        <div className="relative px-5 ">
 <span className="absolute rounded-full -top-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2  w-14 h-14 text-white bg-sky-900  flex justify-center items-center  text-[30px]">7</span>
 
 <div  className="block   md:h-60 text-center  p-6 bg-gray-200   rounded-lg  ">

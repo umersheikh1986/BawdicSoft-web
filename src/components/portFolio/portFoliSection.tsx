@@ -46,7 +46,7 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
       <div className='bg-sky-900 flex justify-center'>
         <div className='bg-sky-900 pt-24 max-w-7xl'>
             <p className='text-center'> <a className='text-3xl hover:bg-sky-600 font-bold py-3 md:py-5 px-10 md:px-40 border-4 border-white rounded-[35px] bg-sky-700 text-white'>Portfolio </a></p>
-            <div className=' py-20 grid grid-cols-1 gap-5  md:grid-cols-3 lg:grid-cols-4 md:px-12  '>
+            <div className=' py-20 grid grid-cols-1 gap-5  md:grid-cols-3 lg:grid-cols-4 md:px-12 px-5 '>
                 <button className='text-lg border-blue-400 md:text-xl font-bold  cursor-pointer rounded-[35px] border-4 hover:border-blue-600 active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none  py-3 min-w-min text-white' onClick={() => filterHandler("all")}>All</button>
                 <button className='text-lg border-blue-400 md:text-xl font-bold  cursor-pointer rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none' onClick={() => filterHandler("wordpress")}>Wordpress</button>
                 <button className='text-lg border-blue-400 md:text-xl font-bold  cursor-pointer rounded-[35px] border-4 hover:border-blue-600 py-3 min-w-min text-white active:bg-sky-900 focus:outline-none focus:ring focus:ring-blue-600   focus:border-none' onClick={() => filterHandler("ai")}>AI</button>
