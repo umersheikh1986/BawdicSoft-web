@@ -14,7 +14,7 @@ const GenerationAISection: FC<GenerationAISectionProps> = () => {
     return (
         <div className='flex justify-center items-center'>
 
-            <div className=' grid grid-cols-1 gap-5  md:grid-cols-2    py-16'>
+            <div className=' grid grid-cols-1 gap-5 px-5  md:grid-cols-2    py-16'>
                 <div className='max-w-lg lg:max-w-lg  self-center  px-5   order-2 md:order-none '>
                     <p className='mb-4 text-2xl  font-semibold tracking-tight leading-7 md:text-3xl lg:text-4xl '>
                         Generation AI Brilliance​</p>

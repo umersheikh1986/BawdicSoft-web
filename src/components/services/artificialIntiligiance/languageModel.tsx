@@ -14,7 +14,7 @@ const LanguageModelSection: FC<LanguageModelSectionProps> = () => {
     return (
         <div className='flex justify-center items-center bg-sky-950 '>
 
-       <div className='grid grid-cols-1 gap-5  md:grid-cols-2    py-16'>
+       <div className='grid grid-cols-1 gap-5  px-5 md:grid-cols-2    py-16'>
         <AnimatedComponentLeft>
         <div>
             <Image src={imageData.image.src} alt='' width={430} height={400} className=' w-full h-60 md:w-[500px] md:h-96  '/>
