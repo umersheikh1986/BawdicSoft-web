@@ -44,7 +44,7 @@ const FormSection: FC<formSectionProps> = () => {
 
                 <div className=" grid grid-cols-1 md:gap-32 md:grid-cols-2 pt-20 pb-20  px-5 ">
                     <div>
-                        <p className="text-3xl text-center font-extrabold text-sky-900 leading-7 pb-4">Message Us</p>
+                        <p className=" text-2xl md:text-3xl text-center font-extrabold text-sky-900 leading-7 pb-4">Message Us</p>
                         <form className="" onSubmit={submitHandler}>
                             <div className="relative z-0  mb-5 group">
                                 <input type="text" ref={nameRef} name="name" id="floating_email" className="block hover:border-blue-500 py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none    focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Name" required />

@@ -10,7 +10,7 @@ const WhyUsSection: FC<WhyUsSectionProps> = () => {
                 <p className="text-md text-gray-600 max-w-6xl font-semibold text-center px-5  leading-7 pb-5 pt-5">We custom-build your NFT marketplace by analysing your needs with market trends and advising you on the right structuring and techniques to be used.</p>
 
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 md:px-24  gap-4 ">
+                <div className="grid grid-cols-1 md:grid-cols-3 px-5 md:px-24  gap-4 ">
 
                     <div className="border-2 hover:border-sky-800    p-6 bg-white border border-gray-200 rounded-lg shadow ">
                         <span>

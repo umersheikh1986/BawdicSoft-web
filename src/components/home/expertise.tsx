@@ -2,6 +2,9 @@ import {FC} from "react"
 import lapImg from "../../../public/images/WebApplication.jpg"
 import lockImg from "../../../public/images/Blockchainweb3.jpg"
 import Image from "next/image";
+import AnimatedComponent from "./animationLeft";
+import AnimatedComponentLeft from "./animationLeft";
+import AnimatedComponentRight from "./animationRight";
 interface expserTisePropse {}
 const Expertise:FC<expserTisePropse> = () => {
     return(
@@ -17,15 +20,19 @@ const Expertise:FC<expserTisePropse> = () => {
    
    
 </div>
+<AnimatedComponentRight>
 <div>
     <Image src={lapImg} alt="" className="w-full h-60 max-w-3xl md:h-80 "/>
 </div>
+</AnimatedComponentRight>
   </div>
   {/*  */}
   <div className="grid grid-cols-1 md:grid-cols-2 pt-10  md:gap-20">
+    <AnimatedComponentLeft>
 <div>
     <Image src={lockImg} alt="" className="w-full h-60 max-w-3xl md:h-80 order-1"/>
 </div>
+</AnimatedComponentLeft>
 <div className="flex flex-col  content-beteen order-first md:order-none ">
     <p className="mb-4  text-2xl text-start font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-5xl">Blockchain / Web3 Development</p>
     <p className="mb-4 text-start    text-white leading-7 ">BawdicSoft modernizes your business using emerging Blockchain / web3 technology in the digital world. We strengthen businesses and bring agility using custom logic and smart contracts.

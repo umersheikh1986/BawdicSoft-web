@@ -5,10 +5,10 @@ const TokenOfferSection: FC<TokenOfferSectionProps> = () => {
         <div className="flex justify-center bg-sky-950">
             <div className="pt-10  md:px-16 md:pt-16 pb-20 md:pb-20  max-w-7xl">
 
-                <p className=" text-3xl md:text-4xl font-bold text-center text-white">What our tokens offer</p>
-                <div className="grid grid-cols-1 md:grid-cols-2  pt-10 md:px-16 gap-10">
+                <p className=" text-2xl md:text-3xl lg:text-4xl font-bold text-center text-white">What our tokens offer</p>
+                <div className="grid grid-cols-1 md:grid-cols-2  pt-10 px-5 md:px-16 gap-10">
 
-                    <div className=" border-2 hover:border-sky-500   p-6  border border-gray-200 rounded-lg shadow ">
+                    <div className=" border-2 hover:border-sky-500   p-6   border-gray-200 rounded-lg shadow ">
                         <span >
                             <h5 className="mb-2 text-lg md:text-2xl font-bold tracking-tight text-gray-900 text-white  ">Compatibility</h5>
                         </span>

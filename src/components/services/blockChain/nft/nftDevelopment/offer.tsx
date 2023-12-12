@@ -5,7 +5,7 @@ const OfferSection: FC<offerSectionProps> = () => {
         <div>
             <div className=" flex justify-center">
 
-            <div className="max-w-7xl pt-10 md:pt-16 pb-20 md:pb-32">
+            <div className="max-w-7xl pt-10 md:pt-16 px-5 pb-20 md:pb-32">
 
                 <p className="text-2xl  md:text-4xl font-bold text-center">What we offer</p>
                 <p className="text-md text-gray-600 font-semibold text-center leading-7 pb-5 pt-5 px-10">Our NFT development services encompass a wide range of personal and business categories in terms of token development.</p>
