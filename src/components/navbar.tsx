@@ -1710,14 +1710,14 @@ const Navbar: FC<NavbarProps> = () => {
                               <Link
                                 href="/nft-development"
                                 className="leading-4 hover:text-gray-500 text-[12px] font-medium  flex items-start"
-                                onClick={servicesHandler}
+                                onClick={() => setMobileMenuOpen(false)}
                               >
                                 Development,
                               </Link>
                               <Link
                                 href="/nft-marketplace-development"
                                 className="leading-4 hover:text-gray-500 text-[12px] font-medium pl-0 xl:pl-2 flex items-start"
-                                onClick={servicesHandler}
+                                onClick={() => setMobileMenuOpen(false)}
                               >
                                 Marketplace
                               </Link>
@@ -1808,7 +1808,7 @@ const Navbar: FC<NavbarProps> = () => {
                             <Link
                               href="/defi"
                               className="leading-4 font-semibold text-sky-700  hover:text-black flex items-center"
-                              onClick={servicesHandler}
+                              onClick={() => setMobileMenuOpen(false)}
                             >
                               <h3>DeFI</h3>
                             </Link>
@@ -1851,7 +1851,7 @@ const Navbar: FC<NavbarProps> = () => {
                             <Link
                               href="/cryptocurrency-exchange"
                               className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
-                              onClick={servicesHandler}
+                              onClick={() => setMobileMenuOpen(false)}
                             >
                               <h3>Crypto Exchange</h3>
                             </Link>
@@ -1881,7 +1881,7 @@ const Navbar: FC<NavbarProps> = () => {
                             <Link
                               href="/token-development"
                               className="leading-4  font-semibold text-sky-700 hover:text-black "
-                              onClick={servicesHandler}
+                              onClick={() => setMobileMenuOpen(false)}
                             >
                               <h3>Token Development</h3>
                             </Link>
