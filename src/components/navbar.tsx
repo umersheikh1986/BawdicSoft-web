@@ -1644,9 +1644,9 @@ const Navbar: FC<NavbarProps> = () => {
             <div
             ref={dropdownRef}
             id="mega-menu-dropdown"
-            className="  grid  gap-2  grid-cols-2 text-sm bg-white   rounded-lg   md:grid-cols-3 lg:grid-cols-4  mt-10 pb-4  "
+            className=" grid  gap-2  grid-cols-1 text-sm bg-white   rounded-lg   md:grid-cols-3 lg:grid-cols-4  mt-5 md:mt-10 pb-4  "
             >
-            <div className="absolute h-4 w-4 bg-white border-t border-l  border-gray-200 transform rotate-45 top-0 left-1/2 -mt-2  xl:ml-28"></div>
+            {/* <div className="absolute h-4 w-4 bg-white border-t border-l  border-gray-200 transform rotate-45 top-0 left-1/2 -mt-2  xl:ml-28"></div> */}
   
 
               {/* Blockchain Section */}
@@ -1655,12 +1655,12 @@ const Navbar: FC<NavbarProps> = () => {
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
                 >
-                  <div className="flex-wrap flex flex-col gap-2 items-center">
+                  <div className="flex-wrap flex flex-col gap-2 items-start">
                     <div className="relative flex-wrap flex-col flex">
                       <div className=" font-bold leading-6 text-sky-700 py-4">
                         <h3>Blockchain</h3>
                       </div>
-                      <div className="ml-2 relative">
+                      <div className=" relative">
                         <div className="flex items-start font-semibold text-sky-700">
                           <svg
                             className="pt-1"
@@ -1902,7 +1902,7 @@ const Navbar: FC<NavbarProps> = () => {
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
                 >
-                  <div className="flex-wrap flex flex-col gap-2 items-center">
+                  <div className="flex-wrap flex flex-col gap-2 items-start">
                     <div className="relative  flex-wrap flex-col flex">
                       <div className=" font-bold leading-6 text-sky-700 py-4">
                         <h3> Web App</h3>
@@ -2251,7 +2251,7 @@ const Navbar: FC<NavbarProps> = () => {
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
                 >
-                  <div className="flex-wrap flex flex-col gap-2 items-center">
+                  <div className="flex-wrap flex flex-col gap-2 items-start">
                     <div className="relative  flex-wrap flex-col flex">
                       <div className=" font-bold leading-6 text-sky-700 py-4">
                         <h3>Word Press</h3>
@@ -2540,7 +2540,7 @@ const Navbar: FC<NavbarProps> = () => {
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
                 >
-                  <div className="flex-wrap flex flex-col gap-2 items-center">
+                  <div className="flex-wrap flex flex-col gap-2 items-start">
                     <div className="relative  flex-wrap flex-col flex">
                       <div className=" font-bold leading-6 text-sky-700 py-4">
                         <h3> AI</h3>
