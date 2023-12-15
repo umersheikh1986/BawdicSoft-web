@@ -224,8 +224,8 @@ const Navbar: FC<NavbarProps> = () => {
                             className="pt-1"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 48"
-                            width="30px"
-                            height="30px"
+                            width="29px"
+                            height="29px"
                           >
                             <path
                               fill="#90caf9"
@@ -287,8 +287,8 @@ const Navbar: FC<NavbarProps> = () => {
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 48"
-                            width="27px"
-                            height="27px"
+                            width="26px"
+                            height="26px"
                           >
                             <path
                               fill="#90caf9"
@@ -377,8 +377,8 @@ const Navbar: FC<NavbarProps> = () => {
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
-                            width="28px"
-                            height="28px"
+                            width="26px"
+                            height="26px"
                           >
                             <circle cx="89" cy="89" r="35" fill="#fff" />
                             <circle cx="39" cy="39" r="35" fill="#90caf9" />
@@ -419,8 +419,8 @@ const Navbar: FC<NavbarProps> = () => {
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
-                            width="28px"
-                            height="28px"
+                            width="26px"
+                            height="26px"
                           >
                             <path
                               fill="#fff"
@@ -466,7 +466,7 @@ const Navbar: FC<NavbarProps> = () => {
                         <h3> Web App</h3>
                       </div>
                       <div className="ml-6 relative">
-                      <div className="mb-5 pt-1 flex items-start font-semibold text-sky-700">
+                      <div className=" flex items-start font-semibold text-sky-700">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 48"
@@ -546,7 +546,7 @@ const Navbar: FC<NavbarProps> = () => {
                             </Link>
                           </div>
                         </div>
-                        <div className="flex items-start font-semibold text-sky-700">
+                        <div className="my-6 flex items-start font-semibold text-sky-700">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 48"
@@ -560,17 +560,17 @@ const Navbar: FC<NavbarProps> = () => {
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M6.5,27.8V11.5c0-2.2,1.8-4,4-4h27c2.2,0,4,1.8,4,4v7.2"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M41.5,25.7v10.8c0,2.2-1.8,4-4,4h-27c-2.2,0-4-1.8-4-4v-1.6"
                             />
                             <rect
@@ -580,9 +580,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y="20.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <rect
                               width="10"
@@ -591,9 +591,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y="20.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <line
                               x1="12.5"
@@ -602,9 +602,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="34.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <line
                               x1="7"
@@ -613,8 +613,8 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="13.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <line
                               x1="34.5"
@@ -623,8 +623,8 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="13.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <line
                               x1="27.5"
@@ -633,16 +633,22 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="13.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
-                            <h3>Custom Web App</h3>
+                            <Link
+                              href="/cryptocurrency-exchange"
+                              className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
+                              onClick={servicesHandler}
+                              >
+                              <h3>Custom Web App</h3>
+                            </Link>
                           </div>
                         </div>
 
-                        <div className="my-6 flex items-start font-semibold text-sky-700">
+                        <div className=" flex items-start font-semibold text-sky-700">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 48"
@@ -656,17 +662,17 @@ const Navbar: FC<NavbarProps> = () => {
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M42.5,15.7v14.8c0,1.7-1.3,3-3,3h-31c-1.7,0-3-1.3-3-3v-2.3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M5.5,22.6V9.5c0-1.7,1.3-3,3-3h31c1.7,0,3,1.3,3,3v1.6"
                             />
                             <line
@@ -676,9 +682,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="41.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <line
                               x1="29.5"
@@ -687,9 +693,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="41.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <line
                               x1="18.5"
@@ -698,24 +704,24 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="41.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M11.5,13.5h5c0.6,0,1,0.4,1,1v11c0,0.6-0.4,1-1,1h-5c-0.6,0-1-0.4-1-1v-11C10.5,13.9,10.9,13.5,11.5,13.5z"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M25.8,26.5h-2.3c-0.6,0-1-0.4-1-1v-11c0-0.6,0.4-1,1-1h13c0.6,0,1,0.4,1,1v11c0,0.6-0.4,1-1,1h-6.1"
                             />
                           </svg>
@@ -730,7 +736,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </div>
                         </div>
 
-                        <div className="flex items-start font-semibold text-sky-700">
+                        <div className="my-6 flex items-start font-semibold text-sky-700">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 48"
@@ -744,17 +750,17 @@ const Navbar: FC<NavbarProps> = () => {
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M30.8,35.7c1.2-0.7,2.8-0.8,4.1-0.2l2.7,1.2c1.9-2,3.4-4.5,4.2-7.3l-2.4-1.7c-1.2-0.8-1.8-2.2-1.8-3.6 s0.7-2.8,1.8-3.6l2.4-1.7c-0.8-2.8-2.3-5.2-4.2-7.3l-2.7,1.2c-1.3,0.6-2.8,0.5-4.1-0.2s-2.1-2-2.2-3.4L28.2,6 c-1.4-0.3-2.8-0.5-4.2-0.5S21.1,5.7,19.8,6"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M17.3,12.3c-1.2,0.7-2.8,0.8-4.1,0.2l-2.7-1.2c-1.9,2-3.4,4.5-4.2,7.3l2.4,1.7c1.2,0.8,1.8,2.2,1.8,3.6 s-0.7,2.8-1.8,3.6l-2.4,1.7c0.8,2.8,2.3,5.2,4.2,7.3l2.7-1.2c1.3-0.6,2.8-0.5,4.1,0.2s2.1,2,2.2,3.4l0.3,2.9 c1.4,0.3,2.8,0.5,4.2,0.5s2.9-0.2,4.2-0.5"
                             />
                             <line
@@ -764,23 +770,23 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="30.2"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeWidth="3"
                             />
                             <polyline
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               points="29.3,27.7 32.6,24 29.3,20.3"
                             />
                             <polyline
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               points="18.7,27.7 15.4,24 18.7,20.3"
                             />
                           </svg>
@@ -815,30 +821,30 @@ const Navbar: FC<NavbarProps> = () => {
                         <h3>Word Press</h3>
                       </div>
                       <div className="ml-6 relative">
-                        <div className="flex mb-5  items-start font-semibold text-sky-700">
+                        <div className="flex  items-start font-semibold text-sky-700">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 48"
-                            width="24px"
-                            height="24px"
+                            width="25px"
+                            height="25px"
                           >
                             <circle cx="28" cy="28" r="18" fill="#90caf9" />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M20.468,42.163C11.94,40.515,5.5,33.009,5.5,24c0-6.57,3.425-12.34,8.586-15.622"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M19.577,6.032C20.994,5.684,22.476,5.5,24,5.5c10.217,0,18.5,8.283,18.5,18.5 c0,8.659-5.948,15.928-13.981,17.944"
                             />
                             <path
@@ -867,7 +873,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </div>
                         </div>
 
-                        <div className="flex items-start font-semibold text-sky-700">
+                        <div className="my-6 flex items-start font-semibold text-sky-700">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
@@ -917,7 +923,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </div>
                         </div>
 
-                        <div className="my-6 flex items-start font-semibold text-sky-700">
+                        <div className=" flex items-start font-semibold text-sky-700">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 48"
@@ -935,8 +941,8 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="42.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <line
                               x1="29.5"
@@ -945,8 +951,8 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="42.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <line
                               x1="13.5"
@@ -955,9 +961,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="42.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <line
                               x1="11.5"
@@ -966,16 +972,16 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="24.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M13.052,19.53 C12.693,18.418,12.5,17.232,12.5,16c0-6.351,5.149-11.5,11.5-11.5S35.5,9.649,35.5,16c0,1.398-0.249,2.738-0.706,3.977"
                             />
                             <path
@@ -989,9 +995,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="11"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-miterlimit="10"
-                              stroke-width="2.5"
+                              strokeLinecap="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="2.5"
                             />
                             <line
                               x1="24"
@@ -1000,26 +1006,26 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="21"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-miterlimit="10"
-                              stroke-width="2.5"
+                              strokeLinecap="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="2.5"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M22.915,34.5H8.5c-1.657,0-3-1.343-3-3v-20c0-1.657,1.343-3,3-3h1.819"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M37.702,8.5H39.5c1.657,0,3,1.343,3,3v20c0,1.657-1.343,3-3,3h-10"
                             />
                           </svg>
@@ -1033,7 +1039,7 @@ const Navbar: FC<NavbarProps> = () => {
                             </Link>
                           </div>
                         </div>
-                        <div className=" flex items-start font-semibold text-sky-700">
+                        <div className="my-6 flex items-start font-semibold text-sky-700">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
@@ -1087,9 +1093,6 @@ const Navbar: FC<NavbarProps> = () => {
                     </div>
                   </div>
                 </div>
-                              {/* Rounded Noke */}
-                              {/* <div className="absolute z-0 -top-6 w-8 h-8 border-r-8 border-red-600 left-1/2 transform -translate-x-1/2"></div> */}
-              
               </div>
 
               {/* AI Section */}
@@ -1186,8 +1189,8 @@ const Navbar: FC<NavbarProps> = () => {
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 128 128"
-                            width="28px"
-                            height="28px"
+                            width="26px"
+                            height="26px"
                           >
                             <path
                               fill="#fff"
@@ -1231,8 +1234,8 @@ const Navbar: FC<NavbarProps> = () => {
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 48"
-                            width="25px"
-                            height="25px"
+                            width="24px"
+                            height="24px"
                           >
                             <path
                               fill="#90caf9"
@@ -1241,46 +1244,46 @@ const Navbar: FC<NavbarProps> = () => {
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M40.5,14.5v-3c0-2.209-1.791-4-4-4h-3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M14.5,7.5h-3c-2.209,0-4,1.791-4,4v3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M33.5,40.5h3c2.209,0,4-1.791,4-4v-3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M7.5,33.5v3c0,2.209,1.791,4,4,4h3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M24,16.3c6.1,0,9.7,4.2,11.1,6.1c0.4,0.5,0.4,1.3,0.1,1.8c-1.2,2.2-4.9,7.5-11.1,7.5s-9.9-5.1-11.1-7.2c-0.3-0.6-0.3-1.3,0.1-1.8 c0.7-1,2-2.8,4-4.2"
                             />
                             <circle cx="24" cy="24" r="3.9" fill="#18193f" />
@@ -1644,13 +1647,13 @@ const Navbar: FC<NavbarProps> = () => {
             <div
             ref={dropdownRef}
             id="mega-menu-dropdown"
-            className=" grid  gap-2  grid-cols-1 text-sm bg-white   rounded-lg   md:grid-cols-3 lg:grid-cols-4  mt-5 md:mt-10 pb-4  "
+            className=" grid    grid-cols-1 text-sm bg-white   rounded-lg     mt-5 md:mt-10 pb-4  "
             >
             {/* <div className="absolute h-4 w-4 bg-white border-t border-l  border-gray-200 transform rotate-45 top-0 left-1/2 -mt-2  xl:ml-28"></div> */}
   
 
               {/* Blockchain Section */}
-              <div className="pt-4   text-gray-900 md:pb-4 ">
+              <div className="   text-gray-900 md:pb-4 ">
                 <div
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -1710,14 +1713,14 @@ const Navbar: FC<NavbarProps> = () => {
                               <Link
                                 href="/nft-development"
                                 className="leading-4 hover:text-gray-500 text-[12px] font-medium  flex items-start"
-                                onClick={servicesHandler}
+                                onClick={() => setMobileMenuOpen(false)}
                               >
                                 Development,
                               </Link>
                               <Link
                                 href="/nft-marketplace-development"
                                 className="leading-4 hover:text-gray-500 text-[12px] font-medium pl-0 xl:pl-2 flex items-start"
-                                onClick={servicesHandler}
+                                onClick={() => setMobileMenuOpen(false)}
                               >
                                 Marketplace
                               </Link>
@@ -1808,7 +1811,7 @@ const Navbar: FC<NavbarProps> = () => {
                             <Link
                               href="/defi"
                               className="leading-4 font-semibold text-sky-700  hover:text-black flex items-center"
-                              onClick={servicesHandler}
+                              onClick={() => setMobileMenuOpen(false)}
                             >
                               <h3>DeFI</h3>
                             </Link>
@@ -1851,7 +1854,7 @@ const Navbar: FC<NavbarProps> = () => {
                             <Link
                               href="/cryptocurrency-exchange"
                               className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
-                              onClick={servicesHandler}
+                              onClick={() => setMobileMenuOpen(false)}
                             >
                               <h3>Crypto Exchange</h3>
                             </Link>
@@ -1881,14 +1884,14 @@ const Navbar: FC<NavbarProps> = () => {
                             <Link
                               href="/token-development"
                               className="leading-4  font-semibold text-sky-700 hover:text-black "
-                              onClick={servicesHandler}
+                              onClick={() => setMobileMenuOpen(false)}
                             >
                               <h3>Token Development</h3>
                             </Link>
                           </div>
                         </div>
                         {/* divider */}
-                        <div className="absolute right-0 top-0 lg:left-48 xl:left-60  hidden h-[200px] min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-800 to-transparent  opacity-40  lg:block"></div>
+                        <hr className="my-10 h-px  border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 " />
                       </div>
                     </div>
                   </div>
@@ -1897,7 +1900,7 @@ const Navbar: FC<NavbarProps> = () => {
               </div>
 
               {/* Web App Section */}
-              <div className="pt-4  text-gray-900 md:pb-4 ">
+              <div className="  text-gray-900 md:pb-4 ">
                 <div
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -2002,17 +2005,17 @@ const Navbar: FC<NavbarProps> = () => {
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M6.5,27.8V11.5c0-2.2,1.8-4,4-4h27c2.2,0,4,1.8,4,4v7.2"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M41.5,25.7v10.8c0,2.2-1.8,4-4,4h-27c-2.2,0-4-1.8-4-4v-1.6"
                             />
                             <rect
@@ -2022,9 +2025,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y="20.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <rect
                               width="10"
@@ -2033,9 +2036,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y="20.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <line
                               x1="12.5"
@@ -2044,9 +2047,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="34.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <line
                               x1="7"
@@ -2055,8 +2058,8 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="13.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <line
                               x1="34.5"
@@ -2065,8 +2068,8 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="13.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <line
                               x1="27.5"
@@ -2075,8 +2078,8 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="13.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
@@ -2098,17 +2101,17 @@ const Navbar: FC<NavbarProps> = () => {
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M42.5,15.7v14.8c0,1.7-1.3,3-3,3h-31c-1.7,0-3-1.3-3-3v-2.3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M5.5,22.6V9.5c0-1.7,1.3-3,3-3h31c1.7,0,3,1.3,3,3v1.6"
                             />
                             <line
@@ -2118,9 +2121,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="41.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <line
                               x1="29.5"
@@ -2129,9 +2132,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="41.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <line
                               x1="18.5"
@@ -2140,24 +2143,24 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="41.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M11.5,13.5h5c0.6,0,1,0.4,1,1v11c0,0.6-0.4,1-1,1h-5c-0.6,0-1-0.4-1-1v-11C10.5,13.9,10.9,13.5,11.5,13.5z"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M25.8,26.5h-2.3c-0.6,0-1-0.4-1-1v-11c0-0.6,0.4-1,1-1h13c0.6,0,1,0.4,1,1v11c0,0.6-0.4,1-1,1h-6.1"
                             />
                           </svg>
@@ -2186,17 +2189,17 @@ const Navbar: FC<NavbarProps> = () => {
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M30.8,35.7c1.2-0.7,2.8-0.8,4.1-0.2l2.7,1.2c1.9-2,3.4-4.5,4.2-7.3l-2.4-1.7c-1.2-0.8-1.8-2.2-1.8-3.6 s0.7-2.8,1.8-3.6l2.4-1.7c-0.8-2.8-2.3-5.2-4.2-7.3l-2.7,1.2c-1.3,0.6-2.8,0.5-4.1-0.2s-2.1-2-2.2-3.4L28.2,6 c-1.4-0.3-2.8-0.5-4.2-0.5S21.1,5.7,19.8,6"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               d="M17.3,12.3c-1.2,0.7-2.8,0.8-4.1,0.2l-2.7-1.2c-1.9,2-3.4,4.5-4.2,7.3l2.4,1.7c1.2,0.8,1.8,2.2,1.8,3.6 s-0.7,2.8-1.8,3.6l-2.4,1.7c0.8,2.8,2.3,5.2,4.2,7.3l2.7-1.2c1.3-0.6,2.8-0.5,4.1,0.2s2.1,2,2.2,3.4l0.3,2.9 c1.4,0.3,2.8,0.5,4.2,0.5s2.9-0.2,4.2-0.5"
                             />
                             <line
@@ -2206,23 +2209,23 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="30.2"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeWidth="3"
                             />
                             <polyline
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               points="29.3,27.7 32.6,24 29.3,20.3"
                             />
                             <polyline
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="3"
                               points="18.7,27.7 15.4,24 18.7,20.3"
                             />
                           </svg>
@@ -2238,7 +2241,7 @@ const Navbar: FC<NavbarProps> = () => {
                         </div>
                        
                         {/* divider */}
-                        <div className="absolute right-0 top-0 hidden lg:left-48 xl:left-56 h-[200px]  min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-800 to-transparent  opacity-40  lg:block"></div>
+                        <hr className="my-10 h-px  border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 " />
                       </div>
                     </div>
                   </div>
@@ -2246,7 +2249,7 @@ const Navbar: FC<NavbarProps> = () => {
               </div>
 
               {/* WordPress Section */}
-              <div className="pt-4   text-gray-900 md:pb-4 ">
+              <div className="   text-gray-900 md:pb-4 ">
                 <div
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -2268,19 +2271,19 @@ const Navbar: FC<NavbarProps> = () => {
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M20.468,42.163C11.94,40.515,5.5,33.009,5.5,24c0-6.57,3.425-12.34,8.586-15.622"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M19.577,6.032C20.994,5.684,22.476,5.5,24,5.5c10.217,0,18.5,8.283,18.5,18.5 c0,8.659-5.948,15.928-13.981,17.944"
                             />
                             <path
@@ -2377,8 +2380,8 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="42.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <line
                               x1="29.5"
@@ -2387,8 +2390,8 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="42.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <line
                               x1="13.5"
@@ -2397,9 +2400,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="42.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <line
                               x1="11.5"
@@ -2408,16 +2411,16 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="24.5"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M13.052,19.53 C12.693,18.418,12.5,17.232,12.5,16c0-6.351,5.149-11.5,11.5-11.5S35.5,9.649,35.5,16c0,1.398-0.249,2.738-0.706,3.977"
                             />
                             <path
@@ -2431,9 +2434,9 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="11"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-miterlimit="10"
-                              stroke-width="2.5"
+                              strokeLinecap="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="2.5"
                             />
                             <line
                               x1="24"
@@ -2442,26 +2445,26 @@ const Navbar: FC<NavbarProps> = () => {
                               y2="21"
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-miterlimit="10"
-                              stroke-width="2.5"
+                              strokeLinecap="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="2.5"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M22.915,34.5H8.5c-1.657,0-3-1.343-3-3v-20c0-1.657,1.343-3,3-3h1.819"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M37.702,8.5H39.5c1.657,0,3,1.343,3,3v20c0,1.657-1.343,3-3,3h-10"
                             />
                           </svg>
@@ -2517,25 +2520,20 @@ const Navbar: FC<NavbarProps> = () => {
                             <Link
                               href="/token-development"
                               className="leading-4  font-semibold text-sky-700 hover:text-black"
-                              onClick={servicesHandler}
-                            >
+                              onClick={servicesHandler}>
                               <h3>Support and Maintenance</h3>
                             </Link>
                           </div>
                         </div>
-                      {/* divider */}
-                  <div className="absolute right-0 top-0 hidden lg:left-48 xl:left-60  h-[200px] min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-800 to-transparent  opacity-40  lg:block"></div>
+                        {/* divider */}
+                        <hr className="my-10 h-px  border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 " />
                       </div>
                     </div>
                   </div>
                 </div>
-                              {/* Rounded Noke */}
-                              {/* <div className="absolute z-0 -top-6 w-8 h-8 border-r-8 border-red-600 left-1/2 transform -translate-x-1/2"></div> */}
-              
               </div>
-
               {/* AI Section */}
-              <div className="pt-4  text-gray-900 md:pb-4 ">
+              <div className="  text-gray-900 md:pb-4 ">
                 <div
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -2683,46 +2681,46 @@ const Navbar: FC<NavbarProps> = () => {
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M40.5,14.5v-3c0-2.209-1.791-4-4-4h-3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M14.5,7.5h-3c-2.209,0-4,1.791-4,4v3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M33.5,40.5h3c2.209,0,4-1.791,4-4v-3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M7.5,33.5v3c0,2.209,1.791,4,4,4h3"
                             />
                             <path
                               fill="none"
                               stroke="#18193f"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-miterlimit="10"
-                              stroke-width="3"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeMiterlimit="10"
+                              strokeWidth="3"
                               d="M24,16.3c6.1,0,9.7,4.2,11.1,6.1c0.4,0.5,0.4,1.3,0.1,1.8c-1.2,2.2-4.9,7.5-11.1,7.5s-9.9-5.1-11.1-7.2c-0.3-0.6-0.3-1.3,0.1-1.8 c0.7-1,2-2.8,4-4.2"
                             />
                             <circle cx="24" cy="24" r="3.9" fill="#18193f" />
