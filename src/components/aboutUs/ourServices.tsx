@@ -139,7 +139,7 @@ const OurSevices: FC<ourSevicesProps> = () => {
   </div>
  </div>
     {/* sign up form */}
-    <div className="absolute -bottom-8 shadow-lg flex bg-white max-w-7xl  rounded-lg  py-10 flex-col px-8 justify-center gap-2 items-center">
+    <div className="absolute -bottom-16 shadow-lg flex bg-white max-w-7xl  rounded-lg  py-10 flex-col px-5 md:px-32 justify-center gap-2 items-center">
    <h4 className="text-4xl font-semibold">Sing Up for Our Newsletter.</h4>
    <p className="text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quas!</p>
    <form>
