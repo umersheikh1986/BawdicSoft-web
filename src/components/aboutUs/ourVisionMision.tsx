@@ -18,7 +18,7 @@ const OurVisionMission: FC<OurVisionMissionProps> = () => {
         {/*  */}
         <div className="grid grid-clos-1 md:grid-cols-2  gap-16 pt-10 ">
           <div className="flex flex-col  ">
-            <p className="mb-4  text-2xl text-start font-extrabold tracking-tight leading-none  md:text-3xl lg:text-5xl">
+            <p className="mb-4  text-2xl text-start font-extrabold tracking-tight leading-none  md:text-3xl lg:text-4xl">
               Our Vision
             </p>
             <p className="mb-4 text-start text-lg  text-semibold leading-7  tracking-tight   ">
@@ -56,7 +56,7 @@ const OurVisionMission: FC<OurVisionMissionProps> = () => {
             </div>
           </AnimatedComponentRight>
           <div className="flex flex-col   order-first md:order-none ">
-            <p className="mb-4  text-2xl text-start font-extrabold tracking-tight leading-none  md:text-3xl lg:text-5xl">
+            <p className="mb-4  text-2xl text-start font-extrabold tracking-tight leading-none  md:text-3xl lg:text-4xl">
               Our Mission
             </p>
             <p className="mb-4 text-start  text-lg  text-semibold  leading-7 ">

@@ -134,7 +134,7 @@ const FormSection: FC<formSectionProps> = () => {
           </div>
         </div>
       </div> */}
-      <div className="bg-gray-200 flex  flex-col items-center px-4 md:px-8">
+      <div className="bg-gray-200 flex  flex-col items-center px-2 md:px-8">
       <h4 className="  text-2xl md:text-3xl lg:text-4xl font-bold text-center pt-16">Message Us</h4>
       <div className="">
       <div className="grid  grid-cols-1 md:grid-cols-2 justify-items-start md:justify-items-end md:px-8 max-w-7xl">
@@ -147,42 +147,43 @@ const FormSection: FC<formSectionProps> = () => {
         <div className="flex gap-2 md:gap-4">
   <div className ="relative w-full  h-10 md:h-12">
     <input
-      className=" w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50   placeholder-shown:border-blue-gray-200   border-2  border-t-transparent text-sm px-3 py-2.5 rounded-[7px]  border-sky-700"
+      className=" w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50   placeholder-shown:border-blue-gray-200   border  border-t-transparent text-sm px-3 py-2.5 rounded-[7px]  border-sky-700"
       placeholder=" " /><label
-      className="flex w-full h-full  pointer-events-none absolute left-0 font-normal  transition-all -top-1.5  text-sm    before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1  before:rounded-tl-md before:border-t-2  before:border-l-2 before:pointer-events-none before:transition-all before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 after:border-transparent after:rounded-tr-md  after:border-t-2   after:border-r-2 after:pointer-events-none    text-sky-700 before:border-sky-700  after:border-sky-700">
+      className="flex w-full h-full  pointer-events-none absolute left-0 font-normal  transition-all -top-1.5  text-sm    before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1  before:rounded-tl-md before:border-t  before:border-l before:pointer-events-none before:transition-all  after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1  after:rounded-tr-md  after:border-t   after:border-r after:pointer-events-none     text-sky-700 before:border-sky-700  after:border-sky-700">
       First Name
     </label>
   </div>
+
   <div className ="relative w-full  h-10 md:h-12">
     <input
-      className=" w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50   placeholder-shown:border-blue-gray-200   border-2  border-t-transparent text-sm px-3 py-2.5 rounded-[7px]  border-sky-700"
+      className=" w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50   placeholder-shown:border-blue-gray-200   border  border-t-transparent text-sm px-3 py-2.5 rounded-[7px]  border-sky-700"
       placeholder=" " /><label
-      className="flex w-full h-full  pointer-events-none absolute left-0 font-normal  transition-all -top-1.5  text-sm    before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1  before:rounded-tl-md before:border-t-2  before:border-l-2 before:pointer-events-none before:transition-all before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 after:border-transparent after:rounded-tr-md  after:border-t-2   after:border-r-2 after:pointer-events-none    text-sky-700 before:border-sky-700  after:border-sky-700">
+      className="flex w-full h-full  pointer-events-none absolute left-0 font-normal  transition-all -top-1.5  text-sm    before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1  before:rounded-tl-md before:border-t  before:border-l before:pointer-events-none before:transition-all  after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1  after:rounded-tr-md  after:border-t   after:border-r after:pointer-events-none    text-sky-700 before:border-sky-700  after:border-sky-700">
       Last Name
     </label>
   </div>
         </div>
   <div className ="relative w-full  h-10 md:h-12">
     <input
-      className=" w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50   placeholder-shown:border-blue-gray-200   border-2  border-t-transparent text-sm px-3 py-2.5 rounded-[7px]  border-sky-700"
+      className=" w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50   placeholder-shown:border-blue-gray-200   border  border-t-transparent text-sm px-3 py-2.5 rounded-[7px]  border-sky-700"
       placeholder=" " /><label
-      className="flex w-full h-full  pointer-events-none absolute left-0 font-normal  transition-all -top-1.5  text-sm    before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1  before:rounded-tl-md before:border-t-2  before:border-l-2 before:pointer-events-none before:transition-all before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 after:border-transparent after:rounded-tr-md  after:border-t-2   after:border-r-2 after:pointer-events-none    text-sky-700 before:border-sky-700  after:border-sky-700">
+      className="flex w-full h-full  pointer-events-none absolute left-0 font-normal  transition-all -top-1.5  text-sm    before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1  before:rounded-tl-md before:border-t  before:border-l before:pointer-events-none before:transition-all  after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1  after:rounded-tr-md  after:border-t   after:border-r after:pointer-events-none    text-sky-700 before:border-sky-700  after:border-sky-700">
       Email
     </label>
   </div>
   <div className ="relative w-full  h-10 md:h-12">
     <input
-      className=" w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50   placeholder-shown:border-blue-gray-200   border-2  border-t-transparent text-sm px-3 py-2.5 rounded-[7px]  border-sky-700"
+      className=" w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50   placeholder-shown:border-blue-gray-200   border  border-t-transparent text-sm px-3 py-2.5 rounded-[7px]  border-sky-700"
       placeholder=" " /><label
-      className="flex w-full h-full  pointer-events-none absolute left-0 font-normal  transition-all -top-1.5  text-sm    before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1  before:rounded-tl-md before:border-t-2  before:border-l-2 before:pointer-events-none before:transition-all before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 after:border-transparent after:rounded-tr-md  after:border-t-2   after:border-r-2 after:pointer-events-none    text-sky-700  before:border-sky-700  after:border-sky-700">
+      className="flex w-full h-full  pointer-events-none absolute left-0 font-normal  transition-all -top-1.5  text-sm    before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1  before:rounded-tl-md before:border-t  before:border-l before:pointer-events-none before:transition-all t after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1  after:rounded-tr-md  after:border-t   after:border-r after:pointer-events-none    text-sky-700  before:border-sky-700  after:border-sky-700">
       Phone Number
     </label>
   </div>
   <div className ="relative w-full ">
     <textarea
-      className=" w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50   placeholder-shown:border-blue-gray-200   border-2  border-t-transparent text-sm px-3 py-2.5 rounded-[7px]  border-sky-700"
+      className=" w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50   placeholder-shown:border-blue-gray-200   border  border-t-transparent text-sm px-3 py-2.5 rounded-[7px]  border-sky-700"
       placeholder=" "></textarea><label
-      className="flex w-full h-full  pointer-events-none absolute left-0 font-normal  transition-all -top-1.5  text-sm    before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1  before:rounded-tl-md before:border-t-2  before:border-l-2 before:pointer-events-none before:transition-all before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 after:border-transparent after:rounded-tr-md  after:border-t-2   after:border-r-2 after:pointer-events-none    text-sky-700  before:border-sky-700  after:border-sky-700">
+      className="flex w-full h-full  pointer-events-none absolute left-0 font-normal  transition-all -top-1.5  text-sm    before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1  before:rounded-tl-md before:border-t  before:border-l before:pointer-events-none before:transition-all t after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1  after:rounded-tr-md  after:border-t  after:border-r after:pointer-events-none    text-sky-700  before:border-sky-700  after:border-sky-700">
       Message Here
     </label>
   </div>
