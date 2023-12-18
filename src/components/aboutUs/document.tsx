@@ -1,33 +1,56 @@
+import Image from "next/image";
+import Link from "next/link";
 import { FC } from "react";
 
 interface documentsProps {}
 const DocumtentsSectins: FC<documentsProps> = () => {
   return (
-    <div className="flex justify-center">
-      <div className="py-16 md:py-24 px-5 md:px-16  flex flex-col gap-5 max-w-7xl">
-        <p className="text-center text-gray-700 text-lg md:text-xl leading-7">
-          We are a group of people with diversified experiences in tech gathered
-          in one place with a will to leave an impact on the industry which is
-          constantly transforming each day. Our motive is to provide services in
-          emerging tech with ease of development process incorporating the
-          mantra of Innovation, speed, automation, and security.
-        </p>
-        <p className="text-center text-gray-700 text-lg md:text-xl leading-7">
-          We started our operations as freelancers, by understanding problems in
-          the freelance world and the software industry we have created a
-          business model where both of these factors are coped with from the
-          client’s perspective and customer satisfaction is prioritized at the
-          highest level. We are keen to implement blockchain applications
-          parallel to the existing business logic of our customers.
-        </p>
-        <p className="text-center text-gray-700 text-lg md:text-xl leading-7">
-          Our business model involved providing cost effective development with
-          the customer's involvement in each step along the way. We keep our
-          customers updated with what has been done in their project and also
-          keep inquiring what more does the customer desire to make prompt
-          changes wherever required.
-        </p>
+    // <div className="flex justify-center">
+    //   <div className="py-16 md:py-24 px-5 md:px-16  flex flex-col gap-5 max-w-7xl">
+    //     <p className="text-center text-gray-700 text-lg md:text-xl leading-7">
+    //       We are a group of people with diversified experiences in tech gathered
+    //       in one place with a will to leave an impact on the industry which is
+    //       constantly transforming each day. Our motive is to provide services in
+    //       emerging tech with ease of development process incorporating the
+    //       mantra of Innovation, speed, automation, and security.
+    //     </p>
+    //     <p className="text-center text-gray-700 text-lg md:text-xl leading-7">
+    //       We started our operations as freelancers, by understanding problems in
+    //       the freelance world and the software industry we have created a
+    //       business model where both of these factors are coped with from the
+    //       client’s perspective and customer satisfaction is prioritized at the
+    //       highest level. We are keen to implement blockchain applications
+    //       parallel to the existing business logic of our customers.
+    //     </p>
+    //     <p className="text-center text-gray-700 text-lg md:text-xl leading-7">
+    //       Our business model involved providing cost effective development with
+    //       the customer's involvement in each step along the way. We keep our
+    //       customers updated with what has been done in their project and also
+    //       keep inquiring what more does the customer desire to make prompt
+    //       changes wherever required.
+    //     </p>
+    //   </div>
+    // </div>
+
+    // 
+    <div className="flex justify-center items-center">
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-0 place-items-center py-16 md:px-5  max-w-7xl">
+      <div className="px-5"> 
+        <Image src={"/images/aboutImages/mission.jpg"}  alt="image" width={400} height={400} className="h-[240px] w-full md:h-[400px] md:w-[600px] rounded-lg"/>
       </div>
+      <div className="flex flex-col gap-3 px-5">
+        <p className="text-sky-950">About Us</p>
+        <h4 className="  text-2xl  md:text-4xl lg:text-5xl font-bold">We Are Professional Software Service & development</h4>
+        <p>Finibus aptent pede aliquet adipiscing lacinia quam. Scelerisque est pede iaculis. Dolor vivamus rhoncus sapien vulputate porttitor class facilisis. Netus magna lobortis morbi. Nisi eu nam tempor letius.</p>
+        <p>Ultrices consequat viverra quis. Vehicula fames risus parturient ultricies. Diam pharetra condimentum dapibus fames senectus laoreet et. Magna viverra vestibulum rutrum arcu letius.</p>
+        <div className="flex gap-3 items-center pt-5">
+          <Link href={""} className="bg-sky-950 text-white text-lg py-2 px-3 text-center md:py-4 md:px-16 hover:text-blue-300 rounded-xl font-semibold">Show More</Link>
+          <Link href={""} className="bg-sky-950 text-white p-3 rounded-full "><Image src="/images/aboutImages/videoicon.svg" alt="" width={30} height={30} className=""/></Link>
+          <p className="text-black">WATCH VIDEO</p>
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
