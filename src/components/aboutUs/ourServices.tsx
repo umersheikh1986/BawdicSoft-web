@@ -117,9 +117,9 @@ const OurSevices: FC<ourSevicesProps> = () => {
   </div>
   <div className="p-5 md:p-8 flex rounded-lg bg-white">
   <div className="bg-sky-950 p-5  flex justify-center items-center w-16 h-16  rounded-full">
-  <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-</svg>
+  <svg className="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.344 12.168-1.4-1.4a1.98 1.98 0 0 0-2.8 0l-.7.7a1.98 1.98 0 0 1-2.8 0l-2.1-2.1a1.98 1.98 0 0 1 0-2.8l.7-.7a1.981 1.981 0 0 0 0-2.8l-1.4-1.4a1.828 1.828 0 0 0-2.8 0C-.638 5.323 1.1 9.542 4.78 13.22c3.68 3.678 7.9 5.418 11.564 1.752a1.828 1.828 0 0 0 0-2.804Z"/>
+  </svg>
     </div>
     <div className="pl-2">
     <h2 className="text-green font-bold text-2xl  md:text-3xl ">Call Us</h2>
@@ -144,7 +144,7 @@ const OurSevices: FC<ourSevicesProps> = () => {
    <p className="text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quas!</p>
    <form className="flex justify-center flex-wrap gap-2 items-center  md:gap-0  md:w-[700px] pt-4">
     <input  type="email" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-lg p-2 py-4 md:basis-1/2" placeholder="Enter Your Email"/>
-    <button type="submit" className="bg-sky-950 px-16 py-4 md:basis-1/4 text-white font-semibold ml-5 rounded-lg">subscribe</button>
+    <button type="submit" className="bg-sky-950 px-16 hover:bg-sky-700 py-4 md:basis-1/4 text-white font-semibold ml-5 rounded-lg">subscribe</button>
    </form>
     </div>
     </section>

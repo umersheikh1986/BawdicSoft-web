@@ -45,7 +45,7 @@ const DocumtentsSectins: FC<documentsProps> = () => {
         <p>Finibus aptent pede aliquet adipiscing lacinia quam. Scelerisque est pede iaculis. Dolor vivamus rhoncus sapien vulputate porttitor class facilisis. Netus magna lobortis morbi. Nisi eu nam tempor letius.</p>
         <p>Ultrices consequat viverra quis. Vehicula fames risus parturient ultricies. Diam pharetra condimentum dapibus fames senectus laoreet et. Magna viverra vestibulum rutrum arcu letius.</p>
         <div className="flex gap-3 items-center pt-5">
-          <Link href={""} className="bg-sky-950 text-white text-lg py-2 px-3 text-center md:py-4 md:px-16 hover:text-blue-300 rounded-xl font-semibold">Show More</Link>
+          <Link href={""} className="bg-sky-950 text-white text-lg py-2 px-3 text-center md:py-4 md:px-16 hover:bg-sky-700 rounded-xl font-semibold">Show More</Link>
           <Link href={""} className="bg-sky-950 text-white p-3 rounded-full "><Image src="/images/aboutImages/videoicon.svg" alt="" width={30} height={30} className=""/></Link>
           <p className="text-black">WATCH VIDEO</p>
         </div>
