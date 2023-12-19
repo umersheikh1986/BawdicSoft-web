@@ -2,7 +2,7 @@ import React, { FC, ReactNode, MouseEvent } from "react";
 import heroSecImg from "../../../public/images/final-head.webp";
 import { StaticImageData } from "next/image";
 
-interface HeroSectionProps {}
+interface HeroSectionProps { }
 type heroImg = {
   img: StaticImageData;
 };
@@ -10,7 +10,7 @@ const data: heroImg = { img: heroSecImg };
 const HeroSection: FC<HeroSectionProps> = () => {
   return (
     <section
-      className="  bg-center bg-cover bg-no-repeat bg-gray-400 bg-blend-multiply"
+      className="bg-center bg-cover bg-no-repeat bg-gray-400 bg-blend-multiply"
       style={{
         backgroundImage: `url(${data.img.src})`,
         height: "calc(100vh - 48px)",

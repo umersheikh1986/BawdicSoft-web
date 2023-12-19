@@ -13,107 +13,107 @@ const OfferSection: FC<offerSectionProps> = () => {
             business categories in terms of token development.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10  md:px-16   ">
-            <div className=" border-2 hover:border-sky-800    p-6 bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" border-2 hover:border-sky-800    p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                   Art
                 </h5>
               </span>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 Digitalise your creativity by preserving your artwork in the
                 form of an NFT token. Keep it, trade it or sell it on an NFT
                 marketplace.
               </p>
             </div>
-            <div className="  border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="  border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                   Collectibles
                 </h5>
               </span>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 Secure yourself from theft by getting a blockchain identity.
                 Having a unique token saves your data on the blockchain making
                 it safe and immutable.
               </p>
             </div>
-            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                   Lending
                 </h5>
               </span>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 Securing loans providing a digital asset as security? It can't
                 get any easier than that.
               </p>
             </div>
-            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                   Gaming
                 </h5>
               </span>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 Hard-earned gaming assets can also be transformed into digital
                 assets. Get an NFT for your character cards, videos and other
                 gaming assets.
               </p>
             </div>
-            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                   Fashion1
                 </h5>
               </span>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 Put a digital value on your fashion stuff by getting a tokenised
                 identity for it. Make it theftless and trade in the digital
                 world..
               </p>
             </div>
-            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                   Real-State
                 </h5>
               </span>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 Put your imagination to the test by designing the interior and
                 exterior of digital property and selling it with the help of
                 NFT.
               </p>
             </div>
-            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                   Infrastructure
                 </h5>
               </span>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 Got infrastructure designing ideas? Get lucrative profits by
                 putting a crypto value to your infrastructure design.
               </p>
             </div>
-            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                   Music & Videos
                 </h5>
               </span>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 Your talent in music or video creation is secured from copyright
                 problems as you can give your creation a digital identity and
                 value by creating an NFT .
               </p>
             </div>
-            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                   Domains
                 </h5>
               </span>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p className="mb-3 font-normal text-gray-700 ">
                 We provide a domain for your domain by creating NFT tokens for
                 your domain. Exchange it or sell it easily on the crypto market.
               </p>

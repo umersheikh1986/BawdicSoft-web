@@ -12,7 +12,7 @@ const HelpSections: FC<HelpSectionsProps> = () => {
   console.log(imageData);
   return (
     <div className="flex justify-center ">
-      <div className="max-w-7xl grid grid-cols-1 md:grid-cols-2 md:px-16 gap-10 py-16 ">
+      <div className="max-w-7xl grid grid-cols-1 md:grid-cols-2 place-items-center md:px-16 gap-10 py-16 ">
         <div className="px-5 md:pt-5 order-1 md:order-0">
           <p className="mb-4 text-3xl font-semibold tracking-tight leading-7 md:text-4xl lg:text-5xl ">
             How we can help

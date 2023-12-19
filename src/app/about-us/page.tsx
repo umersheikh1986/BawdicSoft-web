@@ -12,8 +12,8 @@ interface aboutUsProps {}
    <div>
     <HeroSection />
     <DocumtentsSectins />
-    <OurSevices />
     <OurVisionMission />
+    <OurSevices />
    </div>
     </>
   )
