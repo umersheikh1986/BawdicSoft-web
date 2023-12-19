@@ -1,5 +1,5 @@
 import React, { FC, ReactNode, MouseEvent } from "react";
-import HerSectionimg from "../../../public/images/aboutusImg.webp";
+import HerSectionimg from "../../../public/images/aboutImages/aboutusHerosectionImg.jpg";
 import { StaticImageData } from "next/image";
 interface HeroSectionProps {}
 type heroImg = {

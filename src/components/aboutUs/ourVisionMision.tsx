@@ -70,7 +70,7 @@ const OurVisionMission: FC<OurVisionMissionProps> = () => {
     // </div>
     <section className="flex justify-center py-20   bg-gradient-to-r from-sky-950   via-sky-700 via-30% to-sky-600 to-70%
     bg-blend-multiply" >
-     <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-7xl px-10">
+     <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-7xl px-5 md:px-10">
       <div className="text-center bg-white p-8 rounded-lg">
   <h1 className="text-2xl md:text-3xl font-bold">Vision</h1>
   <p className="text-md text-gray-700"> We desire to generate ideas that would make an impact in the
