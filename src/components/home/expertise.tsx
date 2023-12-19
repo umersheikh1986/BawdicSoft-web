@@ -5,7 +5,7 @@ import Image from "next/image";
 import AnimatedComponent from "./animationLeft";
 import AnimatedComponentLeft from "./animationLeft";
 import AnimatedComponentRight from "./animationRight";
-interface expserTisePropse {}
+interface expserTisePropse { }
 const Expertise: FC<expserTisePropse> = () => {
   return (
     <div className="bg-sky-950 flex justify-center">
@@ -38,7 +38,7 @@ const Expertise: FC<expserTisePropse> = () => {
               <Image
                 src={lapImg}
                 alt=""
-                className="w-full h-60 max-w-3xl md:h-80 "
+                className="w-full h-60 max-w-3xl md:h-80 rounded-3xl"
               />
             </div>
           </AnimatedComponentRight>
@@ -50,7 +50,7 @@ const Expertise: FC<expserTisePropse> = () => {
               <Image
                 src={lockImg}
                 alt=""
-                className="w-full h-60 max-w-3xl md:h-80 order-1"
+                className="w-full h-60 max-w-3xl md:h-80 order-1 rounded-3xl"
               />
             </div>
           </AnimatedComponentLeft>

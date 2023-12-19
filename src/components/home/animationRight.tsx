@@ -5,10 +5,10 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 interface AnimatedComponentProps {
-   children:any
+  children: any
 }
 
-const AnimatedComponentRight: React.FC<AnimatedComponentProps> = ({ children }:{children:any}) => {
+const AnimatedComponentRight: React.FC<AnimatedComponentProps> = ({ children }: { children: any }) => {
   const controls = useAnimation();
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -33,7 +33,7 @@ const AnimatedComponentRight: React.FC<AnimatedComponentProps> = ({ children }:{
         hidden: { opacity: 0, x: [20] },
       }}
       transition={{ duration: 1.5 }}
-      
+
     >
       {children}
     </motion.div>

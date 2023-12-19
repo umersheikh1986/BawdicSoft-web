@@ -37,7 +37,7 @@ const DocumtentsSectins: FC<documentsProps> = () => {
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-0 place-items-center py-16 md:px-5  max-w-7xl">
       <div className="px-5"> 
-        <Image src={"/images/aboutImages/mission.jpg"}  alt="image" width={400} height={400} className="h-[240px] w-full md:h-[400px] md:w-[600px] rounded-lg"/>
+        <Image src={"/images/aboutImages/mission.jpg"}  alt="image" width={400} height={600} className="h-60 w-full md:h-[440px]   rounded-3xl"/>
       </div>
       <div className="flex flex-col gap-3 px-5">
         <p className="text-sky-950">About Us</p>
@@ -45,9 +45,9 @@ const DocumtentsSectins: FC<documentsProps> = () => {
         <p>Finibus aptent pede aliquet adipiscing lacinia quam. Scelerisque est pede iaculis. Dolor vivamus rhoncus sapien vulputate porttitor class facilisis. Netus magna lobortis morbi. Nisi eu nam tempor letius.</p>
         <p>Ultrices consequat viverra quis. Vehicula fames risus parturient ultricies. Diam pharetra condimentum dapibus fames senectus laoreet et. Magna viverra vestibulum rutrum arcu letius.</p>
         <div className="flex gap-3 items-center pt-5">
-          <Link href={""} className="bg-sky-950 text-white text-lg py-2 px-3 text-center md:py-4 md:px-16 hover:bg-sky-700 rounded-xl font-semibold">Show More</Link>
-          <Link href={""} className="bg-sky-950 text-white p-3 rounded-full "><Image src="/images/aboutImages/videoicon.svg" alt="" width={30} height={30} className=""/></Link>
-          <p className="text-black">WATCH VIDEO</p>
+          <Link href={""} className="bg-sky-950 text-white  py-3 px-3 text-sm md:text-lg text-center md:py-4 md:px-16 hover:bg-sky-700 rounded-xl font-semibold">Show More</Link>
+          <Link href={""} className="bg-sky-950 text-white p-2 md:p-3 rounded-full hover:bg-sky-700"><Image src="/images/aboutImages/videoicon.svg" alt="" width={30} height={30} className=""/></Link>
+          <p className="text-black  text-sm md:text-md">WATCH VIDEO</p>
         </div>
       </div>
     </div>

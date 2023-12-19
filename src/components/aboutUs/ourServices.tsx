@@ -99,9 +99,9 @@ const OurSevices: FC<ourSevicesProps> = () => {
     <section className="relative rounded-br-[250px] rounded-b-[250px] rounded-bl-[250px] flex justify-center mb-48 md:mb-32 px-5 md:px-10 pb-72 flex-col items-center mt-16 py-24 md:pt-32  bg-gradient-to-r from-sky-950   via-sky-700 via-30% to-sky-600 to-70%
      bg-blend-multiply " >
  <h4 className=" text-3xl md:text-4xl  lg:text-5xl font-bold text-white text-center">Get in Touch With Us.</h4>
- <p className="text-white text-md py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quisquam, voluptate nam doloribus dignissimos quae.</p>
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:px-10 max-w-7xl gap-5 pt-5 md:pt-10">
-  <div className="p-5 md:p-8 flex rounded-lg bg-white">
+ <p className="text-white text-md py-3 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quisquam, voluptate nam doloribus dignissimos quae.</p>
+ <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:px-12 max-w-7xl gap-5 pt-5 md:pt-10">
+  <div className="p-5 md:p-8 flex rounded-3xl bg-white">
   <div className="bg-sky-950 p-5  flex justify-center items-center w-16 h-16  rounded-full">
   <svg className="w-6 h-6  text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 21">
     <g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
@@ -112,13 +112,13 @@ const OurSevices: FC<ourSevicesProps> = () => {
     </div>
     <div className="pl-2">
     <h2 className="text-green font-bold text-2xl  md:text-3xl ">Head Office</h2>
-    <p className="text-gray-700">Farazan Building karachi, Pakistan</p>
+    <p className="text-gray-700">Farzana Building karachi, Pakistan</p>
     </div>
   </div>
-  <div className="p-5 md:p-8 flex rounded-lg bg-white">
+  <div className="p-5 md:p-8 flex rounded-3xl bg-white">
   <div className="bg-sky-950 p-5  flex justify-center items-center w-16 h-16  rounded-full">
   <svg className="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16.344 12.168-1.4-1.4a1.98 1.98 0 0 0-2.8 0l-.7.7a1.98 1.98 0 0 1-2.8 0l-2.1-2.1a1.98 1.98 0 0 1 0-2.8l.7-.7a1.981 1.981 0 0 0 0-2.8l-1.4-1.4a1.828 1.828 0 0 0-2.8 0C-.638 5.323 1.1 9.542 4.78 13.22c3.68 3.678 7.9 5.418 11.564 1.752a1.828 1.828 0 0 0 0-2.804Z"/>
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m16.344 12.168-1.4-1.4a1.98 1.98 0 0 0-2.8 0l-.7.7a1.98 1.98 0 0 1-2.8 0l-2.1-2.1a1.98 1.98 0 0 1 0-2.8l.7-.7a1.981 1.981 0 0 0 0-2.8l-1.4-1.4a1.828 1.828 0 0 0-2.8 0C-.638 5.323 1.1 9.542 4.78 13.22c3.68 3.678 7.9 5.418 11.564 1.752a1.828 1.828 0 0 0 0-2.804Z"/>
   </svg>
     </div>
     <div className="pl-2">
@@ -126,10 +126,10 @@ const OurSevices: FC<ourSevicesProps> = () => {
     <p className="text-gray-700">+1(203)-902-1401</p>
     </div>
   </div>
-  <div className="p-5 md:p-8 flex rounded-lg bg-white">
+  <div className="p-5 md:p-8 flex rounded-3xl bg-white">
   <div className="bg-sky-950 p-5  flex justify-center items-center w-16 h-16  rounded-full">
   <svg className="w-6 h-6  text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 2-8.4 7.05a1 1 0 0 1-1.2 0L1 2m18 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1m18 0v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2"/>
+    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m19 2-8.4 7.05a1 1 0 0 1-1.2 0L1 2m18 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1m18 0v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2"/>
   </svg>
     </div>
     <div className="pl-2">
@@ -139,12 +139,12 @@ const OurSevices: FC<ourSevicesProps> = () => {
   </div>
  </div>
     {/* sign up form */}
-    <div className="absolute -bottom-32 md:-bottom-24  shadow-2xl flex bg-white max-w-7xl mx-5 rounded-lg py-5 md:py-16 flex-col px-5 md:px-32 justify-center gap-2 items-center">
-   <h4 className="text-2xl  md:text-3xl font-semibold">Sing Up for Our Newsletter.</h4>
-   <p className="text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quas!</p>
+    <div className="absolute -bottom-32 md:-bottom-24  shadow-2xl flex bg-white max-w-7xl mx-5 rounded-3xl py-5 md:py-16 flex-col px-5 md:px-32 justify-center gap-2 items-center">
+   <h4 className="text-2xl  md:text-3xl font-semibold text-center">Sing Up for Our Newsletter.</h4>
+   <p className="text-gray-800 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quas!</p>
    <form className="flex justify-center flex-wrap gap-2 items-center  md:gap-0  md:w-[700px] pt-4">
-    <input  type="email" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-lg p-2 py-4 md:basis-1/2" placeholder="Enter Your Email"/>
-    <button type="submit" className="bg-sky-950 px-16 hover:bg-sky-700 py-4 md:basis-1/4 text-white font-semibold ml-5 rounded-lg">subscribe</button>
+    <input  type="email" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-3xl p-4 py-4 md:basis-1/2" placeholder="Enter Your Email"/>
+    <button type="submit" className="bg-sky-950 px-16 hover:bg-sky-700 py-4 md:basis-1/4 text-white font-semibold ml-5 rounded-3xl">Subscribe</button>
    </form>
     </div>
     </section>

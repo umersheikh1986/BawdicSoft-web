@@ -25,11 +25,15 @@ const HeroSection: FC<HeroSectionProps> = () => {
     //     </p>
     //   </div>
     // </section>
-    <section className="flex justify-center   bg-gradient-to-r from-sky-950   via-sky-700 via-30% to-sky-600 to-70%
+    <section className="flex justify-center flex-col items-center  bg-gradient-to-r from-sky-950 px-8  via-sky-700 via-30% to-sky-600 to-70%
      bg-blend-multiply"  style={{
           height: "calc(100vh - 48px)",
         }}>
- <h4 className=" text-3xl md:text-4xl  lg:text-7xl font-bold text-white  mt-44 md:mt-44">About Us</h4>
+ <h4 className=" text-3xl md:text-4xl  lg:text-7xl font-bold text-white text-center ">About Us</h4>
+ <p className="mb-8 text-lg md:text-xl font-normal text-gray-200 pt-5 max-w-5xl text-center">
+           We have a strong belief in technology's potential, and a greater
+           belief in human potential Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, dicta consequatur. Itaque, veniam optio id saepe molestias possimus a eligendi!
+       </p>
     </section>
   );
 };

@@ -4,6 +4,15 @@ import { FaWhatsapp } from "react-icons/fa6";
 import axiosLib from "./link";
 import Modal from "../modal/modal";
 import Link from "next/link";
+import { MdFacebook } from "react-icons/md";
+import { GrTwitter } from "react-icons/gr";
+import { FaLinkedin } from "react-icons/fa6";
+import HerSectionimg from "../../../public/images/contactus/softwareBgImage.jpg";
+import { StaticImageData } from "next/image";
+type heroImg = {
+  img: StaticImageData;
+};
+const data: heroImg = { img: HerSectionimg };
 interface formSectionProps { }
 
 const FormSection: FC<formSectionProps> = () => {
@@ -20,7 +29,7 @@ const FormSection: FC<formSectionProps> = () => {
 
   const submitHandler = (event: React.FormEvent) => {
     event.preventDefault();
-   
+
     if (
       firstNameRef.current &&
       lastNameRef.current &&
@@ -154,19 +163,19 @@ const FormSection: FC<formSectionProps> = () => {
       </div> */}
 
 
-      {/* New Code */}
-    <div className="bg-gray-200 flex  flex-col items-center px-2 md:px-8">
-    {responseData && <Modal result1={responseData} result2={badResponse} />}
-    
-    {badResponse && <Modal result2={badResponse} result1={responseData} />}
+    {/* New Code */}
+    {/* <div className="bg-gray-200 flex  flex-col items-center px-2 md:px-8">
+      {responseData && <Modal result1={responseData} result2={badResponse} />}
+
+      {badResponse && <Modal result2={badResponse} result1={responseData} />}
       <h4 className="  text-2xl md:text-3xl lg:text-4xl font-bold text-center pt-16">Message Us</h4>
       <div className="">
         <div className="grid  grid-cols-1 md:grid-cols-2 justify-items-start md:justify-items-end md:px-8 max-w-7xl">
-          {/* left container */}
+           left container
           <div className="bg-white flex flex-col items-center  pt-10 pb-16 my-20 rounded-3xl">
             <h3 className="font-bold text-xl md:text-3xl text-gray-600 px-4 md:px-8 text-center">We are Here Whenever Your Need Us</h3>
             <p className=" text-[16px] text-gray-600 text-center px-8 ">Trust Us With Confidence, Knowing that Your Inquiries and Needs are Our Top Priority.</p>
-            <form className="max-w-md px-5 pt-8"  onSubmit={submitHandler}>
+            <form className="max-w-md px-5 pt-8" onSubmit={submitHandler}>
               <div className="flex flex-col gap-8">
                 <div className="flex gap-2 md:gap-4">
                   <div className="relative w-full  h-10 md:h-12">
@@ -211,14 +220,6 @@ const FormSection: FC<formSectionProps> = () => {
                     Message Here
                   </label>
                 </div>
-                {/* <textarea
-                id="message"
-                ref={messageRef}
-                name="message"
-                rows={4}
-                className="block   border-sky-700  border-2  p-2.5 w-full text-sm  bg-gray-50 rounded-lg  "
-                placeholder="Enter Your Message..."
-              ></textarea> */}
                 <input
                   type="file"
                   ref={filRef}
@@ -238,7 +239,7 @@ const FormSection: FC<formSectionProps> = () => {
               </button>
             </form>
           </div>
-          {/* right container */}
+           right container 
           <div className="flex gap-5 md:gap-10 flex-col md:w-[280px] lg:w-[400px] xl:w-[450px]  md:pt-10 pb-16   md:my-16">
             <div className="bg-white flex-col gap-2 p-5 rounded-3xl  w-full  shadow-md">
               <h3 className="font-bold text-[20px]  text-gray-700 ">Working Hours</h3>
@@ -256,7 +257,7 @@ const FormSection: FC<formSectionProps> = () => {
                 </g>
               </svg>
 
-                <p className="text-[16px] text-gray-600 font-normal">Perzana Building karachi,Pakistan</p>  </div>
+                <p className="text-[16px] text-gray-600 font-normal">Farzana Building karachi,Pakistan</p>  </div>
             </div>
             <div className="bg-sky-950 flex-col gap-2 p-5 rounded-3xl  w-full shadow-md">
               <h3 className="font-bold text-[20px] text-white">Email</h3>
@@ -286,7 +287,82 @@ const FormSection: FC<formSectionProps> = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
+
+
+    {/* New code */}
+    <section
+      className="relative bg-center bg-cover bg-no-repeat flex justify-center h-[1200px] md:h-[750px] items-center  bg-gray-400 bg-blend-multiply  md:mb-80"
+      style={{
+        backgroundImage: `url(${data.img.src})`,
+        // height: "calc(100vh - 48px)",
+      }}
+    >
+      {/* <div className="absolute flex justify-center items-center"> */}
+        <div className="absolute md:-bottom-60 p-5 md:p-8 lg:p-20 grid grid-cols-1 md:grid-cols-2 rounded-3xl gap-8 md:gap-0  bg-white shadow-2xl max-w-6xl">
+          {/* Left Container */}
+          <div className="flex flex-col">
+            <p className="text-md text-gray-700">FORM CONTACT</p>
+            <h3 className="text-2xl md:text-3xl font-bold">Let's Talk to Us</h3>
+            <div className="flex flex-row py-2">
+              <span className="bg-sky-600 w-[100px] h-[2px]"></span>
+              <span className="bg-gray-200 w-[300px] h-[2px]"></span>
+            </div>
+
+            <form className="flex flex-col gap-5">
+              <div className="grid gird-cols-1 md:grid-cols-2 gap-2">
+                <div className="flex flex-col">
+                  <label className="pl-4">First Name</label>
+                  <input type="text" placeholder="First Name" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2" />
+                </div>
+                <div className="flex flex-col">
+                  <label className="pl-4">Last Name</label>
+                  <input type="text" placeholder="Last Name" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+                </div>
+              </div>
+              <div className="grid gird-cols-1 md:grid-cols-2 gap-2">
+                <div className="flex flex-col">
+                  <label className="pl-4">Phone Number</label>
+                  <input type="text" placeholder="Phone Number" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+                </div>
+                <div className="flex flex-col">
+                  <label className="pl-4">Email</label>
+                  <input type="email" placeholder="Email" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+                </div>
+              </div>
+              <div className="flex flex-col">
+                <label className="pl-4">Subject</label>
+                <input type="text" placeholder="Subject" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+              </div>
+              <div className="flex flex-col">
+                <label className="pl-4">Message</label>
+                <input type="text" placeholder="Message" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+              </div>
+              <button className="bg-sky-950 px-16 hover:bg-sky-700 py-4 md:basis-1/4 text-white font-semibold  rounded-3xl"> Submit</button>
+            </form>
+          </div>
+          {/* Right Container */}
+          <div className=" px-5 md:px-10 lg:px-16 ">
+            <p className="text-md text-gray-700">SOCIAL MEDIA</p>
+            <h4 className="text-2xl md:text-3xl font-bold">Connect With Us</h4>
+            <div className="flex flex-row py-2">
+              <span className="bg-sky-600 w-[100px] h-[2px]"></span>
+              <span className="bg-gray-200 w-[300px] h-[2px]"></span>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptate ut nulla commodi. Voluptate ipsa excepturi ipsam blanditiis rem? Vitae, modi quod doloremque enim quis fugit molestiae minus nobis esse.
+            </p>
+            <div className="flex  flex-wrap gap-2 pt-10">
+              <Link href="https://wa.me/+923178866631" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><FaWhatsapp className="text-white text-2xl" /></Link>
+              <Link href="https://www.linkedin.com/company/77098544/admin/feed/posts/" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><FaLinkedin className="text-white text-2xl" /></Link>
+              <Link href="https://twitter.com/BawdicSoft" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><GrTwitter className="text-white text-2xl" /></Link>
+              <Link href="https://www.facebook.com/BawdicSoftPvtLtd" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><MdFacebook className="text-white text-2xl" /></Link>
+
+
+            </div>
+          </div>
+        </div>
+      {/* </div> */}
+    </section>
   </div>
   );
 };

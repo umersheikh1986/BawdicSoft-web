@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { FC } from "react";
-interface OfferSectionProps {}
+interface OfferSectionProps { }
 
 const OfferSection: FC<OfferSectionProps> = () => {
   return (
