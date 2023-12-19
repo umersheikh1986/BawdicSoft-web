@@ -23,7 +23,7 @@ const dataList: imageList[] = [
 const OurFrameWork: FC<OurFrameWorkProps> = () => {
   return (
     <div className="flex justify-center">
-      <div className="bg-sky-950 pb-16 max-w-7xl py-10 px-10 md:px-24 mx-8 md:mx-24 lg:mx-64 mb-14 text-white mt-12 rounded-[25px]">
+      <div className="bg-sky-950 pb-16 max-w-7xl py-10 px-10 md:px-20 mx-8 md:mx-24 lg:mx-44 mb-14 text-white mt-12 rounded-[25px]">
         <p className="text-white font-bold text-3xl md:text-4xl text-center pb-10">
           Our Framework
         </p>

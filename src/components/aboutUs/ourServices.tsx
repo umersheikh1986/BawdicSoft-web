@@ -96,14 +96,14 @@ const OurSevices: FC<ourSevicesProps> = () => {
     <div>
 
   
-    <section className="relative rounded-br-[250px] rounded-b-[250px] rounded-bl-[250px] flex justify-center mb-48 md:mb-32 px-5 md:px-10 pb-72 flex-col items-center mt-16 py-24  bg-gradient-to-r from-sky-950   via-sky-700 via-30% to-sky-600 to-70%
+    <section className="relative rounded-br-[250px] rounded-b-[250px] rounded-bl-[250px] flex justify-center mb-48 md:mb-32 px-5 md:px-10 pb-72 flex-col items-center mt-16 py-24 md:pt-32  bg-gradient-to-r from-sky-950   via-sky-700 via-30% to-sky-600 to-70%
      bg-blend-multiply " >
  <h4 className=" text-3xl md:text-4xl  lg:text-5xl font-bold text-white text-center">Get in Touch With Us.</h4>
  <p className="text-white text-md py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quisquam, voluptate nam doloribus dignissimos quae.</p>
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:px-10 max-w-7xl gap-5 pt-5 md:pt-10">
   <div className="p-5 md:p-8 flex rounded-lg bg-white">
-  <div className="bg-sky-950 p-5  flex justify-center items-center w-16 h-16 rounded-full">
-  <svg className="w-6 h-6 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 21">
+  <div className="bg-sky-950 p-5  flex justify-center items-center w-16 h-16  rounded-full">
+  <svg className="w-6 h-6  text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 21">
     <g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
       <path d="M8 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
       <path d="M13.8 12.938h-.01a7 7 0 1 0-11.465.144h-.016l.141.17c.1.128.2.252.3.372L8 20l5.13-6.248c.193-.209.373-.429.54-.66l.13-.154Z"/>
@@ -116,7 +116,7 @@ const OurSevices: FC<ourSevicesProps> = () => {
     </div>
   </div>
   <div className="p-5 md:p-8 flex rounded-lg bg-white">
-  <div className="bg-sky-950 p-5  flex justify-center items-center w-16 h-16 rounded-full">
+  <div className="bg-sky-950 p-5  flex justify-center items-center w-16 h-16  rounded-full">
   <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
 </svg>
@@ -127,8 +127,8 @@ const OurSevices: FC<ourSevicesProps> = () => {
     </div>
   </div>
   <div className="p-5 md:p-8 flex rounded-lg bg-white">
-  <div className="bg-sky-950 p-5  flex justify-center items-center w-16 h-16 rounded-full">
-  <svg className="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+  <div className="bg-sky-950 p-5  flex justify-center items-center w-16 h-16  rounded-full">
+  <svg className="w-6 h-6  text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 2-8.4 7.05a1 1 0 0 1-1.2 0L1 2m18 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1m18 0v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2"/>
   </svg>
     </div>
@@ -142,8 +142,8 @@ const OurSevices: FC<ourSevicesProps> = () => {
     <div className="absolute -bottom-32 md:-bottom-24  shadow-2xl flex bg-white max-w-7xl mx-5 rounded-lg py-5 md:py-16 flex-col px-5 md:px-32 justify-center gap-2 items-center">
    <h4 className="text-2xl  md:text-3xl font-semibold">Sing Up for Our Newsletter.</h4>
    <p className="text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quas!</p>
-   <form className="flex flex-row justify-center flex-wrap gap-2 items-center  md:gap-0  md:w-[700px]">
-    <input  type="email" className="bg-green-200 p-2 py-4 md:basis-1/2" placeholder="Email"/>
+   <form className="flex justify-center flex-wrap gap-2 items-center  md:gap-0  md:w-[700px] pt-4">
+    <input  type="email" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-lg p-2 py-4 md:basis-1/2" placeholder="Enter Your Email"/>
     <button type="submit" className="bg-sky-950 px-16 py-4 md:basis-1/4 text-white font-semibold ml-5 rounded-lg">subscribe</button>
    </form>
     </div>
