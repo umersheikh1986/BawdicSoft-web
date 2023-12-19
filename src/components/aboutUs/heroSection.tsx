@@ -25,7 +25,7 @@ const HeroSection: FC<HeroSectionProps> = () => {
     //     </p>
     //   </div>
     // </section>
-    <section className="flex justify-center   bg-gradient-to-r from-sky-950   via-sky-700 via-30% to-sky-600 to-70%
+    <section className="flex justify-center   bg-gradient-to-r  from-sky-950   via-sky-700 via-30% to-sky-600 to-70%
      bg-blend-multiply"  style={{
           height: "calc(100vh - 48px)",
         }}>
