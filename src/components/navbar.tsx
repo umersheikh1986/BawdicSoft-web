@@ -639,7 +639,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/cryptocurrency-exchange"
+                              href="/web-application"
                               className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
                               onClick={servicesHandler}
                             >
@@ -1124,7 +1124,13 @@ const Navbar: FC<NavbarProps> = () => {
                             />
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
-                            <h3>Custom AI Solution</h3>
+                          <Link
+                                    href="/artificial-intelligence"
+                                    className="leading-4 font-semibold text-sky-700  hover:text-black "
+                                    onClick={servicesHandler}
+                                  >
+                                    <h3>Custom AI Solution</h3>
+                                  </Link>
                             {/* <div className="flex flex-wrap xl:flex-nowrap text-gray-700  ">
                               <Link
                                 href="/nft-development"
@@ -2083,7 +2089,13 @@ const Navbar: FC<NavbarProps> = () => {
                                   />
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
-                                  <h3>Custom Web App</h3>
+                                <Link
+                              href="/web-application"
+                              className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
+                              onClick={() => setMobileMenuOpen(false)}
+                            >
+                              <h3>Custom Web App</h3>
+                            </Link>
                                 </div>
                               </div>
 
@@ -2561,7 +2573,13 @@ const Navbar: FC<NavbarProps> = () => {
                                   />
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
-                                  <h3>Custom AI Solution</h3>
+                                  <Link
+                                    href="/artificial-intelligence"
+                                    className="leading-4 font-semibold text-sky-700  hover:text-black "
+                                    onClick={() => setMobileMenuOpen(false)}
+                                  >
+                                    <h3>Custom AI Solution</h3>
+                                  </Link>
                                   {/* <div className="flex flex-wrap xl:flex-nowrap text-gray-700  ">
                               <Link
                                 href="/nft-development"

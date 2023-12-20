@@ -11,19 +11,19 @@ import Link from "next/link";
 interface footerProps {}
 const Footer: FC<footerProps> = () => {
     return (<div>
-<footer className="bg-black ">
+<footer className=" bg-gradient-to-r from-sky-950   via-sky-800 via-30% to-sky-700 to-70% ">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-evenly md:gap-30">
           <div className="mb-6 md:mb-0">
               <a href="/" className="flex items-center">
                   <Image src={logo} className="h-12 w-12  " alt="BowdicSoft Logo" />
-                  <span className="self-center text-3xl font-semibold  text-sky-600 pl-2">BawdicSoft</span>
+                  <span className="self-center text-3xl font-semibold  text-white pl-2">BawdicSoft</span>
               </a>
               <p className="text-gray-200 leading-5 text-lg sm:w-[220px]  md:w-[300px]  lg:w-[500px] pt-4">BawdicSoft is a web application, blockchain, DeFi, NFT, and NFT Marketplace Development Company delivering quick and innovative web and web3 solutions with improved security and optimized performance.</p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 className="mb-6 text-lg font-extrabold  uppercase text-sky-600">Company</h2>
+                  <h2 className="mb-6 text-lg font-extrabold  uppercase text-white">Company</h2>
                   <ul className="text-gray-100 font-medium">
                       <li className="mb-4">
                           <a href="/" className="hover:text-blue-400">Home</a>
@@ -43,7 +43,7 @@ const Footer: FC<footerProps> = () => {
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-sky-600">Services</h2>
+                  <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-white">Services</h2>
                   <ul className="text-gray-100  font-medium">
                       <li className="mb-4">
                           <a href="/web-application" className=" hover:text-blue-400">Web Application</a>
@@ -57,7 +57,7 @@ const Footer: FC<footerProps> = () => {
                   </ul>
               </div>
               <div className="md:flex-none flex justify-center md:mt-0 sm:-mt-16 md:justify-start md:items-start items-start flex-col">
-                  <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-sky-600">Contact Us</h2>
+                  <h2 className="mb-6 text-lg  font-extrabold  uppercase  text-white">Contact Us</h2>
                   <ul className="text-gray-100  font-medium">
                       <li className="mb-4 flex gap-2">
                       <MdOutlineMailOutline className= "text-white text-2xl"/><span  className="">info@bawdicsoft.com</span>

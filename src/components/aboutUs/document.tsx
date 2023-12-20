@@ -44,9 +44,9 @@ const DocumtentsSectins: FC<documentsProps> = () => {
         <h4 className="  text-2xl  md:text-4xl lg:text-5xl font-bold">We Are Professional Software Service & development</h4>
         <p>Finibus aptent pede aliquet adipiscing lacinia quam. Scelerisque est pede iaculis. Dolor vivamus rhoncus sapien vulputate porttitor class facilisis. Netus magna lobortis morbi. Nisi eu nam tempor letius.</p>
         <p>Ultrices consequat viverra quis. Vehicula fames risus parturient ultricies. Diam pharetra condimentum dapibus fames senectus laoreet et. Magna viverra vestibulum rutrum arcu letius.</p>
-        <div className="flex gap-3 items-center pt-5">
-          <Link href={""} className="bg-sky-950 text-white  py-3 px-3 text-sm md:text-lg text-center md:py-4 md:px-16 hover:bg-sky-700 rounded-xl font-semibold">Show More</Link>
-          <Link href={""} className="bg-sky-950 text-white p-2 md:p-3 rounded-full hover:bg-sky-700"><Image src="/images/aboutImages/videoicon.svg" alt="" width={30} height={30} className=""/></Link>
+        <div className="flex gap-1 md:gap-3 items-center pt-5">
+          <Link href={""} className="bg-sky-950 text-white  py-3 px-2 text-sm md:text-lg text-center md:py-4 md:px-4 lg:px-16 hover:bg-sky-700 rounded-xl font-semibold">Show More</Link>
+          <Link href={""} className="bg-sky-950 text-white p-2 md:p-3 lg:p-4 rounded-full hover:bg-sky-700"><Image src="/images/aboutImages/videoicon.svg" alt="" width={30} height={30} className=""/></Link>
           <p className="text-black  text-sm md:text-md">WATCH VIDEO</p>
         </div>
       </div>
