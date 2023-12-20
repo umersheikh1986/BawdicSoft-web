@@ -7,39 +7,12 @@ const FormSection: FC<formSectionProps> = () => {
   return (
     <div className="pt-10 md:pt-20 pb-20 md:px-0 px-2 ">
       <div>
-        {/* container-1 */}
-        {/* <div className="flex flex-col justify-center items-center">
-          <p className="text-center text-gray-700 pb-5 font-bold text-2xl md:text-3xl  ">CONNECT TO BAWDICSOFT FOR JOB</p>
-          <p className="text-md text-gray-700">Come to our Company Change Your Future and gain your skills for a long time as soon as possible</p>
-          </div> */}
-{/* container-2 */}
-{/* <div className="flex justify-center items-center pt-5 md:pt-16">
-<div className="grid grid-cols-1 md:grid-cols-2 place-items-center  max-w-7xl px-5 md:px-8  lg:px-20   ">
-  <div>
-  <h3 className="text-2xl font-semibold text-gray-700 pb-4">See opportunities matching your future goals & plans</h3>
-  <p className="text-gray-500">Set your results to match the Future Goals & Plans section on your profile. All opportunities will instantly align to your current career interests and location preferences. Simply update your Tallo profile to match your latest goals.</p>
-  </div>
-  <Image src={"/images/careers/phyton.jpg"} alt="" width={400} height={400} className="h-80 md:w-[500px] md:h-[350px] rounded-md"></Image>
-</div>
-
-</div> */}
-{/* container-3 */}
-{/* <div className="flex justify-center items-center pt-5 md:pt-32">
-<div className="grid grid-cols-1 md:grid-cols-2 place-items-center  max-w-7xl px-5 md:px-8  lg:px-20   ">
-  <Image src={"/images/careers/webdeveloper.jpg"} alt="" width={400} height={400} className=" w-[250px] h-[200px] md:w-[500px] md:h-[350px] rounded-md"></Image>
-  <div>
-  <h3 className="text-2xl font-semibold text-gray-700 pb-4">Know which opportunities are a great fit</h3>
-  <p className="text-gray-500">BawdicSoft shares which opportunities are a great fit for you based on best-match search criteria.</p>
-  </div>
-</div>
-
-</div> */}
-
         <p className=" text-2xl  md:text-3xl lg:text-4xl font-extrabold text-center text-sky-900 leading-7 ">
           Personal Information
         </p>
 
-        {/* <form className="max-w-md mx-auto">
+
+         <form className="max-w-md mx-auto">
           <div className="relative z-0 w-full mb-5 group">
             <input
               type="text"
@@ -136,10 +109,46 @@ const FormSection: FC<formSectionProps> = () => {
           >
             Share Your Profile
           </button>
-        </form> */}
-        <div className="bg-white flex flex-col items-center  pb-16 my-5 rounded-3xl">
-      {/* <h3 className="font-bold text-xl md:text-3xl text-gray-600 px-4 md:px-8 text-center">Welcome to BawdicSoft</h3>
-      <p className=" text-[16px] text-gray-600 text-center px-8 ">Trust Us With Confidence, Knowing that Your Inquiries and Needs are Our Top Priority.</p> */}
+        </form> 
+
+
+      {/* container-1 */}
+        {/* <div className="flex flex-col justify-center items-center">
+          <p className="text-center text-gray-700 pb-5 font-bold text-2xl md:text-3xl  ">CONNECT TO BAWDICSOFT FOR JOB</p>
+          <p className="text-md text-gray-700">Come to our Company Change Your Future and gain your skills for a long time as soon as possible</p>
+          </div> */}
+{/* container-2 */}
+{/* <div className="flex justify-center items-center pt-5 md:pt-16">
+<div className="grid grid-cols-1 md:grid-cols-2 place-items-center  max-w-7xl px-5 md:px-8  lg:px-20   ">
+  <div>
+  <h3 className="text-2xl font-semibold text-gray-700 pb-4">See opportunities matching your future goals & plans</h3>
+  <p className="text-gray-500">Set your results to match the Future Goals & Plans section on your profile. All opportunities will instantly align to your current career interests and location preferences. Simply update your Tallo profile to match your latest goals.</p>
+  </div>
+  <Image src={"/images/careers/phyton.jpg"} alt="" width={400} height={400} className="h-80 md:w-[500px] md:h-[350px] rounded-md"></Image>
+</div>
+
+</div> */}
+{/* container-3 */}
+{/* <div className="flex justify-center items-center pt-5 md:pt-32">
+<div className="grid grid-cols-1 md:grid-cols-2 place-items-center  max-w-7xl px-5 md:px-8  lg:px-20   ">
+  <Image src={"/images/careers/webdeveloper.jpg"} alt="" width={400} height={400} className=" w-[250px] h-[200px] md:w-[500px] md:h-[350px] rounded-md"></Image>
+  <div>
+  <h3 className="text-2xl font-semibold text-gray-700 pb-4">Know which opportunities are a great fit</h3>
+  <p className="text-gray-500">BawdicSoft shares which opportunities are a great fit for you based on best-match search criteria.</p>
+  </div>
+</div>
+
+</div> */}
+
+
+
+
+
+        {/* New Form */}
+        {/* <p className=" text-2xl  md:text-3xl lg:text-4xl font-extrabold text-center text-sky-900 leading-7 ">
+          Personal Information
+        </p> */}
+        {/* <div className="bg-white flex flex-col items-center  pb-16 my-5 rounded-3xl">
       <form className="max-w-md px-5 pt-8">
       <div className ="flex flex-col gap-8">
         <div className="flex gap-2 md:gap-4">
@@ -215,7 +224,7 @@ const FormSection: FC<formSectionProps> = () => {
             Share Your Profile
           </button>
         </form>
-     </div>
+     </div> */}
       </div>
     </div>
   );
