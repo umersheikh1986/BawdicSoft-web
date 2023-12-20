@@ -161,8 +161,6 @@ const FormSection: FC<formSectionProps> = () => {
           </div>
         </div>
       </div> */}
-
-
     {/* New Code */}
     {/* <div className="bg-gray-200 flex  flex-col items-center px-2 md:px-8">
       {responseData && <Modal result1={responseData} result2={badResponse} />}
