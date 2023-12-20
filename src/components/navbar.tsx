@@ -174,8 +174,8 @@ const Navbar: FC<NavbarProps> = () => {
           >
             Home
           </Link>
-          {/* <DropDown /> */}
-          <button
+          <DropDown />
+          {/* <button
             onClick={servicesHandler}
             id="mega-menu-dropdown-button"
             data-dropdown-toggle="mega-menu-dropdown"
@@ -197,18 +197,18 @@ const Navbar: FC<NavbarProps> = () => {
                 d="m1 1 4 4 4-4"
               />
             </svg>
-          </button>
-          {checkClick && (
+          </button> */}
+          {/* {checkClick && (
             <div
               ref={dropdownRef}
               id="mega-menu-dropdown"
               className="absolute z-10 grid   lg:w-[950px] xl:w-[1200px] grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md  md:grid-cols-3 lg:grid-cols-4  mt-10 pb-4 left-1/2 transform -translate-x-1/2 max-w-7xl "
             >
-              <div className="absolute h-4 w-4 bg-white border-t border-l  border-gray-200 transform rotate-45 top-0 left-1/2 -mt-2  xl:ml-28"></div>
+              <div className="absolute h-4 w-4 bg-white border-t border-l  border-gray-200 transform rotate-45 top-0 left-1/2 -mt-2  xl:ml-28"></div> */}
 
 
               {/* Blockchain Section */}
-              <div className="pt-4 pl-4  text-gray-900 md:pb-4 ">
+              {/* <div className="pt-4 pl-4  text-gray-900 md:pb-4 ">
                 <div
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -445,17 +445,17 @@ const Navbar: FC<NavbarProps> = () => {
                             </Link>
                           </div>
                         </div>
-                        {/* divider */}
+                     
                         <div className="absolute right-0 top-0 lg:left-48 xl:left-60  hidden h-[200px] min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-800 to-transparent  opacity-40  lg:block"></div>
                       </div>
                     </div>
                   </div>
                 </div>
 
-              </div>
+              </div> */}
 
               {/* Web App Section */}
-              <div className="pt-4 pl-4 text-gray-900 md:pb-4 ">
+              {/* <div className="pt-4 pl-4 text-gray-900 md:pb-4 ">
                 <div
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -527,22 +527,6 @@ const Navbar: FC<NavbarProps> = () => {
                               onClick={servicesHandler}
                             >
                               <h3>Web Design</h3>
-                              {/* <div className="flex flex-wrap xl:flex-nowrap text-gray-700  ">
-                              <Link
-                                href="/nft-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium  flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Development,
-                              </Link>
-                              <Link
-                                href="/nft-marketplace-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium pl-0 xl:pl-2 flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Marketplace
-                              </Link>
-                            </div> */}
                             </Link>
                           </div>
                         </div>
@@ -639,7 +623,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/cryptocurrency-exchange"
+                              href="/web-application"
                               className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
                               onClick={servicesHandler}
                             >
@@ -800,17 +784,15 @@ const Navbar: FC<NavbarProps> = () => {
                             </Link>
                           </div>
                         </div>
-
-                        {/* divider */}
                         <div className="absolute right-0 top-0 hidden lg:left-48 xl:left-56 h-[200px]  min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-800 to-transparent  opacity-40  lg:block"></div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* WordPress Section */}
-              <div className="pt-4  pl-4 text-gray-900 md:pb-4 ">
+              {/* <div className="pt-4  pl-4 text-gray-900 md:pb-4 ">
                 <div
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -854,22 +836,6 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <h3>Custom Development</h3>
-                            {/* <div className="flex flex-wrap xl:flex-nowrap text-gray-700  ">
-                              <Link
-                                href="/nft-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium  flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Development,
-                              </Link>
-                              <Link
-                                href="/nft-marketplace-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium pl-0 xl:pl-2 flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Marketplace
-                              </Link>
-                            </div> */}
                           </div>
                         </div>
 
@@ -1087,16 +1053,15 @@ const Navbar: FC<NavbarProps> = () => {
                             </Link>
                           </div>
                         </div>
-                        {/* divider */}
                         <div className="absolute right-0 top-0 hidden lg:left-48 xl:left-60  h-[200px] min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-800 to-transparent  opacity-40  lg:block"></div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* AI Section */}
-              <div className="pt-4 pl-4 text-gray-900 md:pb-4 ">
+              {/* <div className="pt-4 pl-4 text-gray-900 md:pb-4 ">
                 <div
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -1124,23 +1089,13 @@ const Navbar: FC<NavbarProps> = () => {
                             />
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
-                            <h3>Custom AI Solution</h3>
-                            {/* <div className="flex flex-wrap xl:flex-nowrap text-gray-700  ">
-                              <Link
-                                href="/nft-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium  flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Development,
-                              </Link>
-                              <Link
-                                href="/nft-marketplace-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium pl-0 xl:pl-2 flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Marketplace
-                              </Link>
-                            </div> */}
+                          <Link
+                                    href="/artificial-intelligence"
+                                    className="leading-4 font-semibold text-sky-700  hover:text-black "
+                                    onClick={servicesHandler}
+                                  >
+                                    <h3>Custom AI Solution</h3>
+                                  </Link>
                           </div>
                         </div>
 
@@ -1302,11 +1257,11 @@ const Navbar: FC<NavbarProps> = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
 
 
-          )}
+          {/* )} */}
 
           <Link
             href="/portfolio"
@@ -1366,7 +1321,7 @@ const Navbar: FC<NavbarProps> = () => {
                 >
                   Home
                 </Link>
-                {/* <Disclosure as="div" className="-mx-3">
+                <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-[120px] items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
@@ -1459,10 +1414,7 @@ const Navbar: FC<NavbarProps> = () => {
                       </Disclosure.Panel>
                     </>
                   )}
-                </Disclosure> */}
-
-                {/*  */}
-
+                </Disclosure>
                 {/* <DropDown /> */}
 
 
@@ -1620,7 +1572,7 @@ const Navbar: FC<NavbarProps> = () => {
 
 
 
-                <button
+                {/* <button
                   onClick={servicesHandler}
                   id="mega-menu-dropdown-button"
                   data-dropdown-toggle="mega-menu-dropdown"
@@ -1642,18 +1594,15 @@ const Navbar: FC<NavbarProps> = () => {
                       d="m1 1 4 4 4-4"
                     />
                   </svg>
-                </button>
-                {checkClick && (
+                </button> */}
+                {/* {checkClick && (
                   <div
                     ref={dropdownRef}
                     id="mega-menu-dropdown"
                     className=" grid    grid-cols-1 text-sm bg-white   rounded-lg     mt-5 md:mt-10 pb-4  "
-                  >
-                    {/* <div className="absolute h-4 w-4 bg-white border-t border-l  border-gray-200 transform rotate-45 top-0 left-1/2 -mt-2  xl:ml-28"></div> */}
-
-
+                  > */}
                     {/* Blockchain Section */}
-                    <div className="   text-gray-900 md:pb-4 ">
+                    {/* <div className="   text-gray-900 md:pb-4 ">
                       <div
                         className="space-y-4"
                         aria-labelledby="mega-menu-dropdown-button"
@@ -1890,17 +1839,16 @@ const Navbar: FC<NavbarProps> = () => {
                                   </Link>
                                 </div>
                               </div>
-                              {/* divider */}
                               <hr className="my-10 h-px  border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 " />
                             </div>
                           </div>
                         </div>
                       </div>
 
-                    </div>
+                    </div> */}
 
                     {/* Web App Section */}
-                    <div className="  text-gray-900 md:pb-4 ">
+                    {/* <div className="  text-gray-900 md:pb-4 ">
                       <div
                         className="space-y-4"
                         aria-labelledby="mega-menu-dropdown-button"
@@ -1972,22 +1920,6 @@ const Navbar: FC<NavbarProps> = () => {
                                     onClick={servicesHandler}
                                   >
                                     <h3>Web Design</h3>
-                                    {/* <div className="flex flex-wrap xl:flex-nowrap text-gray-700  ">
-                              <Link
-                                href="/nft-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium  flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Development,
-                              </Link>
-                              <Link
-                                href="/nft-marketplace-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium pl-0 xl:pl-2 flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Marketplace
-                              </Link>
-                            </div> */}
                                   </Link>
                                 </div>
                               </div>
@@ -2083,7 +2015,13 @@ const Navbar: FC<NavbarProps> = () => {
                                   />
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
-                                  <h3>Custom Web App</h3>
+                                <Link
+                              href="/web-application"
+                              className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
+                              onClick={() => setMobileMenuOpen(false)}
+                            >
+                              <h3>Custom Web App</h3>
+                            </Link>
                                 </div>
                               </div>
 
@@ -2239,17 +2177,15 @@ const Navbar: FC<NavbarProps> = () => {
                                   </Link>
                                 </div>
                               </div>
-
-                              {/* divider */}
                               <hr className="my-10 h-px  border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 " />
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
 
                     {/* WordPress Section */}
-                    <div className="   text-gray-900 md:pb-4 ">
+                    {/* <div className="   text-gray-900 md:pb-4 ">
                       <div
                         className="space-y-4"
                         aria-labelledby="mega-menu-dropdown-button"
@@ -2293,22 +2229,6 @@ const Navbar: FC<NavbarProps> = () => {
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <h3>Custom Development</h3>
-                                  {/* <div className="flex flex-wrap xl:flex-nowrap text-gray-700  ">
-                              <Link
-                                href="/nft-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium  flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Development,
-                              </Link>
-                              <Link
-                                href="/nft-marketplace-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium pl-0 xl:pl-2 flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Marketplace
-                              </Link>
-                            </div> */}
                                 </div>
                               </div>
 
@@ -2525,15 +2445,14 @@ const Navbar: FC<NavbarProps> = () => {
                                   </Link>
                                 </div>
                               </div>
-                              {/* divider */}
                               <hr className="my-10 h-px  border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-800 to-transparent opacity-25 " />
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     {/* AI Section */}
-                    <div className="  text-gray-900 md:pb-4 ">
+                    {/* <div className="  text-gray-900 md:pb-4 ">
                       <div
                         className="space-y-4"
                         aria-labelledby="mega-menu-dropdown-button"
@@ -2561,23 +2480,13 @@ const Navbar: FC<NavbarProps> = () => {
                                   />
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
-                                  <h3>Custom AI Solution</h3>
-                                  {/* <div className="flex flex-wrap xl:flex-nowrap text-gray-700  ">
-                              <Link
-                                href="/nft-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium  flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Development,
-                              </Link>
-                              <Link
-                                href="/nft-marketplace-development"
-                                className="leading-4 hover:text-gray-500 text-[12px] font-medium pl-0 xl:pl-2 flex items-start"
-                                onClick={servicesHandler}
-                              >
-                                Marketplace
-                              </Link>
-                            </div> */}
+                                  <Link
+                                    href="/artificial-intelligence"
+                                    className="leading-4 font-semibold text-sky-700  hover:text-black "
+                                    onClick={() => setMobileMenuOpen(false)}
+                                  >
+                                    <h3>Custom AI Solution</h3>
+                                  </Link>
                                 </div>
                               </div>
 
@@ -2739,13 +2648,10 @@ const Navbar: FC<NavbarProps> = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
+                {/* )} */}
 
-
-                )}
-
-                {/*  */}
                 <Link
                   href="/portfolio"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
@@ -2775,7 +2681,7 @@ const Navbar: FC<NavbarProps> = () => {
                   Contact Us
                 </Link>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </Dialog.Panel>
       </Dialog>
