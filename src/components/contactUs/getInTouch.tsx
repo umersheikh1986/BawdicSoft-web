@@ -94,8 +94,6 @@ const GetInTouchWithUs: FC<GetInTouchWithUsProps> = () => {
     //   </div>
     // </div>
     <div>
-
-  
     <section className="relative rounded-br-[250px] rounded-b-[250px] rounded-bl-[250px] flex justify-center mb-48 md:mb-32 px-5 md:px-10 pb-72 flex-col items-center mt-16 py-24 md:pt-32  bg-gradient-to-r from-sky-950   via-sky-700 via-30% to-sky-600 to-70%
      bg-blend-multiply " >
  <h4 className=" text-3xl md:text-4xl  lg:text-5xl font-bold text-white text-center">Get in Touch With Us.</h4>

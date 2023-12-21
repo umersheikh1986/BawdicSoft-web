@@ -4,16 +4,16 @@ import React, { FC, ReactNode, MouseEvent, useState } from "react";
 import { allData } from "../allData";
 import Link from "next/link";
 
-interface PortFolioSectionProps {}
+interface PortFolioSectionProps { }
 
 const PortFolioSection: FC<PortFolioSectionProps> = () => {
   const allDataReciev = allData;
 
   const [data, setData] = useState(allDataReciev);
-  const [num, setNum] = useState(0);
+  const [num, setNum] = useState(false);
   const filterHandler = (data: string) => {
     if (data === "all") {
-      setNum(0);
+      setNum(false);
       setData(allDataReciev);
     } else if (
       data === "wordpress" ||
@@ -21,7 +21,7 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
       data === "wordpress-blog" ||
       data === "wordpress-others"
     ) {
-      setNum(1);
+      setNum(true);
       if (data === "wordpress") {
         const filterDataWordpress = allDataReciev.filter(
           (product) => product.category === data
@@ -44,7 +44,7 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
         setData(fileDataOthers);
       }
     } else {
-      setNum(0);
+      setNum(false);
       const filterData = allDataReciev.filter(
         (product) => product.category === data
       );
@@ -52,8 +52,8 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
     }
   };
   return (
-    <div className="bg-sky-900 flex justify-center">
-      <div className="bg-sky-900 pt-24 max-w-7xl">
+    <div className=" bg-gradient-to-r from-sky-950    via-sky-700 via-30% to-sky-600 to-70% flex justify-center">
+      <div className=" bg-gradient-to-r from-sky-950    via-sky-700 via-30% to-sky-600 to-70% pt-24 max-w-7xl">
         <p className="text-center">
           {" "}
           <a className="text-3xl hover:bg-sky-600 font-bold py-3 md:py-5 px-10 md:px-40 border-4 border-white rounded-[35px] bg-sky-700 text-white">
@@ -120,7 +120,7 @@ const PortFolioSection: FC<PortFolioSectionProps> = () => {
                 className=" relative  group"
                 href={
                   product.category.includes("ai")
-                    ? `/productDetailes/${product.id} `
+                    ? `/productDetailes/${product.id}`
                     : product.href
                 }
               >
