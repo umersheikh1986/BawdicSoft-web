@@ -334,7 +334,7 @@ const FormSection: FC<formSectionProps> = () => {
               </div>
               <div className="flex flex-col">
                 <label className="pl-4">Message</label>
-                <input type="text" placeholder="Message" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+                <textarea  placeholder="Message" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
               </div>
               <button className="bg-sky-950 px-8 md:px-16 hover:bg-sky-700 py-3 md:py-4 md:basis-1/4 text-white font-semibold  rounded-3xl"> Submit</button>
             </form>
