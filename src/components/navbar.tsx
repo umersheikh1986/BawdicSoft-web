@@ -99,7 +99,7 @@ const blockChaninList: BlockChaninList[] = [
   { name: "Token Development", href: "/token-development", icon: PhoneIcon },
 ];
 
-interface NavbarProps { }
+interface NavbarProps {}
 
 function classNames(
   ...classes: (string | boolean | undefined | null)[]
@@ -205,7 +205,6 @@ const Navbar: FC<NavbarProps> = () => {
               className="absolute z-10 grid   lg:w-[950px] xl:w-[1200px] grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md  md:grid-cols-3 lg:grid-cols-4  mt-10 pb-4 left-1/2 transform -translate-x-1/2 max-w-7xl "
             >
               <div className="absolute h-4 w-4 bg-white border-t border-l  border-gray-200 transform rotate-45 top-0 left-1/2 -mt-2  xl:ml-28"></div>
-
 
               {/* Blockchain Section */}
               <div className="pt-4 pl-4  text-gray-900 md:pb-4 ">
@@ -445,13 +444,12 @@ const Navbar: FC<NavbarProps> = () => {
                             </Link>
                           </div>
                         </div>
-                     
+
                         <div className="absolute right-0 top-0 lg:left-48 xl:left-60  hidden h-[200px] min-h-[1em] w-px self-stretch border-t-0 bg-gradient-to-tr from-transparent via-neutral-800 to-transparent  opacity-40  lg:block"></div>
                       </div>
                     </div>
                   </div>
                 </div>
-
               </div>
 
               {/* Web App Section */}
@@ -522,7 +520,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/token-development"
+                              href="/web-app/web-design"
                               className="leading-4  font-semibold text-sky-700 hover:text-black"
                               onClick={servicesHandler}
                             >
@@ -623,7 +621,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/web-application"
+                              href="/web-app/custom-web-app"
                               className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
                               onClick={servicesHandler}
                             >
@@ -711,7 +709,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/defi"
+                              href="/web-app/responsive-web-app"
                               className="leading-4 font-semibold text-sky-700  hover:text-black flex items-center"
                               onClick={servicesHandler}
                             >
@@ -776,7 +774,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/cryptocurrency-exchange"
+                              href="/web-app/full-stack-development"
                               className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
                               onClick={servicesHandler}
                             >
@@ -834,9 +832,13 @@ const Navbar: FC<NavbarProps> = () => {
                               d="M34.668,10.685c-0.904,0.603-1.537,1.808-1.537,2.948c0,1.507,0.848,2.826,1.79,4.334 c0.754,1.225,1.507,2.826,1.507,5.088c0,1.602-0.471,3.58-1.413,6.03l-1.884,6.218l-6.689-19.974 c1.131-0.094,2.167-0.188,2.167-0.188c0.942-0.094,0.848-1.507-0.094-1.507c0,0,0,0-0.094,0c0,0-3.015,0.283-4.993,0.283 c-1.79,0-4.899-0.283-4.899-0.283s0,0-0.094,0c-0.942,0-1.036,1.507-0.094,1.507c0,0,0.942,0.094,1.979,0.188l2.921,7.914 L19.19,35.397l-6.784-20.162c1.131-0.094,2.167-0.188,2.167-0.188c0.942-0.094,0.848-1.507-0.094-1.507c0,0,0,0-0.094,0 c0,0-2.261,0.227-4.089,0.293c-1.234,1.602-2.031,3.148-2.625,5.136L14.753,38.3c1.3,0.857,2.713,1.526,4.23,1.997l5.012-14.698 l5.351,14.566c1.564-0.509,3.034-1.222,4.353-2.164l4.993-14.474c0.744-1.884,1.238-3.806,1.407-5.276 C39.358,15.747,37.01,12.312,34.668,10.685z"
                             />
                           </svg>
-                          <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
+                          <Link
+                            href={"/word-press/custom-development"}
+                            onClick={servicesHandler}
+                            className="ml-1 flex flex-wrap xl:flex-nowrap flex-col hover:text-black"
+                          >
                             <h3>Custom Development</h3>
-                          </div>
+                          </Link>
                         </div>
 
                         <div className="my-6 flex items-start font-semibold text-sky-700">
@@ -880,7 +882,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/defi"
+                              href="/word-press/responsive-design"
                               className="leading-4 font-semibold text-sky-700  hover:text-black flex items-center"
                               onClick={servicesHandler}
                             >
@@ -997,7 +999,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/cryptocurrency-exchange"
+                              href="/word-press/woocommerce-solution"
                               className="leading-4  font-semibold text-sky-700 hover:text-black "
                               onClick={servicesHandler}
                             >
@@ -1045,7 +1047,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/token-development"
+                              href="/word-press/support-maintenance"
                               className="leading-4  font-semibold text-sky-700 hover:text-black"
                               onClick={servicesHandler}
                             >
@@ -1089,13 +1091,13 @@ const Navbar: FC<NavbarProps> = () => {
                             />
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
-                          <Link
-                                    href="/artificial-intelligence"
-                                    className="leading-4 font-semibold text-sky-700  hover:text-black "
-                                    onClick={servicesHandler}
-                                  >
-                                    <h3>Custom AI Solution</h3>
-                                  </Link>
+                            <Link
+                              href="/ai/custom-ai-solution"
+                              className="leading-4 font-semibold text-sky-700  hover:text-black "
+                              onClick={servicesHandler}
+                            >
+                              <h3>Custom AI Solution</h3>
+                            </Link>
                           </div>
                         </div>
 
@@ -1131,7 +1133,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/defi"
+                              href="/ai/machine-learning"
                               className="leading-4 font-semibold text-sky-700  hover:text-black "
                               onClick={servicesHandler}
                             >
@@ -1177,7 +1179,7 @@ const Navbar: FC<NavbarProps> = () => {
 
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/cryptocurrency-exchange"
+                              href="/ai/natural-language-processing"
                               className="leading-4  font-semibold text-sky-700 hover:text-black  "
                               onClick={servicesHandler}
                             >
@@ -1245,7 +1247,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </svg>
                           <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
-                              href="/token-development"
+                              href="/ai/computer-vision-services"
                               className="leading-4  font-semibold text-sky-700 hover:text-black "
                               onClick={servicesHandler}
                             >
@@ -1259,8 +1261,6 @@ const Navbar: FC<NavbarProps> = () => {
                 </div>
               </div>
             </div>
-
-
           )}
 
           <Link
@@ -1568,8 +1568,6 @@ const Navbar: FC<NavbarProps> = () => {
                   </div>
                 )} */}
 
-
-
                 <button
                   onClick={servicesHandler}
                   id="mega-menu-dropdown-button"
@@ -1702,8 +1700,18 @@ const Navbar: FC<NavbarProps> = () => {
                                     strokeWidth="3"
                                     d="M4.5,16.3v-3.8c0-2.2,1.8-4,4-4h31c2.2,0,4,1.8,4,4v14.9"
                                   />
-                                  <circle cx="13" cy="18" r="2" fill="#18193f" />
-                                  <circle cx="35" cy="18" r="2" fill="#18193f" />
+                                  <circle
+                                    cx="13"
+                                    cy="18"
+                                    r="2"
+                                    fill="#18193f"
+                                  />
+                                  <circle
+                                    cx="35"
+                                    cy="18"
+                                    r="2"
+                                    fill="#18193f"
+                                  />
                                   <line
                                     x1="15.5"
                                     x2="32.5"
@@ -1773,7 +1781,12 @@ const Navbar: FC<NavbarProps> = () => {
                                   height="28px"
                                 >
                                   <circle cx="89" cy="89" r="35" fill="#fff" />
-                                  <circle cx="39" cy="39" r="35" fill="#90caf9" />
+                                  <circle
+                                    cx="39"
+                                    cy="39"
+                                    r="35"
+                                    fill="#90caf9"
+                                  />
                                   <path
                                     fill="#90caf9"
                                     d="M39,77C18.05,77,1,59.95,1,39S18.05,1,39,1s38,17.05,38,38S59.95,77,39,77z M39,7C21.36,7,7,21.35,7,39 s14.36,32,32,32s32-14.35,32-32S56.64,7,39,7z"
@@ -1842,7 +1855,6 @@ const Navbar: FC<NavbarProps> = () => {
                           </div>
                         </div>
                       </div>
-
                     </div>
 
                     {/* Web App Section */}
@@ -1913,7 +1925,7 @@ const Navbar: FC<NavbarProps> = () => {
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <Link
-                                    href="/token-development"
+                                    href="/web-app/web-design"
                                     className="leading-4  font-semibold text-sky-700 hover:text-black"
                                     onClick={servicesHandler}
                                   >
@@ -2013,13 +2025,13 @@ const Navbar: FC<NavbarProps> = () => {
                                   />
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
-                                <Link
-                              href="/web-application"
-                              className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
-                              onClick={() => setMobileMenuOpen(false)}
-                            >
-                              <h3>Custom Web App</h3>
-                            </Link>
+                                  <Link
+                                    href="/web-app/custom-web-app"
+                                    className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
+                                    onClick={() => setMobileMenuOpen(false)}
+                                  >
+                                    <h3>Custom Web App</h3>
+                                  </Link>
                                 </div>
                               </div>
 
@@ -2102,7 +2114,7 @@ const Navbar: FC<NavbarProps> = () => {
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <Link
-                                    href="/defi"
+                                    href="/web-app/responsive-web-app"
                                     className="leading-4 font-semibold text-sky-700  hover:text-black flex items-center"
                                     onClick={servicesHandler}
                                   >
@@ -2167,7 +2179,7 @@ const Navbar: FC<NavbarProps> = () => {
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <Link
-                                    href="/cryptocurrency-exchange"
+                                    href="/web-app/full-stack-development"
                                     className="leading-4  font-semibold text-sky-700 hover:text-black gap-2 flex "
                                     onClick={servicesHandler}
                                   >
@@ -2201,7 +2213,12 @@ const Navbar: FC<NavbarProps> = () => {
                                   width="24px"
                                   height="24px"
                                 >
-                                  <circle cx="28" cy="28" r="18" fill="#90caf9" />
+                                  <circle
+                                    cx="28"
+                                    cy="28"
+                                    r="18"
+                                    fill="#90caf9"
+                                  />
                                   <path
                                     fill="none"
                                     stroke="#18193f"
@@ -2225,9 +2242,13 @@ const Navbar: FC<NavbarProps> = () => {
                                     d="M34.668,10.685c-0.904,0.603-1.537,1.808-1.537,2.948c0,1.507,0.848,2.826,1.79,4.334 c0.754,1.225,1.507,2.826,1.507,5.088c0,1.602-0.471,3.58-1.413,6.03l-1.884,6.218l-6.689-19.974 c1.131-0.094,2.167-0.188,2.167-0.188c0.942-0.094,0.848-1.507-0.094-1.507c0,0,0,0-0.094,0c0,0-3.015,0.283-4.993,0.283 c-1.79,0-4.899-0.283-4.899-0.283s0,0-0.094,0c-0.942,0-1.036,1.507-0.094,1.507c0,0,0.942,0.094,1.979,0.188l2.921,7.914 L19.19,35.397l-6.784-20.162c1.131-0.094,2.167-0.188,2.167-0.188c0.942-0.094,0.848-1.507-0.094-1.507c0,0,0,0-0.094,0 c0,0-2.261,0.227-4.089,0.293c-1.234,1.602-2.031,3.148-2.625,5.136L14.753,38.3c1.3,0.857,2.713,1.526,4.23,1.997l5.012-14.698 l5.351,14.566c1.564-0.509,3.034-1.222,4.353-2.164l4.993-14.474c0.744-1.884,1.238-3.806,1.407-5.276 C39.358,15.747,37.01,12.312,34.668,10.685z"
                                   />
                                 </svg>
-                                <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
+                                <Link
+                                  href={"/word-press/custom-development"}
+                                  onClick={servicesHandler}
+                                  className="ml-1 flex flex-wrap xl:flex-nowrap flex-col hover:text-black"
+                                >
                                   <h3>Custom Development</h3>
-                                </div>
+                                </Link>
                               </div>
 
                               <div className="flex items-start font-semibold text-sky-700">
@@ -2271,7 +2292,7 @@ const Navbar: FC<NavbarProps> = () => {
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <Link
-                                    href="/defi"
+                                    href="/word-press/responsive-design"
                                     className="leading-4 font-semibold text-sky-700  hover:text-black flex items-center"
                                     onClick={servicesHandler}
                                   >
@@ -2388,7 +2409,7 @@ const Navbar: FC<NavbarProps> = () => {
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <Link
-                                    href="/cryptocurrency-exchange"
+                                    href="/word-press/woocommerce-solution"
                                     className="leading-4  font-semibold text-sky-700 hover:text-black "
                                     onClick={servicesHandler}
                                   >
@@ -2436,9 +2457,10 @@ const Navbar: FC<NavbarProps> = () => {
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <Link
-                                    href="/token-development"
+                                    href="/word-press/support-maintenance"
                                     className="leading-4  font-semibold text-sky-700 hover:text-black"
-                                    onClick={servicesHandler}>
+                                    onClick={servicesHandler}
+                                  >
                                     <h3>Support and Maintenance</h3>
                                   </Link>
                                 </div>
@@ -2479,7 +2501,7 @@ const Navbar: FC<NavbarProps> = () => {
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <Link
-                                    href="/artificial-intelligence"
+                                    href="/ai/custom-ai-solution"
                                     className="leading-4 font-semibold text-sky-700  hover:text-black "
                                     onClick={() => setMobileMenuOpen(false)}
                                   >
@@ -2520,7 +2542,7 @@ const Navbar: FC<NavbarProps> = () => {
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <Link
-                                    href="/defi"
+                                    href="/ai/machine-learning"
                                     className="leading-4 font-semibold text-sky-700  hover:text-black "
                                     onClick={servicesHandler}
                                   >
@@ -2566,7 +2588,7 @@ const Navbar: FC<NavbarProps> = () => {
 
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <Link
-                                    href="/cryptocurrency-exchange"
+                                    href="/ai/natural-language-processing"
                                     className="leading-4  font-semibold text-sky-700 hover:text-black  "
                                     onClick={servicesHandler}
                                   >
@@ -2630,11 +2652,16 @@ const Navbar: FC<NavbarProps> = () => {
                                     strokeWidth="3"
                                     d="M24,16.3c6.1,0,9.7,4.2,11.1,6.1c0.4,0.5,0.4,1.3,0.1,1.8c-1.2,2.2-4.9,7.5-11.1,7.5s-9.9-5.1-11.1-7.2c-0.3-0.6-0.3-1.3,0.1-1.8 c0.7-1,2-2.8,4-4.2"
                                   />
-                                  <circle cx="24" cy="24" r="3.9" fill="#18193f" />
+                                  <circle
+                                    cx="24"
+                                    cy="24"
+                                    r="3.9"
+                                    fill="#18193f"
+                                  />
                                 </svg>
                                 <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                                   <Link
-                                    href="/token-development"
+                                    href="/ai/computer-vision-services"
                                     className="leading-4  font-semibold text-sky-700 hover:text-black "
                                     onClick={servicesHandler}
                                   >
@@ -2648,7 +2675,7 @@ const Navbar: FC<NavbarProps> = () => {
                       </div>
                     </div>
                   </div>
-              )}
+                )}
 
                 <Link
                   href="/portfolio"
