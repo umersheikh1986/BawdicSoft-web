@@ -202,7 +202,7 @@ const Navbar: FC<NavbarProps> = () => {
             <div
               ref={dropdownRef}
               id="mega-menu-dropdown"
-              className="absolute z-10 grid   lg:w-[950px] xl:w-[1200px] grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md  md:grid-cols-3 lg:grid-cols-4  mt-10 pb-4 left-1/2 transform -translate-x-1/2 max-w-7xl "
+              className="absolute z-10 grid   lg:w-[950px] xl:w-[1200px] grid-cols-2 text-sm bg-white border border-gray-100 rounded-lg shadow-md  md:grid-cols-3 lg:grid-cols-3  mt-10 pb-4 left-1/2 transform -translate-x-1/2 max-w-7xl "
             >
               <div className="absolute h-4 w-4 bg-white border-t border-l  border-gray-200 transform rotate-45 top-0 left-1/2 -mt-2  xl:ml-28"></div>
 
@@ -790,7 +790,7 @@ const Navbar: FC<NavbarProps> = () => {
               </div>
 
               {/* WordPress Section */}
-              <div className="pt-4  pl-4 text-gray-900 md:pb-4 ">
+              {/* <div className="pt-4  pl-4 text-gray-900 md:pb-4 ">
                 <div
                   className="space-y-4"
                   aria-labelledby="mega-menu-dropdown-button"
@@ -1060,7 +1060,7 @@ const Navbar: FC<NavbarProps> = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* AI Section */}
               <div className="pt-4 pl-4 text-gray-900 md:pb-4 ">
@@ -2195,7 +2195,7 @@ const Navbar: FC<NavbarProps> = () => {
                     </div>
 
                     {/* WordPress Section */}
-                    <div className="   text-gray-900 md:pb-4 ">
+                    {/* <div className="   text-gray-900 md:pb-4 ">
                       <div
                         className="space-y-4"
                         aria-labelledby="mega-menu-dropdown-button"
@@ -2470,7 +2470,7 @@ const Navbar: FC<NavbarProps> = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     {/* AI Section */}
                     <div className="  text-gray-900 md:pb-4 ">
                       <div
