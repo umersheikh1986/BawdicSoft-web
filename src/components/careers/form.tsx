@@ -19,41 +19,49 @@ const FormSection: FC<formSectionProps> = () => {
       id: 1,
       title: "MERN Stack Developer",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      role: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     },
     {
       id: 2,
       title: "MEAN Stack Developer",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      role: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     },
     {
       id: 3,
       title: "Full Stack Developer",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      role: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     },
     {
       id: 4,
       title: "Generative(AI) Developer",
       desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      role: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     },
     {
       id: 5,
       title: "Phyton Developer",
-      desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      desc: " Develops and maintains applications using Python programming language.",
+      role: " Proficiency in Python, understanding of web frameworks (e.g., Django, Flask) experience with APIs, and knowledge of database systems.",
     },
     {
       id: 6,
       title: "UI/UX Designer",
-      desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      desc: " Designs user interfaces and experiences to ensure a seamless and engaging user interaction with digital products.",
+      role: " Expertise in design tools (e.g., Adobe XD, Figma), knowledge of user-centered design principles, experience with wireframing and prototyping, and ability to conduct user research.",
     },
     {
       id: 7,
       title: "Block Chain Developer",
-      desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      desc: " Develops and implements blockchain-based solutions and applications.",
+      role: " Knowledge of blockchain technologies (e.g., Ethereum, Bitcoin), experience with smart contracts, understanding of cryptographic protocols, and familiarity with  decentralized applications (dApps).",
     },
     {
       id: 8,
       title: "WordPress Developer",
-      desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      desc: " Designs, develops, and maintains WordPress websites and themes.",
+      role: " Proficiency in PHP, HTML, CSS, JavaScript, experience with WordPress themes and plugins, and understanding of website performance optimization.",
     },
   ];
   return (
@@ -509,6 +517,10 @@ const FormSection: FC<formSectionProps> = () => {
                   >
                     <p className="text-lg font-semibold ">{opt.title}</p>
                     <p className="text-md text-gray-100">Role :{opt.desc}</p>
+                    <p className="text-md text-gray-100">
+                      {" "}
+                      Skills : {opt.role}{" "}
+                    </p>
                   </div>
                 );
               })}
