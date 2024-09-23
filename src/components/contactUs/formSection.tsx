@@ -13,7 +13,7 @@ type heroImg = {
   img: StaticImageData;
 };
 const data: heroImg = { img: HerSectionimg };
-interface formSectionProps { }
+interface formSectionProps {}
 
 const FormSection: FC<formSectionProps> = () => {
   const [responseData, setResponseData] = useState("");
@@ -25,7 +25,6 @@ const FormSection: FC<formSectionProps> = () => {
   const phoneRef = useRef<HTMLInputElement>(null);
   const messageRef = useRef<HTMLTextAreaElement>(null);
   const filRef = useRef<HTMLInputElement | null>(null);
-
 
   const submitHandler = (event: React.FormEvent) => {
     event.preventDefault();
@@ -62,8 +61,9 @@ const FormSection: FC<formSectionProps> = () => {
     }
   };
 
-  return (<div>
-    {/* <div className="flex justify-center items-center">
+  return (
+    <div>
+      {/* <div className="flex justify-center items-center">
     {responseData && <Modal result1={responseData} result2={badResponse} />}
     
         {badResponse && <Modal result2={badResponse} result1={responseData} />}
@@ -161,8 +161,8 @@ const FormSection: FC<formSectionProps> = () => {
           </div>
         </div>
       </div> */}
-    {/* New Code */}
-    {/* <div className="bg-gray-200 flex  flex-col items-center px-2 md:px-8">
+      {/* New Code */}
+      {/* <div className="bg-gray-200 flex  flex-col items-center px-2 md:px-8">
       {responseData && <Modal result1={responseData} result2={badResponse} />}
 
       {badResponse && <Modal result2={badResponse} result1={responseData} />}
@@ -287,21 +287,20 @@ const FormSection: FC<formSectionProps> = () => {
       </div>
     </div> */}
 
-
-    {/* New code */}
-    <section
-      className="relative bg-center bg-cover bg-no-repeat flex justify-center h-[1200px] md:h-[750px] items-center  bg-gray-400 bg-blend-multiply  md:mb-80"
-      style={{
-        backgroundImage: `url(${data.img.src})`,
-        // height: "calc(100vh - 48px)",
-      }}
-    >
-
+      {/* New code */}
+      <section
+        className="relative bg-center bg-cover bg-no-repeat flex justify-center h-[1200px] md:h-[750px] items-center  bg-gray-400 bg-blend-multiply  md:mb-80"
+        style={{
+          backgroundImage: `url(${data.img.src})`,
+          // height: "calc(100vh - 48px)",
+        }}
+      >
         <div className="absolute md:-bottom-60 p-5 md:p-8 lg:p-10 grid grid-cols-1 md:grid-cols-2 mx-6 rounded-3xl gap-8 md:gap-0  bg-white shadow-2xl max-w-6xl">
-       
           <div className="flex flex-col">
             <p className="text-sm md:text-md text-sky-700 py-3">FORM CONTACT</p>
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold">Let's Talk to Us</h3>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+              Let's Talk to Us
+            </h3>
             <div className="flex flex-row py-2">
               <span className="bg-sky-600 w-[100px] h-[2px]"></span>
               <span className="bg-gray-200 w-[300px] h-[2px]"></span>
@@ -311,57 +310,110 @@ const FormSection: FC<formSectionProps> = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                 <div className="flex flex-col">
                   <label className="pl-4">First Name</label>
-                  <input type="text" placeholder="First Name" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2" />
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2"
+                  />
                 </div>
                 <div className="flex flex-col">
                   <label className="pl-4">Last Name</label>
-                  <input type="text" placeholder="Last Name" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 "
+                  />
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                 <div className="flex flex-col">
                   <label className="pl-4">Phone Number</label>
-                  <input type="text" placeholder="Phone Number" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+                  <input
+                    type="text"
+                    placeholder="Phone Number"
+                    className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 "
+                  />
                 </div>
                 <div className="flex flex-col">
                   <label className="pl-4">Email</label>
-                  <input type="email" placeholder="Email" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 "
+                  />
                 </div>
               </div>
               <div className="flex flex-col">
                 <label className="pl-4">Subject</label>
-                <input type="text" placeholder="Subject" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 "
+                />
               </div>
               <div className="flex flex-col">
                 <label className="pl-4">Message</label>
-                <textarea  placeholder="Message" className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 " />
+                <textarea
+                  placeholder="Message"
+                  className="bg-sky-100 focus:outline-none focus:ring focus:border-sky-950  rounded-xl p-4 py-2 "
+                />
               </div>
-              <button className="bg-sky-950 px-8 md:px-16 hover:bg-sky-700 py-3 md:py-4 md:basis-1/4 text-white font-semibold  rounded-3xl"> Submit</button>
+              <button className="bg-sky-950 px-8 md:px-16 hover:bg-sky-700 py-3 md:py-4 md:basis-1/4 text-white font-semibold  rounded-3xl">
+                {" "}
+                Submit
+              </button>
             </form>
           </div>
-       
+
           <div className="md:px-10 lg:px-16 ">
             <p className="text-sm md:text-md text-sky-700 py-3">SOCIAL MEDIA</p>
-            <h4 className="text-2xl md:text-3xl lg:text-4xl font-bold">Connect With Us</h4>
+            <h4 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+              Connect With Us
+            </h4>
             <div className="flex flex-row py-2">
               <span className="bg-sky-600 w-[100px] h-[2px]"></span>
               <span className="bg-gray-200 w-[300px] h-[2px]"></span>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptate ut nulla commodi. Voluptate ipsa excepturi ipsam blanditiis rem? Vitae, modi quod doloremque enim quis fugit molestiae minus nobis esse.
-            </p>
+            {/* <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+              voluptate ut nulla commodi. Voluptate ipsa excepturi ipsam
+              blanditiis rem? Vitae, modi quod doloremque enim quis fugit
+              molestiae minus nobis esse.
+            </p> */}
             <div className="flex  flex-wrap gap-2 pt-10">
-              <Link href="https://wa.me/+923178866631" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><FaWhatsapp className="text-white text-2xl" /></Link>
-              <Link href="https://www.linkedin.com/company/77098544/admin/feed/posts/" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><FaLinkedin className="text-white text-2xl" /></Link>
-              <Link href="https://twitter.com/BawdicSoft" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><GrTwitter className="text-white text-2xl" /></Link>
-              <Link href="https://www.facebook.com/BawdicSoftPvtLtd" target="_blank" className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "><MdFacebook className="text-white text-2xl" /></Link>
-
-
+              <Link
+                href="https://wa.me/+923178866631"
+                target="_blank"
+                className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "
+              >
+                <FaWhatsapp className="text-white text-2xl" />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/company/77098544/admin/feed/posts/"
+                target="_blank"
+                className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "
+              >
+                <FaLinkedin className="text-white text-2xl" />
+              </Link>
+              <Link
+                href="https://twitter.com/BawdicSoft"
+                target="_blank"
+                className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "
+              >
+                <GrTwitter className="text-white text-2xl" />
+              </Link>
+              <Link
+                href="https://www.facebook.com/BawdicSoftPvtLtd"
+                target="_blank"
+                className="flex rounded-full bg-sky-900 justify-center items-center p-2 cursor-pointer "
+              >
+                <MdFacebook className="text-white text-2xl" />
+              </Link>
             </div>
           </div>
         </div>
-   
-    </section>
-  </div>
+      </section>
+    </div>
   );
 };
 export default FormSection;
