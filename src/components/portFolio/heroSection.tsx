@@ -16,11 +16,12 @@ const HeroSection: FC<HeroSectionProps> = () => {
         height: "calc(100vh - 48px)",
       }}
     >
-      <div className="px-4 mx-auto  text-center pt-44 md:py-56 max-w-7xl">
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-7xl md:mx-32 -ml-30">
-          We are innovating today, for a better future​
+      <div className="relative  flex flex-col justify-center items-center mx-auto text-center max-w-9xl">
+        <h1 className="mb-4 mt-10 text-4xl font-extrabold tracking-tight leading-none text-white md:text-4xl lg:text-5xl animate-zoomInOut">
+          We are innovating today, for a better future
         </h1>
-        <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 ">
+
+        <p className="mt-64 font-extrabold tracking-tight mb-8 md:text-4xl lg:text-4xl text-3xl mx-auto  text-gray-300  text-center">
           Integrating web and web3 in your daily life creating modern solutions
           for the digital world.
         </p>

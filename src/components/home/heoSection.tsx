@@ -2,7 +2,7 @@ import React, { FC, ReactNode, MouseEvent } from "react";
 import heroSecImg from "../../../public/images/final-head.webp";
 import { StaticImageData } from "next/image";
 
-interface HeroSectionProps { }
+interface HeroSectionProps {}
 type heroImg = {
   img: StaticImageData;
 };

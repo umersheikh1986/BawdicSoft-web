@@ -9,8 +9,8 @@ const PortFolio: FC<portFolioProps> = () => {
   return (
     <div>
       <HeroSection />
-      <PortFolioSection />
       <ProductServices />
+      <PortFolioSection />
       {/* <OurWorks /> */}
     </div>
   );
