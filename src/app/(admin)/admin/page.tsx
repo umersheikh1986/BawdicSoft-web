@@ -3,6 +3,7 @@ import { CiGrid41 } from "react-icons/ci";
 import { FaRegHandshake } from "react-icons/fa6";
 import { IoFlashOutline } from "react-icons/io5";
 import { SlSupport } from "react-icons/sl";
+import { BsSearch } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -55,7 +56,7 @@ export default function Home() {
                   className="absolute right-2 top-2 bg-gradient-to-r from-sky-950 px-8  via-sky-700 via-30% to-sky-600 to-70%
     bg-blend-multiply text-white py-2 rounded-lg hover:bg-blue-600"
                 >
-                  Search
+                  <BsSearch className="h-6 w-6" />
                 </button>
               </div>
             </div>
