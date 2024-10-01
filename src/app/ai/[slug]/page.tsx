@@ -33,25 +33,25 @@ export default function AI({ params }: { params: { slug: string } }) {
         <div>
           <HeroSectionMachineLearning />
           <MasterMachineSectionMachineLearning />
-          <LanguageModelSectionMachineLearning />
-          <GenerationAISectionMachineLearning />
+          {/* <LanguageModelSectionMachineLearning /> */}
+          {/* <GenerationAISectionMachineLearning /> */}
         </div>
       )}
       {/* custom web App */}
       {param === "natural-language-processing" && (
         <div>
           <HeroSectionNaturalLanguage />
-          <MasterMachineSectionNaturalLanguage />
+          {/* <MasterMachineSectionNaturalLanguage /> */}
           <LanguageModelSectionNaturalLanguage />
-          <GenerationAISectionNaturalLanguage />
+          {/* <GenerationAISectionNaturalLanguage /> */}
         </div>
       )}
       {/* full-stack-development */}
       {param === "computer-vision-services" && (
         <div>
           <HeroSectionComputerVision />
-          <MasterMachineSectionComputerVision />
-          <LanguageModelSectionComputerVision />
+          {/* <MasterMachineSectionComputerVision /> */}
+          {/* <LanguageModelSectionComputerVision /> */}
           <GenerationAISectionComputerVision />
         </div>
       )}

@@ -9,113 +9,115 @@ const OfferSectionWebDesign: FC<offerSectionProps> = () => {
             What we offer
           </p>
           <p className="text-md text-gray-600 font-semibold text-center leading-7 pb-5 pt-5 px-10">
-            Our NFT development services encompass a wide range of personal and
-            business categories in terms of token development.
+            Our Web development Design services encompass a wide range of
+            personal and business categories given below
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10  md:px-16   ">
             <div className=" border-2 hover:border-sky-800    p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                  Art
+                  UI/UX Design
                 </h5>
               </span>
               <p className="mb-3 font-normal text-gray-700 ">
-                Digitalise your creativity by preserving your artwork in the
-                form of an NFT token. Keep it, trade it or sell it on an NFT
-                marketplace.
+                We focus on user-centered design, ensuring the site is intuitive
+                and easy to navigate. Our approach improves customer
+                satisfaction, reduces bounce rates, and increases engagement.
               </p>
             </div>
             <div className="  border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                  Collectibles
+                  E-Commerce Web Design
                 </h5>
               </span>
               <p className="mb-3 font-normal text-gray-700 ">
-                Secure yourself from theft by getting a blockchain identity.
-                Having a unique token saves your data on the blockchain making
-                it safe and immutable.
+                We design user-friendly and secure e-commerce websites, complete
+                with product listings, shopping carts, and payment gateways.
               </p>
             </div>
             <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                  Lending
+                  WordPress & CMS Design
                 </h5>
               </span>
               <p className="mb-3 font-normal text-gray-700 ">
-                Securing loans providing a digital asset as security? It can't
-                get any easier than that.
+                We specialize in designing and developing WordPress websites
+                that are easy to manage, customize, and scale as your business
+                grows.
               </p>
             </div>
             <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                  Gaming
+                  Landing Page Design
                 </h5>
               </span>
               <p className="mb-3 font-normal text-gray-700 ">
-                Hard-earned gaming assets can also be transformed into digital
-                assets. Get an NFT for your character cards, videos and other
-                gaming assets.
+                : We create optimized landing pages for marketing campaigns,
+                product launches, or lead generation. These pages are designed
+                to capture user attention and encourage action, improving
+                conversion rates
               </p>
             </div>
             <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                  Fashion1
+                  SEO-Friendly Design
                 </h5>
               </span>
               <p className="mb-3 font-normal text-gray-700 ">
-                Put a digital value on your fashion stuff by getting a tokenised
-                identity for it. Make it theftless and trade in the digital
-                world..
+                Our web designs follow SEO best practices, ensuring your site
+                ranks well on search engines. We focus on fast loading times,
+                proper HTML structuring, mobile optimization, and clean coding
+                to boost your online visibility.
               </p>
             </div>
             <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                  Real-State
+                  Web Redesign Services
                 </h5>
               </span>
               <p className="mb-3 font-normal text-gray-700 ">
-                Put your imagination to the test by designing the interior and
-                exterior of digital property and selling it with the help of
-                NFT.
+                If your current website looks outdated or underperforms, we
+                offer complete redesign services to revitalize it with modern
+                aesthetics, enhanced functionality, and improved user
+                experience.
               </p>
             </div>
             <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                  Infrastructure
+                  Graphic Design for Web
                 </h5>
               </span>
               <p className="mb-3 font-normal text-gray-700 ">
-                Got infrastructure designing ideas? Get lucrative profits by
-                putting a crypto value to your infrastructure design.
+                We create visually engaging graphics for blogs, case studies, or
+                promotional content to make your site stand out.
               </p>
             </div>
             <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                  Music & Videos
+                  Custom Website Design
                 </h5>
               </span>
               <p className="mb-3 font-normal text-gray-700 ">
-                Your talent in music or video creation is secured from copyright
-                problems as you can give your creation a digital identity and
-                value by creating an NFT .
+                We create unique, fully customized websites that align with your
+                brand’s goals, vision, and identity.
               </p>
             </div>
             <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow  ">
               <span>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-                  Domains
+                  Website Audit & Optimization
                 </h5>
               </span>
               <p className="mb-3 font-normal text-gray-700 ">
-                We provide a domain for your domain by creating NFT tokens for
-                your domain. Exchange it or sell it easily on the crypto market.
+                We audit your existing website for performance bottlenecks and
+                optimize loading times, improving the overall user experience.
               </p>
             </div>
           </div>

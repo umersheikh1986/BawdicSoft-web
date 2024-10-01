@@ -7,7 +7,7 @@ const WhyUsSectionFullStack: FC<WhyUsSectionProps> = () => {
         <p className="text-2xl md:text-4xl font-bold text-center">Why Us</p>
         <div className="flex justify-center items-center">
           <p className="text-md text-gray-600 max-w-6xl font-semibold text-center px-5  leading-7 pb-5 pt-5">
-            We custom-build your NFT marketplace by analysing your needs with
+            We custom-build full Stack Websites by analysing your needs with
             market trends and advising you on the right structuring and
             techniques to be used.
           </p>
@@ -16,50 +16,45 @@ const WhyUsSectionFullStack: FC<WhyUsSectionProps> = () => {
           <div className="border-2 hover:border-sky-800    p-6 bg-white  border-gray-200 rounded-lg shadow ">
             <span>
               <h5 className="mb-2 text-lg md:text-2xl font-bold tracking-tight text-gray-900 ">
-                Exchange in multiple currencies
+                Tailored Solutions
               </h5>
             </span>
             <p className="mb-3 font-normal text-gray-700 ">
-              We connect your marketplace with multiple blockchains by
-              integrating the choice of currency for the user to improve ease of
-              use and enhance access.
+              We deliver customized strategies and solutions that align with
+              your unique business goals and audience.
             </p>
           </div>
           <div className="border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow ">
             <span>
               <h5 className="mb-2 text-lg md:text-2xl  font-bold tracking-tight text-gray-900 ">
-                Data Security
+                Expert Team
               </h5>
             </span>
             <p className="mb-3 font-normal text-gray-700 ">
-              Integration of Pinata and IPFS applications within your API
-              enables your marketplace to safely keep and fetch data wherever
-              required.
+              Our team consists of highly skilled professionals with experience
+              in web development, design, digital marketing, and more.
             </p>
           </div>
           <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow ">
             <span>
               <h5 className="mb-2 text-lg md:text-2xl  font-bold tracking-tight text-gray-900 ">
-                Decentralization
+                Innovative Approach
               </h5>
             </span>
             <p className="mb-3 font-normal text-gray-700 ">
-              We build your NFT marketplace with the minimal need for human
-              intervention so there is a direct link between buyers and sellers.
-              Customers would have complete security and transparency in their
-              transactions.
+              We stay ahead of the curve by implementing the latest technologies
+              and best practices to provide cutting-edge solutions.
             </p>
           </div>
           <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow ">
             <span>
               <h5 className="mb-2 text-lg md:text-2xl  font-bold tracking-tight text-gray-900 ">
-                Automation
+                Scalable and Responsive Solutions
               </h5>
             </span>
             <p className="mb-3 font-normal text-gray-700 ">
-              You get a fully automated platform where protocols are pre-built
-              for each and every step involved in listing, buying, selling or
-              trading NFTs.
+              Our designs and applications are built to scale with your business
+              while ensuring a seamless experience across all devices.
             </p>
           </div>
           <div className=" border-2 hover:border-sky-800   p-6 bg-white  border-gray-200 rounded-lg shadow ">

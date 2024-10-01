@@ -17,7 +17,7 @@ const NeedCustomWeb: FC<NeedNftProps> = () => {
         <AnimatedComponentLeft>
           <div>
             <Image
-              src={"/images/blockChain/NFT/nftDevelopmentImages/needImage.webp"}
+              src={"/"}
               alt=""
               width={330}
               height={300}

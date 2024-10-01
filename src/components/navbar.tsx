@@ -630,8 +630,8 @@ const Navbar: FC<NavbarProps> = () => {
                           </div>
                         </div>
 
-                        <div className=" flex items-start font-semibold text-sky-700">
-                          <svg
+                        {/* <div className=" flex items-start font-semibold text-sky-700"> */}
+                        {/* <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 48 48"
                             width="26px"
@@ -706,8 +706,8 @@ const Navbar: FC<NavbarProps> = () => {
                               strokeWidth="3"
                               d="M25.8,26.5h-2.3c-0.6,0-1-0.4-1-1v-11c0-0.6,0.4-1,1-1h13c0.6,0,1,0.4,1,1v11c0,0.6-0.4,1-1,1h-6.1"
                             />
-                          </svg>
-                          <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
+                          </svg> */}
+                        {/* <div className="ml-1 flex flex-wrap xl:flex-nowrap flex-col">
                             <Link
                               href="/web-app/responsive-web-app"
                               className="leading-4 font-semibold text-sky-700  hover:text-black flex items-center"
@@ -715,8 +715,8 @@ const Navbar: FC<NavbarProps> = () => {
                             >
                               <h3>Responsive Web App</h3>
                             </Link>
-                          </div>
-                        </div>
+                          </div> */}
+                        {/* </div> */}
 
                         <div className="my-6 flex items-start font-semibold text-sky-700">
                           <svg

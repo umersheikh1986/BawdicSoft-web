@@ -18,13 +18,15 @@ const HelpSectionsWebDesign: FC<HelpSectionsProps> = () => {
             How we can help
           </p>
           <p className="text-md text-gray-800 leading-6">
-            Our team of expert developers specialize in the development of
-            non-fungible tokens. We are constantly in the market to observe the
-            latest trends and offer you full-stack services including the best
-            scenario analysis and complete development of your NFT requirements.
-            We offer the creation of standard or custom tokens for your digital
-            art, collectables, gaming fashion or whatever tokens you require.
-            Give us a call and we’ll take care of the rest for you.
+            We can help by offering expert web design services that focus on
+            creating visually appealing, user-friendly, and mobile-responsive
+            websites tailored to your needs. Whether you're looking to build an
+            e-commerce site, a blog, or a corporate platform, our team ensures
+            that your website is optimized for user experience, accessibility,
+            and search engine performance. From enhancing your site’s
+            functionality to creating a unique design that aligns with your
+            brand, we provide comprehensive solutions that help you engage
+            visitors and drive conversions effectively.
           </p>
         </div>
         <div className="order-0 md:order-1">

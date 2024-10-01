@@ -36,12 +36,12 @@ export default function WebApp({ params }: { params: { slug: string } }) {
           <HeroSectionWebDesign />
           <NeedWebDesign />
           <HelpSectionsWebDesign />
-          <IntegratSectionWebDesign />
+          {/* <IntegratSectionWebDesign /> */}
           <OfferSectionWebDesign />
         </div>
       )}
       {/* responsive web Design */}
-      {param === "responsive-web-app" && (
+      {/* {param === "responsive-web-app" && (
         <div>
           <HeroSectionResponsiveWebApp />
           <BenifiteNftSectionResponsiveWebApp />
@@ -52,14 +52,14 @@ export default function WebApp({ params }: { params: { slug: string } }) {
           <TokenSectionResponsiveWebApp />
           <WhyUsSectionResponsiveWebApp />
         </div>
-      )}
+      )} */}
       {/* custom web App */}
       {param === "custom-web-app" && (
         <div>
           <HeroSectionCustomWeb />
-          <NeedCustomWeb />
-          <HelpSectionsCustomWeb />
-          <IntegratSectionCustomWeb />
+          {/* <NeedCustomWeb /> */}
+          {/* <HelpSectionsCustomWeb /> */}
+          {/* <IntegratSectionCustomWeb /> */}
           <OfferSectionCustomWeb />
         </div>
       )}
@@ -67,12 +67,12 @@ export default function WebApp({ params }: { params: { slug: string } }) {
       {param === "full-stack-development" && (
         <div>
           <HeroSectionFullStack />
-          <BenifiteFullStack />
+          {/* <BenifiteFullStack /> */}
           <FullStackServiceSection />
-          <OurServicesSectionFullStack />
-          <PartnerChoiceSectionFullStack />
+          {/* <OurServicesSectionFullStack /> */}
+          {/* <PartnerChoiceSectionFullStack /> */}
           <TechnologySectionFullStack />
-          <TokenSectionFullStack />
+          {/* <TokenSectionFullStack /> */}
           <WhyUsSectionFullStack />
         </div>
       )}

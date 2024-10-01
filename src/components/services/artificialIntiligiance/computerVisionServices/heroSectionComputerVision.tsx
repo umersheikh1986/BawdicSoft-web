@@ -14,7 +14,7 @@ const HeroSectionComputerVision: FC<deFiSectionProps> = () => {
     <section
       className=" pt-32 md:pt-0 bg-center bg-cover bg-no-repeat  bg-gray-500 bg-blend-multiply"
       style={{
-        backgroundImage: `url(/images/AI/heroSection.png)`,
+        backgroundImage: `url(/CV.jpg)`,
         height: "calc(100vh - 48px)",
       }}
     >

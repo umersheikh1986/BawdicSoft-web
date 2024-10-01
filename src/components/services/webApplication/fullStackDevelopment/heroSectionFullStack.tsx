@@ -12,9 +12,9 @@ const HeroSectionFullStack: FC<HeroSectionProps> = () => {
   // console.log(imageData);
   return (
     <section
-      className=" pt-32 md:pt-30 lg:pt-0 bg-center bg-cover bg-no-repeat  bg-gray-500 bg-blend-multiply"
+      className=" pt-32 md:pt-30 lg:pt-0 bg-center bg-cover bg-no-repeat "
       style={{
-        backgroundImage: `url(/images/blockChain/NFT/nftMarketPlace/heroSection.png)`,
+        backgroundImage: `url(/hero-web.jpg)`,
         height: "calc(100vh - 48px)",
       }}
     >
@@ -22,12 +22,8 @@ const HeroSectionFullStack: FC<HeroSectionProps> = () => {
         <h1 className="mb-4 text-4xl max-w-4xl font-bold tracking-tight leading-none text-white md:text-6xl lg:text-7xl -ml-30">
           Full Stack Development
         </h1>
-        <p className="mb-8  md:text-lg font-normal text-gray-300 lg:text-xl sm:px-16 ">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
-          suscipit exercitationem facere quaerat debitis, cupiditate repudiandae
-          inventore tempore impedit consequuntur non culpa ipsum voluptas, iusto
-          ut nostrum quidem molestiae nisi sunt odio ipsam blanditiis nulla.
-          Illo sapiente necessitatibus repellat illum?
+        <p className="mb-8  md:text-lg font-normal text-gray-300 lg:text-4xl sm:px-16 ">
+          Innovative Web Design Services to Elevate Your Business
         </p>
       </div>
     </section>

@@ -14,7 +14,7 @@ const HeroSectionCustomWeb: FC<HeroSectionProps> = () => {
     <section
       className=" pt-32 md:pt-0 bg-center bg-cover bg-no-repeat  bg-gray-500 bg-blend-multiply"
       style={{
-        backgroundImage: `url(/images/blockChain/NFT/nftDevelopmentImages/herosectionImage.jpg)`,
+        backgroundImage: `url(/hero-web.jpg)`,
         height: "calc(100vh - 48px)",
       }}
     >
@@ -23,12 +23,7 @@ const HeroSectionCustomWeb: FC<HeroSectionProps> = () => {
           Custom Web App
         </h1>
         <p className="mb-8  md:text-lg font-normal text-gray-300 lg:text-xl sm:px-16 ">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
-          aperiam corporis at quia quis voluptatum quisquam ipsa tempore
-          voluptatibus molestiae odio perferendis id non tempora magni alias
-          ullam, numquam soluta laudantium laborum veniam sapiente harum nulla
-          dolorum! Quia voluptate dolores, consequatur, numquam nihil iste magni
-          facilis quas, neque eaque amet!
+          Innovative Web Design Services to Elevate Your Business
         </p>
       </div>
     </section>
